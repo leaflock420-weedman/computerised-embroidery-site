@@ -35,7 +35,7 @@ async function login(key) {
   } catch (e) {
     if (e.message === 'auth') {
       localStorage.removeItem(KEY_STORAGE);
-      alert('Invalid production key.');
+      alert('Invalid production key. On Render, use the ADMIN_KEY from your dashboard → Environment. Local default: ce-production-2026');
     }
     showLogin();
   }

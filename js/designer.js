@@ -213,10 +213,19 @@ function setThreadHexField(hex) {
 }
 
 function applyGarmentColourFromInputs() {
+  const nameVal = document.getElementById('garmentColour').value.trim();
   const hexRaw = document.getElementById('garmentHex')?.value;
   const hexFromField = parseHexInput(hexRaw);
-  const nameVal = document.getElementById('garmentColour').value.trim();
   const hexFromName = parseHexInput(nameVal);
+  const swatchMatch = COLOUR_SWATCHES.find(c => c.name.toLowerCase() === nameVal.toLowerCase());
+
+  if (swatchMatch) {
+    garmentFill = swatchMatch.hex;
+    setGarmentHexField(swatchMatch.hex);
+    syncGarmentSwatchActive(swatchMatch.hex);
+    updateGarmentColour();
+    return;
+  }
 
   if (hexFromField) {
     garmentFill = hexFromField;

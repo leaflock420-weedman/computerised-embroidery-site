@@ -105,7 +105,36 @@ async function loadBasePhoto(type) {
   return photoCache.get(type);
 }
 
-/** Recolour only opaque garment pixels — transparent areas stay clear. */
+function sampleBackgroundRgb(d, w, h) {
+  const pts = [
+    [1, 1], [w - 2, 1], [1, h - 2], [w - 2, h - 2],
+    [w >> 1, 1], [1, h >> 1], [w - 2, h >> 1], [w >> 1, h - 2],
+  ];
+  let r = 0;
+  let g = 0;
+  let b = 0;
+  for (const [x, y] of pts) {
+    const i = (y * w + x) * 4;
+    r += d[i];
+    g += d[i + 1];
+    b += d[i + 2];
+  }
+  const n = pts.length;
+  return [Math.round(r / n), Math.round(g / n), Math.round(b / n)];
+}
+
+function isPhotoBackground(r, g, b, a, bg) {
+  if (a < 10) return true;
+  const lum = r * 0.299 + g * 0.587 + b * 0.114;
+  if (lum > 238) return true;
+  const dr = r - bg[0];
+  const dg = g - bg[1];
+  const db = b - bg[2];
+  if (Math.hypot(dr, dg, db) < 42 && lum > 185) return true;
+  return false;
+}
+
+/** Recolour garment pixels; strip supplier photo backgrounds first. */
 export function buildTintedMockupCanvas(img, hex, w, h, kind = 'photo') {
   const key = `${img.src}|${hex}|${w}|${h}|${kind}`;
   if (tintCache.has(key)) return tintCache.get(key);
@@ -121,24 +150,44 @@ export function buildTintedMockupCanvas(img, hex, w, h, kind = 'photo') {
     const [tr, tg, tb] = parseHex(hex);
     const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
     const d = imageData.data;
-    const lumBoost = (tr * 0.299 + tg * 0.587 + tb * 0.114) / 255;
+    const cw = canvas.width;
+    const ch = canvas.height;
+    const bg = sampleBackgroundRgb(d, cw, ch);
+    let minLum = 1;
+    let maxLum = 0;
 
-    for (let i = 0; i < d.length; i += 4) {
-      const a = d[i + 3];
-      if (a < 12) {
-        d[i + 3] = 0;
-        continue;
+    for (let y = 0; y < ch; y++) {
+      for (let x = 0; x < cw; x++) {
+        const i = (y * cw + x) * 4;
+        const r = d[i];
+        const g = d[i + 1];
+        const b = d[i + 2];
+        const a = d[i + 3];
+        if (isPhotoBackground(r, g, b, a, bg)) {
+          d[i + 3] = 0;
+          continue;
+        }
+        const lum = (r * 0.299 + g * 0.587 + b * 0.114) / 255;
+        minLum = Math.min(minLum, lum);
+        maxLum = Math.max(maxLum, lum);
       }
-      const r = d[i];
-      const g = d[i + 1];
-      const b = d[i + 2];
-      const lum = (r * 0.299 + g * 0.587 + b * 0.114) / 255;
-      const shade = lumBoost > 0.82
-        ? 0.55 + lum * 0.45
-        : 0.22 + lum * 0.78;
-      d[i] = Math.round(tr * shade);
-      d[i + 1] = Math.round(tg * shade);
-      d[i + 2] = Math.round(tb * shade);
+    }
+
+    const range = Math.max(maxLum - minLum, 0.08);
+    for (let y = 0; y < ch; y++) {
+      for (let x = 0; x < cw; x++) {
+        const i = (y * cw + x) * 4;
+        if (d[i + 3] < 10) continue;
+        const r = d[i];
+        const g = d[i + 1];
+        const b = d[i + 2];
+        const lum = (r * 0.299 + g * 0.587 + b * 0.114) / 255;
+        const t = Math.min(1, Math.max(0, (lum - minLum) / range));
+        const shade = 0.38 + t * 0.62;
+        d[i] = Math.round(tr * shade);
+        d[i + 1] = Math.round(tg * shade);
+        d[i + 2] = Math.round(tb * shade);
+      }
     }
     ctx.putImageData(imageData, 0, 0);
   }
