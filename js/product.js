@@ -1,5 +1,6 @@
 import { addToCart, updateCartBadge } from './cart.js';
 import { validateArtworkFile, uploadArtwork } from './artwork.js';
+import { getProductImage, categoryPlaceholder } from './images.js';
 
 let product = null;
 
@@ -27,9 +28,9 @@ function renderProduct() {
 
   document.getElementById('productDetail').innerHTML = `
     <div class="product-detail__gallery">
-      ${p.image
-        ? `<img src="${p.image}" alt="${p.name}">`
-        : `<div class="product-card__placeholder product-card__placeholder--lg">${p.brand}</div>`}
+      ${getProductImage(p)
+        ? `<img src="${getProductImage(p)}" alt="${p.name}">`
+        : categoryPlaceholder(p).replace('product-card__placeholder', 'product-card__placeholder product-card__placeholder--lg')}
     </div>
     <div class="product-detail__info">
       <span class="product-card__brand">${p.brand}</span>

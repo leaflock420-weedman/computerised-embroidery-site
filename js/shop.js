@@ -1,4 +1,5 @@
 import { updateCartBadge } from './cart.js';
+import { getProductImage, categoryPlaceholder } from './images.js';
 
 let products = [];
 let activeCategory = 'all';
@@ -69,13 +70,14 @@ function renderProducts() {
     return;
   }
 
-  grid.innerHTML = list.map(p => `
+  grid.innerHTML = list.map(p => {
+    const img = getProductImage(p);
+    const imgHtml = img
+      ? `<img src="${img}" alt="${p.name}" loading="lazy" onerror="this.onerror=null;this.parentElement.innerHTML='';this.parentElement.appendChild(window.createPlaceholder('${p.name.replace(/'/g, '')}','${p.category}'))">`
+      : categoryPlaceholder(p);
+    return `
     <article class="product-card">
-      <a href="product.html?id=${p.id}" class="product-card__img">
-        ${p.image
-          ? `<img src="${p.image}" alt="${p.name}" loading="lazy">`
-          : `<div class="product-card__placeholder">${p.brand}</div>`}
-      </a>
+      <a href="product.html?id=${p.id}" class="product-card__img">${imgHtml}</a>
       <div class="product-card__body">
         <span class="product-card__brand">${p.brand}</span>
         <h3><a href="product.html?id=${p.id}">${p.name}</a></h3>
@@ -85,8 +87,8 @@ function renderProducts() {
           <a href="product.html?id=${p.id}" class="btn btn--outline btn--sm">Quick add</a>
         </div>
       </div>
-    </article>
-  `).join('');
+    </article>`;
+  }).join('');
 }
 
 function setupSearch() {

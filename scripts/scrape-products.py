@@ -31,9 +31,24 @@ def scrape_headwear(pages=5):
                 continue
             seen.add(slug)
             idx = html.find(name)
-            chunk = html[max(0, idx - 800) : idx + 400]
-            img_m = re.search(r'src="(https://cdn11\.bigcommerce\.com/[^"]+)"', chunk)
-            img = img_m.group(1) if img_m else ""
+            chunk = html[max(0, idx - 1500) : idx + 800]
+            # BigCommerce lazy-loads: real image is in data-src, src is loading.svg
+            imgs = re.findall(
+                r'(?:data-src|data-lazy)=["\'](https://cdn11\.bigcommerce\.com/[^"\']+/products/[^"\']+)["\']',
+                chunk,
+            )
+            img = imgs[0] if imgs else ""
+            if not img:
+                try:
+                    page_html = fetch(href if href.startswith("http") else f"https://qld.headwear.com.au{href}")
+                    page_imgs = re.findall(
+                        r'(?:data-src|src)=["\'](https://cdn11\.bigcommerce\.com/[^"\']+/products/[^"\']+\.(?:jpg|jpeg|png|webp)[^"\']*)["\']',
+                        page_html,
+                    )
+                    page_imgs = [u for u in page_imgs if "loading" not in u]
+                    img = page_imgs[0] if page_imgs else ""
+                except Exception:
+                    pass
             sub = "beanies" if "beanie" in name.lower() else "bucket-hats" if "bucket" in name.lower() else "caps"
             slug_id = slug.split("/")[-1][:40]
             products.append({
