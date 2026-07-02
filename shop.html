@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse 200+ workwear, uniforms, caps and apparel. Order with custom embroidery from Computerised Embroidery, Gold Coast.">
+  <title>Shop | Computerised Embroidery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+  <div class="announcement">
+    <p>Browse <strong><span id="productCount">200+</span> products</strong> · Add to order · Checkout for a quote</p>
+  </div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__icon" aria-hidden="true">✦</span>
+        <span class="logo__text">Computerised<span>Embroidery</span></span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="shop.html" class="nav--active">Shop</a>
+        <a href="designer.html">Design Studio</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <div class="header__actions">
+        <a href="checkout.html" class="cart-link">
+          Order <span class="cart-badge" data-cart-count hidden>0</span>
+        </a>
+        <a href="index.html#quote" class="btn btn--primary">Get a Quote</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="shop-main">
+    <div class="container shop-layout">
+      <aside class="shop-sidebar">
+        <div class="shop-search">
+          <input type="search" id="searchInput" placeholder="Search products, styles…" aria-label="Search products">
+        </div>
+        <div class="shop-filter-group">
+          <h3>Category</h3>
+          <div class="filter-bar filter-bar--stacked" id="categoryFilters"></div>
+        </div>
+        <div class="shop-filter-group">
+          <h3>Brand</h3>
+          <div class="filter-bar filter-bar--stacked" id="brandFilters"></div>
+        </div>
+      </aside>
+
+      <section class="shop-content">
+        <div class="shop-header">
+          <div>
+            <h1>Shop workwear &amp; apparel</h1>
+            <p>Pick your garments, add embroidery details, and checkout. We'll send you a full quote.</p>
+          </div>
+          <p class="shop-result-count" id="resultCount"></p>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">&copy; <span id="year"></span> Computerised Embroidery · Southport, Gold Coast</p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/shop.js"></script>
+</body>
+</html>

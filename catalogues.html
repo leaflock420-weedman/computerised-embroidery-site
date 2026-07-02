@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse workwear and uniform catalogues from JB's Wear, Biz Collection, Headwear, Winning Spirit, DNC Workwear and AS Colour. Computerised Embroidery sources and embroiders any garment.">
+  <title>Clothing Catalogues | Computerised Embroidery — Gold Coast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">
+    <p>Browse any catalogue below — <strong>we can source &amp; embroider it all</strong></p>
+  </div>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__icon" aria-hidden="true">✦</span>
+        <span class="logo__text">Computerised<span>Embroidery</span></span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <a href="index.html#services">Services</a>
+        <a href="catalogues.html" class="nav--active">Catalogues</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <div class="header__actions">
+        <a href="tel:0755913383" class="header__phone">07 5591 3383</a>
+        <a href="index.html#quote" class="btn btn--primary">Get a Quote</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="catalogue-hero">
+      <div class="container">
+        <p class="eyebrow">Our clothing range</p>
+        <h1 id="catalogueHeadline">Choose from thousands of garments — we source &amp; embroider</h1>
+        <p class="catalogue-hero__lead" id="catalogueSummary"></p>
+        <p class="catalogue-hero__note" id="catalogueNote"></p>
+      </div>
+    </section>
+
+    <section class="section section--compact">
+      <div class="container">
+        <div class="order-flow" id="orderFlow"></div>
+      </div>
+    </section>
+
+    <section class="section section--muted">
+      <div class="container">
+        <div class="catalogue-toolbar">
+          <div class="filter-bar filter-bar--left" id="typeFilters">
+            <button class="filter-btn active" data-filter="all">All catalogues</button>
+            <button class="filter-btn" data-filter="online">Online shops</button>
+            <button class="filter-btn" data-filter="search">Product search</button>
+            <button class="filter-btn" data-filter="pdf">PDF catalogues</button>
+          </div>
+          <div class="filter-bar filter-bar--left" id="categoryFilters">
+            <button class="filter-btn active" data-cat="all">All clothing</button>
+            <button class="filter-btn" data-cat="headwear">Headwear</button>
+            <button class="filter-btn" data-cat="hivis">Hi-vis</button>
+            <button class="filter-btn" data-cat="corporate">Corporate</button>
+            <button class="filter-btn" data-cat="hospitality">Hospitality</button>
+            <button class="filter-btn" data-cat="healthcare">Healthcare</button>
+          </div>
+        </div>
+        <div class="catalogue-list" id="catalogueList"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2>More brands we can source</h2>
+          <p>Additional suppliers available — if it's in their range, we can order it in for you.</p>
+        </div>
+        <div class="more-suppliers" id="moreSuppliers"></div>
+      </div>
+    </section>
+
+    <section class="section section--accent catalogue-cta">
+      <div class="container catalogue-cta__inner">
+        <div>
+          <h2>Found what you want?</h2>
+          <p>Send us the brand, style code, colour, quantity and where you'd like your logo embroidered. We'll send you a full quote.</p>
+        </div>
+        <a href="index.html#quote" class="btn btn--primary btn--lg">Request a Quote</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="logo__text">Computerised<span>Embroidery</span></span>
+        <p>Short run embroidery specialists · Southport, Gold Coast</p>
+      </div>
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="catalogues.html">Catalogues</a>
+        <a href="index.html#quote">Quote</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <p class="footer__copy">&copy; <span id="year"></span> Computerised Embroidery. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="catalogues.js"></script>
+</body>
+</html>

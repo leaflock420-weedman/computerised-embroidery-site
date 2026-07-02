@@ -1,0 +1,4880 @@
+{
+  "meta": {
+    "total": 223,
+    "lastUpdated": "2026-07-02",
+    "note": "Products sourced from supplier catalogues. Prices quoted on request — includes garment + embroidery."
+  },
+  "categories": [
+    {
+      "id": "all",
+      "name": "All Products"
+    },
+    {
+      "id": "polos",
+      "name": "Polos"
+    },
+    {
+      "id": "t-shirts",
+      "name": "T-Shirts"
+    },
+    {
+      "id": "hoodies",
+      "name": "Hoodies & Fleece"
+    },
+    {
+      "id": "headwear",
+      "name": "Caps & Headwear"
+    },
+    {
+      "id": "hivis",
+      "name": "Hi-Vis & Safety"
+    },
+    {
+      "id": "workwear",
+      "name": "Workwear"
+    },
+    {
+      "id": "hospitality",
+      "name": "Hospitality"
+    },
+    {
+      "id": "healthcare",
+      "name": "Healthcare"
+    },
+    {
+      "id": "schools",
+      "name": "Schools & Kids"
+    },
+    {
+      "id": "jackets",
+      "name": "Jackets"
+    },
+    {
+      "id": "shirts",
+      "name": "Shirts"
+    },
+    {
+      "id": "pants",
+      "name": "Pants"
+    }
+  ],
+  "brands": [
+    {
+      "id": "all",
+      "name": "All Brands"
+    },
+    {
+      "id": "headwear",
+      "name": "Headwear Professionals"
+    },
+    {
+      "id": "as-colour",
+      "name": "AS Colour"
+    },
+    {
+      "id": "biz-collection",
+      "name": "Biz Collection"
+    },
+    {
+      "id": "jbs-wear",
+      "name": "JB's Wear"
+    },
+    {
+      "id": "dnc-workwear",
+      "name": "DNC Workwear"
+    },
+    {
+      "id": "winning-spirit",
+      "name": "Winning Spirit"
+    }
+  ],
+  "products": [
+    {
+      "id": "hw-6-seam-knitted-beanie-w-pom-pom",
+      "sku": "6-SEAM-KNITT",
+      "name": "6 SEAM KNITTED BEANIE W/- POM POM",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "beanies",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/6-seam-knitted-beanie-w-pom-pom/",
+      "priceFrom": null,
+      "description": "6 SEAM KNITTED BEANIE W/- POM POM — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-6-seam-knitted-beanie",
+      "sku": "6-SEAM-KNITT",
+      "name": "6 SEAM KNITTED BEANIE",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "beanies",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/6-seam-knitted-beanie/",
+      "priceFrom": null,
+      "description": "6 SEAM KNITTED BEANIE — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-terry-towelling-bucket-hat",
+      "sku": "TERRY-TOWELL",
+      "name": "Terry Towelling Bucket Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "bucket-hats",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/terry-towelling-bucket-hat/",
+      "priceFrom": null,
+      "description": "Terry Towelling Bucket Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-premium-pioneer-sports-twill-with-tear-d",
+      "sku": "PREMIUM-PION",
+      "name": "Premium Pioneer Sports Twill with tear drop perforations",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/premium-pioneer-sports-twill-with-tear-drop-perforations-8jv9/",
+      "priceFrom": null,
+      "description": "Premium Pioneer Sports Twill with tear drop perforations — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-premium-pioneer-sports-twill-with-tear-d",
+      "sku": "PREMIUM-PION",
+      "name": "Premium Pioneer Sports Twill with tear drop perforations",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/premium-pioneer-sports-twill-with-tear-drop-perforations/",
+      "priceFrom": null,
+      "description": "Premium Pioneer Sports Twill with tear drop perforations — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-sports-ripstop-twill-with-triangle-perfo",
+      "sku": "SPORTS-RIPST",
+      "name": "Sports Ripstop Twill with triangle perforations",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/sports-ripstop-twill-with-triangle-perforations/",
+      "priceFrom": null,
+      "description": "Sports Ripstop Twill with triangle perforations — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-breathable-poly-twill-with-circle-perfor",
+      "sku": "BREATHABLE-P",
+      "name": "Breathable Poly Twill with circle perforations",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/breathable-poly-twill-with-circle-perforations-hdfj/",
+      "priceFrom": null,
+      "description": "Breathable Poly Twill with circle perforations — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-breathable-poly-twill-with-circle-perfor",
+      "sku": "BREATHABLE-P",
+      "name": "Breathable Poly Twill with circle perforations",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/breathable-poly-twill-with-circle-perforations/",
+      "priceFrom": null,
+      "description": "Breathable Poly Twill with circle perforations — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-premium-pioneer-sports-twill-7xcy",
+      "sku": "PREMIUM-PION",
+      "name": "Premium Pioneer Sports Twill",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/premium-pioneer-sports-twill-7xcy/",
+      "priceFrom": null,
+      "description": "Premium Pioneer Sports Twill — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-premium-pioneer-sports-twill",
+      "sku": "PREMIUM-PION",
+      "name": "Premium Pioneer Sports Twill",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/premium-pioneer-sports-twill/",
+      "priceFrom": null,
+      "description": "Premium Pioneer Sports Twill — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-breathable-poly-twill-with-honeycomb-mes",
+      "sku": "BREATHABLE-P",
+      "name": "Breathable poly twill with honeycomb mesh",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/breathable-poly-twill-with-honeycomb-mesh/",
+      "priceFrom": null,
+      "description": "Breathable poly twill with honeycomb mesh — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-light-brushed-poly-cotton-marle-with-hon",
+      "sku": "LIGHT-BRUSHE",
+      "name": "Light Brushed Poly Cotton Marle with honeycomb mesh",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/light-brushed-poly-cotton-marle-with-honeycomb-mesh/",
+      "priceFrom": null,
+      "description": "Light Brushed Poly Cotton Marle with honeycomb mesh — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-enzyme-washed-pigment-dyed-cotton-twill-",
+      "sku": "ENZYME-WASHE",
+      "name": "Enzyme Washed Pigment Dyed Cotton Twill Cap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/enzyme-washed-pigment-dyed-cotton-twill-cap/",
+      "priceFrom": null,
+      "description": "Enzyme Washed Pigment Dyed Cotton Twill Cap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-american-premium-twill-mesh-deep-fit-tru",
+      "sku": "AMERICAN-PRE",
+      "name": "American Premium Twill/Mesh Deep Fit Trucker Cap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/815/2534/3996__80272.1776758169.jpg?c=1",
+      "sourceUrl": "https://qld.headwear.com.au/american-premium-twill-mesh-deep-fit-trucker-cap/",
+      "priceFrom": null,
+      "description": "American Premium Twill/Mesh Deep Fit Trucker Cap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-cotton-twill-cap-with-buckle-iwfx",
+      "sku": "COTTON-TWILL",
+      "name": "Cotton Twill Cap with Buckle",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/cotton-twill-cap-with-buckle-iwfx/",
+      "priceFrom": null,
+      "description": "Cotton Twill Cap with Buckle — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-cotton-twill-cap-with-buckle",
+      "sku": "COTTON-TWILL",
+      "name": "Cotton Twill Cap with Buckle",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/cotton-twill-cap-with-buckle/",
+      "priceFrom": null,
+      "description": "Cotton Twill Cap with Buckle — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-breathable-poly-twill-bucket-hat",
+      "sku": "BREATHABLE-P",
+      "name": "Breathable Poly Twill Bucket Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "bucket-hats",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/breathable-poly-twill-bucket-hat/",
+      "priceFrom": null,
+      "description": "Breathable Poly Twill Bucket Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-4199",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton || 4199",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-4199/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton || 4199 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-reflective-tri",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Reflective Trim & Tab on Peak",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-reflective-trim-tab-on-peak/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Reflective Trim &amp; Tab on Peak — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-chino-twill-with-peak-embroidery",
+      "sku": "CHINO-TWILL-",
+      "name": "Chino Twill with Peak Embroidery",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/chino-twill-with-peak-embroidery/",
+      "priceFrom": null,
+      "description": "Chino Twill with Peak Embroidery — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-fitted-hat-band",
+      "sku": "FITTED-HAT-B",
+      "name": "Fitted Hat Band",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/fitted-hat-band/",
+      "priceFrom": null,
+      "description": "Fitted Hat Band — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-cotton-twill-cap-3966",
+      "sku": "COTTON-TWILL",
+      "name": "Cotton Twill Cap || 3966",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/cotton-twill-cap-3966/",
+      "priceFrom": null,
+      "description": "Cotton Twill Cap || 3966 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-cotton-twill-cap",
+      "sku": "COTTON-TWILL",
+      "name": "Cotton Twill Cap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/cotton-twill-cap/",
+      "priceFrom": null,
+      "description": "Cotton Twill Cap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-trucker-mesh-cap",
+      "sku": "TRUCKER-MESH",
+      "name": "Trucker Mesh Cap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/trucker-mesh-cap/",
+      "priceFrom": null,
+      "description": "Trucker Mesh Cap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-cotton-5002",
+      "sku": "BRUSHED-COTT",
+      "name": "Brushed Cotton || 5002",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-cotton-5002/",
+      "priceFrom": null,
+      "description": "Brushed Cotton || 5002 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-washed-chino-twill-5001",
+      "sku": "WASHED-CHINO",
+      "name": "Washed Chino Twill || 5001",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/washed-chino-twill-5001/",
+      "priceFrom": null,
+      "description": "Washed Chino Twill || 5001 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-fedora-cotton-twill-hat",
+      "sku": "FEDORA-COTTO",
+      "name": "Fedora Cotton Twill Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/fedora-cotton-twill-hat/",
+      "priceFrom": null,
+      "description": "Fedora Cotton Twill Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-collapsible-cotton-twill-soft-mesh-hat",
+      "sku": "COLLAPSIBLE-",
+      "name": "Collapsible Cotton Twill & Soft Mesh Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/collapsible-cotton-twill-soft-mesh-hat/",
+      "priceFrom": null,
+      "description": "Collapsible Cotton Twill &amp; Soft Mesh Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-safari-cotton-twill-mesh-hat",
+      "sku": "SAFARI-COTTO",
+      "name": "Safari Cotton Twill & Mesh Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/safari-cotton-twill-mesh-hat/",
+      "priceFrom": null,
+      "description": "Safari Cotton Twill &amp; Mesh Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-safari-cotton-twill-hat",
+      "sku": "SAFARI-COTTO",
+      "name": "Safari Cotton Twill Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/safari-cotton-twill-hat/",
+      "priceFrom": null,
+      "description": "Safari Cotton Twill Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-rolled-down-acrylic-beanie",
+      "sku": "ROLLED-DOWN-",
+      "name": "Rolled Down Acrylic Beanie",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "beanies",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/rolled-down-acrylic-beanie/",
+      "priceFrom": null,
+      "description": "Rolled Down Acrylic Beanie — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-acrylic-beanie",
+      "sku": "ACRYLIC-BEAN",
+      "name": "Acrylic Beanie",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "beanies",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/acrylic-beanie/",
+      "priceFrom": null,
+      "description": "Acrylic Beanie — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-acrylic-beanie-with-pom-pom",
+      "sku": "ACRYLIC-BEAN",
+      "name": "Acrylic Beanie with Pom Pom",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "beanies",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/acrylic-beanie-with-pom-pom/",
+      "priceFrom": null,
+      "description": "Acrylic Beanie with Pom Pom — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-sports-twill-hat",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Sports Twill Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-sports-twill-hat/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Sports Twill Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-hat",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-hat/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-rolled-down-acrylic-beanie-toque",
+      "sku": "ROLLED-DOWN-",
+      "name": "Rolled Down Acrylic Beanie - Toque",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "beanies",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/rolled-down-acrylic-beanie-toque/",
+      "priceFrom": null,
+      "description": "Rolled Down Acrylic Beanie - Toque — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-acrylic-beanie-toque",
+      "sku": "ACRYLIC-BEAN",
+      "name": "Acrylic Beanie - Toque",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "beanies",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/acrylic-beanie-toque/",
+      "priceFrom": null,
+      "description": "Acrylic Beanie - Toque — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-cotton-4242",
+      "sku": "BRUSHED-COTT",
+      "name": "Brushed Cotton || 4242",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-cotton-4242/",
+      "priceFrom": null,
+      "description": "Brushed Cotton || 4242 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-4241",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton || 4241",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-4241/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton || 4241 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-mesh-covered-r",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Mesh covered reflective trim",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-mesh-covered-reflective-trim/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Mesh covered reflective trim — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-water-resistant-polynosic",
+      "sku": "WATER-RESIST",
+      "name": "Water Resistant Polynosic",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/water-resistant-polynosic/",
+      "priceFrom": null,
+      "description": "Water Resistant Polynosic — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-double-flame",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Double Flame",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-double-flame/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Double Flame — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-micro-fleece-beanie-toque",
+      "sku": "MICRO-FLEECE",
+      "name": "Micro Fleece Beanie - Toque",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "beanies",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/micro-fleece-beanie-toque/",
+      "priceFrom": null,
+      "description": "Micro Fleece Beanie - Toque — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-visor-4230",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton Visor || 4230",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-visor-4230/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton Visor || 4230 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-flame-embroide",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Flame Embroidery || 4226",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-flame-embroidery-4226/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Flame Embroidery || 4226 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-checks",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Checks",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-checks/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Checks — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-sports-twill-bucket-hat",
+      "sku": "BRUSHED-SPOR",
+      "name": "Brushed Sports Twill Bucket Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "bucket-hats",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-sports-twill-bucket-hat/",
+      "priceFrom": null,
+      "description": "Brushed Sports Twill Bucket Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-breathable-poly-twill-multicoloured-buck",
+      "sku": "BREATHABLE-P",
+      "name": "Breathable Poly Twill Multicoloured Bucket Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "bucket-hats",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/breathable-poly-twill-multicoloured-bucket-hat/",
+      "priceFrom": null,
+      "description": "Breathable Poly Twill Multicoloured Bucket Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-sandwich-trim-",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Sandwich Trim || 4210",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-sandwich-trim-4210/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Sandwich Trim || 4210 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-suede-peak",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Suede Peak",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-suede-peak/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Suede Peak — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-two-tone-cable-knit-beanie-toque",
+      "sku": "TWO-TONE-CAB",
+      "name": "Two Tone Cable Knit Beanie - Toque",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "beanies",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/two-tone-cable-knit-beanie-toque/",
+      "priceFrom": null,
+      "description": "Two Tone Cable Knit Beanie - Toque — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-premium-brushed-heavy-cotton",
+      "sku": "PREMIUM-BRUS",
+      "name": "Premium Brushed Heavy Cotton",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/premium-brushed-heavy-cotton/",
+      "priceFrom": null,
+      "description": "Premium Brushed Heavy Cotton — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-cable-knit-beanie-toque",
+      "sku": "CABLE-KNIT-B",
+      "name": "Cable Knit Beanie - Toque",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "beanies",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/cable-knit-beanie-toque/",
+      "priceFrom": null,
+      "description": "Cable Knit Beanie - Toque — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-roll-down-two-tone-acrylic-beanie-toque",
+      "sku": "ROLL-DOWN-TW",
+      "name": "Roll Down Two Tone Acrylic Beanie - Toque",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "beanies",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/roll-down-two-tone-acrylic-beanie-toque/",
+      "priceFrom": null,
+      "description": "Roll Down Two Tone Acrylic Beanie - Toque — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-breathable-poly-twill-with-tire-print",
+      "sku": "BREATHABLE-P",
+      "name": "Breathable Poly Twill with Tire print",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/breathable-poly-twill-with-tire-print/",
+      "priceFrom": null,
+      "description": "Breathable Poly Twill with Tire print — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-double-pique-mesh-with-open-sandwich",
+      "sku": "DOUBLE-PIQUE",
+      "name": "Double Pique Mesh with Open Sandwich",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/double-pique-mesh-with-open-sandwich/",
+      "priceFrom": null,
+      "description": "Double Pique Mesh with Open Sandwich — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-cotton-with-swoosh-check-embroid",
+      "sku": "BRUSHED-COTT",
+      "name": "Brushed Cotton with Swoosh & Check Embroidery",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-cotton-with-swoosh-check-embroidery/",
+      "priceFrom": null,
+      "description": "Brushed Cotton with Swoosh &amp; Check Embroidery — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-cotton-with-mesh-back",
+      "sku": "BRUSHED-COTT",
+      "name": "Brushed Cotton with Mesh Back",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-cotton-with-mesh-back/",
+      "priceFrom": null,
+      "description": "Brushed Cotton with Mesh Back — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-mesh-covered-cotton-twill",
+      "sku": "MESH-COVERED",
+      "name": "Mesh Covered Cotton Twill",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/mesh-covered-cotton-twill/",
+      "priceFrom": null,
+      "description": "Mesh Covered Cotton Twill — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-washed-chino-twill-4168",
+      "sku": "WASHED-CHINO",
+      "name": "Washed Chino Twill || 4168",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/washed-chino-twill-4168/",
+      "priceFrom": null,
+      "description": "Washed Chino Twill || 4168 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-indented-peak",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Indented Peak",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-indented-peak/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Indented Peak — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-childs-brushed-sports-twill-bucket-hat",
+      "sku": "CHILDS-BRUSH",
+      "name": "Childs Brushed Sports Twill Bucket Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "bucket-hats",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/childs-brushed-sports-twill-bucket-hat/",
+      "priceFrom": null,
+      "description": "Childs Brushed Sports Twill Bucket Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-foam-front-a-frame-cap-with-mesh-back",
+      "sku": "FOAM-FRONT-A",
+      "name": "Foam Front A Frame Cap with Mesh Back",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/foam-front-a-frame-cap-with-mesh-back/",
+      "priceFrom": null,
+      "description": "Foam Front A Frame Cap with Mesh Back — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-premium-american-twill-a-frame-cap",
+      "sku": "PREMIUM-AMER",
+      "name": "Premium American Twill A Frame Cap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/premium-american-twill-a-frame-cap/",
+      "priceFrom": null,
+      "description": "Premium American Twill A Frame Cap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-premium-american-twill-a-frame-cap-with-",
+      "sku": "PREMIUM-AMER",
+      "name": "Premium American Twill A Frame Cap with Mesh Back || 4154",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/premium-american-twill-a-frame-cap-with-mesh-back-4154/",
+      "priceFrom": null,
+      "description": "Premium American Twill A Frame Cap with Mesh Back || 4154 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-sports-ripstop-cap-with-sandwich-trim",
+      "sku": "SPORTS-RIPST",
+      "name": "Sports Ripstop Cap with Sandwich Trim",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/sports-ripstop-cap-with-sandwich-trim/",
+      "priceFrom": null,
+      "description": "Sports Ripstop Cap with Sandwich Trim — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-sports-ripstop-cap",
+      "sku": "SPORTS-RIPST",
+      "name": "Sports Ripstop Cap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/sports-ripstop-cap/",
+      "priceFrom": null,
+      "description": "Sports Ripstop Cap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-chino-twill-with-soft-mesh",
+      "sku": "CHINO-TWILL-",
+      "name": "Chino Twill With Soft Mesh",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/chino-twill-with-soft-mesh/",
+      "priceFrom": null,
+      "description": "Chino Twill With Soft Mesh — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-wood-printed-with-mesh-back-4144",
+      "sku": "WOOD-PRINTED",
+      "name": "Wood Printed With Mesh Back || 4144",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/wood-printed-with-mesh-back-4144/",
+      "priceFrom": null,
+      "description": "Wood Printed With Mesh Back || 4144 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-wood-printed-with-mesh-back",
+      "sku": "WOOD-PRINTED",
+      "name": "Wood Printed With Mesh Back",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/wood-printed-with-mesh-back/",
+      "priceFrom": null,
+      "description": "Wood Printed With Mesh Back — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-cotton-4142",
+      "sku": "BRUSHED-COTT",
+      "name": "Brushed Cotton || 4142",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-cotton-4142/",
+      "priceFrom": null,
+      "description": "Brushed Cotton || 4142 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-snap-back",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton With Snap Back",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-snap-back/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton With Snap Back — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-premium-american-twill-with-mesh-back-sn",
+      "sku": "PREMIUM-AMER",
+      "name": "Premium American Twill with Mesh Back & Snap Back Pro Styling || 4138",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/premium-american-twill-with-mesh-back-snap-back-pro-styling-4138/",
+      "priceFrom": null,
+      "description": "Premium American Twill with Mesh Back &amp; Snap Back Pro Styling || 4138 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-premium-american-twill-youth-size-with-s",
+      "sku": "PREMIUM-AMER",
+      "name": "Premium American Twill Youth Size with Snap Back Pro Junior Styling",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/premium-american-twill-youth-size-with-snap-back-pro-junior-styling/",
+      "priceFrom": null,
+      "description": "Premium American Twill Youth Size with Snap Back Pro Junior Styling — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-premium-american-twill-with-snap-back-pr",
+      "sku": "PREMIUM-AMER",
+      "name": "Premium American Twill with Snap Back Pro Styling || 4136",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/premium-american-twill-with-snap-back-pro-styling-4136/",
+      "priceFrom": null,
+      "description": "Premium American Twill with Snap Back Pro Styling || 4136 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-grey-marle-flannel-with-snap-back-pro-st",
+      "sku": "GREY-MARLE-F",
+      "name": "Grey Marle Flannel with Snap Back Pro Styling",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/grey-marle-flannel-with-snap-back-pro-styling/",
+      "priceFrom": null,
+      "description": "Grey Marle Flannel with Snap Back Pro Styling — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-microfibre-adjustable-bucket-hat",
+      "sku": "MICROFIBRE-A",
+      "name": "Microfibre Adjustable Bucket Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "bucket-hats",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/microfibre-adjustable-bucket-hat/",
+      "priceFrom": null,
+      "description": "Microfibre Adjustable Bucket Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-sports-twill-youth-bucket-hat",
+      "sku": "BRUSHED-SPOR",
+      "name": "Brushed Sports Twill Youth Bucket Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "bucket-hats",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-sports-twill-youth-bucket-hat/",
+      "priceFrom": null,
+      "description": "Brushed Sports Twill Youth Bucket Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-sports-twill-infants-bucket-hat",
+      "sku": "BRUSHED-SPOR",
+      "name": "Brushed Sports Twill Infants Bucket Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "bucket-hats",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-sports-twill-infants-bucket-hat/",
+      "priceFrom": null,
+      "description": "Brushed Sports Twill Infants Bucket Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-sports-twill-childs-bucket-hat",
+      "sku": "BRUSHED-SPOR",
+      "name": "Brushed Sports Twill Childs Bucket Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "bucket-hats",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-sports-twill-childs-bucket-hat/",
+      "priceFrom": null,
+      "description": "Brushed Sports Twill Childs Bucket Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-peak-inserts-p",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Peak Inserts & Printed Trim",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-peak-inserts-printed-trim/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Peak Inserts &amp; Printed Trim — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-chino-twill-with-hi-tech-mesh-back",
+      "sku": "CHINO-TWILL-",
+      "name": "Chino Twill with Hi Tech Mesh Back",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/chino-twill-with-hi-tech-mesh-back/",
+      "priceFrom": null,
+      "description": "Chino Twill with Hi Tech Mesh Back — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-ottoman-twill",
+      "sku": "OTTOMAN-TWIL",
+      "name": "Ottoman Twill",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/ottoman-twill/",
+      "priceFrom": null,
+      "description": "Ottoman Twill — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-sandwich-mesh-with-striping-on-peak",
+      "sku": "SANDWICH-MES",
+      "name": "Sandwich Mesh with Striping on Peak",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/sandwich-mesh-with-striping-on-peak/",
+      "priceFrom": null,
+      "description": "Sandwich Mesh with Striping on Peak — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-cotton-beanie-toque",
+      "sku": "COTTON-BEANI",
+      "name": "Cotton Beanie - Toque",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "beanies",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/cotton-beanie-toque/",
+      "priceFrom": null,
+      "description": "Cotton Beanie - Toque — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-premium-american-twill-with-snap-59-styl",
+      "sku": "PREMIUM-AMER",
+      "name": "Premium American Twill with Snap 59 Styling - Two Tone",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/premium-american-twill-with-snap-59-styling-two-tone/",
+      "priceFrom": null,
+      "description": "Premium American Twill with Snap 59 Styling - Two Tone — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-crown-piping-a",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Crown Piping and Sandwich",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-crown-piping-and-sandwich/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Crown Piping and Sandwich — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-heavy-cotton-with-woven-pinstripe",
+      "sku": "HEAVY-COTTON",
+      "name": "Heavy Cotton with Woven Pinstripe",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/heavy-cotton-with-woven-pinstripe/",
+      "priceFrom": null,
+      "description": "Heavy Cotton with Woven Pinstripe — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-waving-stripes",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Waving Stripes on Crown & Peak",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-waving-stripes-on-crown-peak/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Waving Stripes on Crown &amp; Peak — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-crown-inserts-",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Crown Inserts, Peak Trim & Sandwich",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-crown-inserts-peak-trim-sandwich/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Crown Inserts, Peak Trim &amp; Sandwich — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-contrasting-st",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Contrasting Stitching and Open Lip Sandwich",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-contrasting-stitching-and-open-lip-sandwich/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Contrasting Stitching and Open Lip Sandwich — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-crown-inserts-",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Crown Inserts & Contrasting Peak Under & Strap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-crown-inserts-contrasting-peak-under-strap/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Crown Inserts &amp; Contrasting Peak Under &amp; Strap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-sandwich-mesh-with-dream-fit-styling",
+      "sku": "SANDWICH-MES",
+      "name": "Sandwich Mesh with Dream Fit Styling",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/sandwich-mesh-with-dream-fit-styling/",
+      "priceFrom": null,
+      "description": "Sandwich Mesh with Dream Fit Styling — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-microfibre-sports-cap-with-trim-on-edge-",
+      "sku": "MICROFIBRE-S",
+      "name": "Microfibre Sports Cap with Trim on Edge of Crown & Peak",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/microfibre-sports-cap-with-trim-on-edge-of-crown-peak/",
+      "priceFrom": null,
+      "description": "Microfibre Sports Cap with Trim on Edge of Crown &amp; Peak — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-crown-inserts-",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Crown Inserts & Sandwich",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-crown-inserts-sandwich/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Crown Inserts &amp; Sandwich — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-double-pique-mesh-with-dream-fit-styling",
+      "sku": "DOUBLE-PIQUE",
+      "name": "Double Pique Mesh with Dream Fit Styling",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/double-pique-mesh-with-dream-fit-styling/",
+      "priceFrom": null,
+      "description": "Double Pique Mesh with Dream Fit Styling — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-and-spandex-with-dr",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton and Spandex with Dream Fit Styling",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-and-spandex-with-dream-fit-styling/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton and Spandex with Dream Fit Styling — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-premium-american-twill-with-snap-back-pr",
+      "sku": "PREMIUM-AMER",
+      "name": "Premium American Twill with Snap Back Pro Styling",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/premium-american-twill-with-snap-back-pro-styling/",
+      "priceFrom": null,
+      "description": "Premium American Twill with Snap Back Pro Styling — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-contrasting-st",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Contrasting Stitching & Cross Stitched Peak",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-contrasting-stitching-cross-stitched-peak/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Contrasting Stitching &amp; Cross Stitched Peak — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-chino-twill",
+      "sku": "CHINO-TWILL",
+      "name": "Chino Twill",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/chino-twill/",
+      "priceFrom": null,
+      "description": "Chino Twill — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-sports-mesh-4078",
+      "sku": "SPORTS-MESH-",
+      "name": "Sports Mesh || 4078",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/sports-mesh-4078/",
+      "priceFrom": null,
+      "description": "Sports Mesh || 4078 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-microfibre-sports-cap-with-piping-and-sa",
+      "sku": "MICROFIBRE-S",
+      "name": "Microfibre Sports Cap with Piping and Sandwich",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/microfibre-sports-cap-with-piping-and-sandwich/",
+      "priceFrom": null,
+      "description": "Microfibre Sports Cap with Piping and Sandwich — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-swirling-check",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Swirling Checks & Sandwich",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-swirling-checks-sandwich/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Swirling Checks &amp; Sandwich — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-curved-embroid",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Curved Embroidery on Crown and Peak",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-curved-embroidery-on-crown-and-peak/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Curved Embroidery on Crown and Peak — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-curved-peak-in",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Curved Peak Inserts",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-curved-peak-inserts/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Curved Peak Inserts — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-sports-mesh-visor",
+      "sku": "SPORTS-MESH-",
+      "name": "Sports Mesh Visor",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/sports-mesh-visor/",
+      "priceFrom": null,
+      "description": "Sports Mesh Visor — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-mesh-inserts-o",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Mesh Inserts on Peak",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-mesh-inserts-on-peak/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Mesh Inserts on Peak — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-poly-cotton-legionnaire",
+      "sku": "POLY-COTTON-",
+      "name": "Poly Cotton Legionnaire",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/poly-cotton-legionnaire/",
+      "priceFrom": null,
+      "description": "Poly Cotton Legionnaire — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-canvas-sun-hat",
+      "sku": "CANVAS-SUN-H",
+      "name": "Canvas Sun Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/canvas-sun-hat/",
+      "priceFrom": null,
+      "description": "Canvas Sun Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-baseballkappe-versetzte-nahte-100-schwer",
+      "sku": "BASEBALLKAPP",
+      "name": "Brushed Heavy Cotton Pro-Rotated",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/baseballkappe-versetzte-nahte-100-schwere-geburstete-baumwolle/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton Pro-Rotated — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-two-tone-cap-with-c",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton Two Tone Cap with Contrasting Stitching and Open Lip Sandwich",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-two-tone-cap-with-contrasting-stitching-and-open-lip-sandwich/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton Two Tone Cap with Contrasting Stitching and Open Lip Sandwich — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-100-recycled-earth-friendly-fabric-4050",
+      "sku": "100-RECYCLED",
+      "name": "100% Recycled Earth Friendly Fabric || 4050",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/100-recycled-earth-friendly-fabric-4050/",
+      "priceFrom": null,
+      "description": "100% Recycled Earth Friendly Fabric || 4050 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-sports-ripstop-with-peak-embroidery",
+      "sku": "SPORTS-RIPST",
+      "name": "Sports Ripstop with Peak Embroidery",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/sports-ripstop-with-peak-embroidery/",
+      "priceFrom": null,
+      "description": "Sports Ripstop with Peak Embroidery — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-youth-size",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton Youth Size",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-youth-size/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton Youth Size — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-sports-twill-sports-visor",
+      "sku": "SPORTS-TWILL",
+      "name": "Sports Twill Sports Visor",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/sports-twill-sports-visor/",
+      "priceFrom": null,
+      "description": "Sports Twill Sports Visor — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-tri-coloured-cap",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton Tri-Coloured Cap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-tri-coloured-cap/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton Tri-Coloured Cap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-sports-twill-military-cap",
+      "sku": "SPORTS-TWILL",
+      "name": "Sports Twill Military Cap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/sports-twill-military-cap/",
+      "priceFrom": null,
+      "description": "Sports Twill Military Cap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-hi-vis-laminat",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Hi-Vis Laminated Two-Tone Peak",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-hi-vis-laminated-two-tone-peak/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Hi-Vis Laminated Two-Tone Peak — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-sonic-weld-fla",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Sonic Weld Flames",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-sonic-weld-flames/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Sonic Weld Flames — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-tyre-tracks",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Tyre Tracks",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-tyre-tracks/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Tyre Tracks — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-with-inserts-on-the",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton with Inserts on the Peak & Crown",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-with-inserts-on-the-peak-crown/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton with Inserts on the Peak &amp; Crown — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-breathable-poly-twill-cap-4012",
+      "sku": "BREATHABLE-P",
+      "name": "Breathable Poly Twill Cap || 4012",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/breathable-poly-twill-cap-4012/",
+      "priceFrom": null,
+      "description": "Breathable Poly Twill Cap || 4012 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-breathable-poly-twill-cap",
+      "sku": "BREATHABLE-P",
+      "name": "Breathable Poly Twill Cap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/breathable-poly-twill-cap/",
+      "priceFrom": null,
+      "description": "Breathable Poly Twill Cap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-breathable-poly-twill-with-small-check-p",
+      "sku": "BREATHABLE-P",
+      "name": "Breathable Poly Twill with Small Check Patterning",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/breathable-poly-twill-with-small-check-patterning/",
+      "priceFrom": null,
+      "description": "Breathable Poly Twill with Small Check Patterning — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-breathable-poly-twill-with-sandwich-trim",
+      "sku": "BREATHABLE-P",
+      "name": "Breathable Poly Twill with Sandwich Trim",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/breathable-poly-twill-with-sandwich-trim/",
+      "priceFrom": null,
+      "description": "Breathable Poly Twill with Sandwich Trim — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-breathable-poly-twill-with-peak-flash-pr",
+      "sku": "BREATHABLE-P",
+      "name": "Breathable Poly Twill with Peak Flash Print",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/breathable-poly-twill-with-peak-flash-print/",
+      "priceFrom": null,
+      "description": "Breathable Poly Twill with Peak Flash Print — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-sports-ripstop-visor",
+      "sku": "SPORTS-RIPST",
+      "name": "Sports Ripstop Visor",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/sports-ripstop-visor/",
+      "priceFrom": null,
+      "description": "Sports Ripstop Visor — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-sports-ripstop-with-towelling-sweatband",
+      "sku": "SPORTS-RIPST",
+      "name": "Sports Ripstop with Towelling Sweatband",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/sports-ripstop-with-towelling-sweatband/",
+      "priceFrom": null,
+      "description": "Sports Ripstop with Towelling Sweatband — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-sports-ripstop-with-inserts-and-trim",
+      "sku": "SPORTS-RIPST",
+      "name": "Sports Ripstop with Inserts and Trim",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/sports-ripstop-with-inserts-and-trim/",
+      "priceFrom": null,
+      "description": "Sports Ripstop with Inserts and Trim — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-sports-ripstop-with-bee-hive-mesh-and-to",
+      "sku": "SPORTS-RIPST",
+      "name": "Sports Ripstop with Bee Hive Mesh and Towelling Sweatband",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/sports-ripstop-with-bee-hive-mesh-and-towelling-sweatband/",
+      "priceFrom": null,
+      "description": "Sports Ripstop with Bee Hive Mesh and Towelling Sweatband — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-cotton-with-mesh-back-cap",
+      "sku": "BRUSHED-COTT",
+      "name": "Brushed Cotton with Mesh Back Cap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-cotton-with-mesh-back-cap/",
+      "priceFrom": null,
+      "description": "Brushed Cotton with Mesh Back Cap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-brushed-heavy-cotton-contrast-cap",
+      "sku": "BRUSHED-HEAV",
+      "name": "Brushed Heavy Cotton Contrast Cap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/brushed-heavy-cotton-contrast-cap/",
+      "priceFrom": null,
+      "description": "Brushed Heavy Cotton Contrast Cap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-premium-american-twill-cap",
+      "sku": "PREMIUM-AMER",
+      "name": "Premium American Twill Cap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/premium-american-twill-cap/",
+      "priceFrom": null,
+      "description": "Premium American Twill Cap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-cane-print-with-mesh-back",
+      "sku": "CANE-PRINT-W",
+      "name": "Cane Print with Mesh Back",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/cane-print-with-mesh-back/",
+      "priceFrom": null,
+      "description": "Cane Print with Mesh Back — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-cationic-sports-jersey",
+      "sku": "CATIONIC-SPO",
+      "name": "Cationic Sports Jersey",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/cationic-sports-jersey/",
+      "priceFrom": null,
+      "description": "Cationic Sports Jersey — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-american-premium-twill-mesh-deep-fit-tru",
+      "sku": "AMERICAN-PRE",
+      "name": "American Premium Twill/Mesh Deep Fit Trucker with Stripes",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/american-premium-twill-mesh-deep-fit-trucker-with-stripes/",
+      "priceFrom": null,
+      "description": "American Premium Twill/Mesh Deep Fit Trucker with Stripes — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-organic-brushed-heavy-cotton-mesh-back-c",
+      "sku": "ORGANIC-BRUS",
+      "name": "Organic brushed Heavy Cotton/Mesh Back Cap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/organic-brushed-heavy-cotton-mesh-back-cap/",
+      "priceFrom": null,
+      "description": "Organic brushed Heavy Cotton/Mesh Back Cap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-organic-brushed-heavy-cotton-cap",
+      "sku": "ORGANIC-BRUS",
+      "name": "Organic Brushed Heavy Cotton Cap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/organic-brushed-heavy-cotton-cap/",
+      "priceFrom": null,
+      "description": "Organic Brushed Heavy Cotton Cap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-recycled-roll-down-beanie",
+      "sku": "RECYCLED-ROL",
+      "name": "Recycled Roll Down Beanie",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "beanies",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/recycled-roll-down-beanie/",
+      "priceFrom": null,
+      "description": "Recycled Roll Down Beanie — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-recycled-roll-up-beanie",
+      "sku": "RECYCLED-ROL",
+      "name": "Recycled Roll Up Beanie",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "beanies",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/recycled-roll-up-beanie/",
+      "priceFrom": null,
+      "description": "Recycled Roll Up Beanie — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-recycled-breathable-poly-twill-bucket-ha",
+      "sku": "RECYCLED-BRE",
+      "name": "Recycled Breathable Poly twill Bucket Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "bucket-hats",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/recycled-breathable-poly-twill-bucket-hat/",
+      "priceFrom": null,
+      "description": "Recycled Breathable Poly twill Bucket Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-recycled-breathable-poly-twill-with-mesh",
+      "sku": "RECYCLED-BRE",
+      "name": "Recycled Breathable Poly Twill with Mesh Back Cap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/recycled-breathable-poly-twill-with-mesh-back-cap/",
+      "priceFrom": null,
+      "description": "Recycled Breathable Poly Twill with Mesh Back Cap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-premium-american-recycled-twill-cap",
+      "sku": "PREMIUM-AMER",
+      "name": "Premium American Recycled Twill Cap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/premium-american-recycled-twill-cap/",
+      "priceFrom": null,
+      "description": "Premium American Recycled Twill Cap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-recycled-breathable-poly-twill-cap",
+      "sku": "RECYCLED-BRE",
+      "name": "Recycled Breathable Poly Twill Cap",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/recycled-breathable-poly-twill-cap/",
+      "priceFrom": null,
+      "description": "Recycled Breathable Poly Twill Cap — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-breathable-poly-twill-youth-bucket-hat",
+      "sku": "BREATHABLE-P",
+      "name": "Breathable Poly Twill Youth Bucket Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "bucket-hats",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/breathable-poly-twill-youth-bucket-hat/",
+      "priceFrom": null,
+      "description": "Breathable Poly Twill Youth Bucket Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-breathable-poly-twill-childs-bucket-hat-",
+      "sku": "BREATHABLE-P",
+      "name": "Breathable Poly Twill Childs Bucket Hat || 3939",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "bucket-hats",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/breathable-poly-twill-childs-bucket-hat-3939/",
+      "priceFrom": null,
+      "description": "Breathable Poly Twill Childs Bucket Hat || 3939 — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-breathable-poly-twill-infants-bucket-hat",
+      "sku": "BREATHABLE-P",
+      "name": "Breathable Poly Twill Infants Bucket Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "bucket-hats",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/breathable-poly-twill-infants-bucket-hat/",
+      "priceFrom": null,
+      "description": "Breathable Poly Twill Infants Bucket Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-reversible-breathable-poly-twill-bucket-",
+      "sku": "REVERSIBLE-B",
+      "name": "Reversible Breathable Poly Twill Bucket Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "bucket-hats",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/reversible-breathable-poly-twill-bucket-hat/",
+      "priceFrom": null,
+      "description": "Reversible Breathable Poly Twill Bucket Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-luminescent-safety-bucket-hat",
+      "sku": "LUMINESCENT-",
+      "name": "Luminescent Safety Bucket Hat",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "bucket-hats",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/luminescent-safety-bucket-hat/",
+      "priceFrom": null,
+      "description": "Luminescent Safety Bucket Hat — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "hw-premium-american-twill-with-contrast-pea",
+      "sku": "PREMIUM-AMER",
+      "name": "Premium American Twill with Contrast Peak Under",
+      "brand": "Headwear Professionals",
+      "supplier": "headwear",
+      "category": "headwear",
+      "subcategory": "caps",
+      "image": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/stencil/70f20e90-3486-013f-64d3-0eb41461b586/e/62d26120-a031-013e-f179-0e9302c9ead7/img/loading.svg",
+      "sourceUrl": "https://qld.headwear.com.au/premium-american-twill-with-contrast-peak-under/",
+      "priceFrom": null,
+      "description": "Premium American Twill with Contrast Peak Under — custom embroidery available.",
+      "sizes": [
+        "One size / adjustable"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "asc-5001",
+      "sku": "5001",
+      "name": "Staple Tee - 5001",
+      "brand": "AS Colour",
+      "supplier": "as-colour",
+      "category": "t-shirts",
+      "subcategory": "t-shirts",
+      "image": "",
+      "sourceUrl": "https://www.ascolour.com.au/staple-tee-5001/",
+      "priceFrom": null,
+      "description": "Premium AS Colour blank — style 5001. Ready for embroidery.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colours": [
+        "70+ colours"
+      ]
+    },
+    {
+      "id": "asc-5026",
+      "sku": "5026",
+      "name": "Classic Tee - 5026",
+      "brand": "AS Colour",
+      "supplier": "as-colour",
+      "category": "t-shirts",
+      "subcategory": "t-shirts",
+      "image": "",
+      "sourceUrl": "https://www.ascolour.com.au/classic-tee-5026/",
+      "priceFrom": null,
+      "description": "Premium AS Colour blank — style 5026. Ready for embroidery.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "asc-5071",
+      "sku": "5071",
+      "name": "Wash Tee",
+      "brand": "AS Colour",
+      "supplier": "as-colour",
+      "category": "t-shirts",
+      "subcategory": "t-shirts",
+      "image": "",
+      "sourceUrl": "https://www.ascolour.com.au/wash-tee-5071/",
+      "priceFrom": null,
+      "description": "Premium AS Colour blank — style 5071. Ready for embroidery.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "asc-5082",
+      "sku": "5082",
+      "name": "Heavy Faded Tee Relaxed - 5082",
+      "brand": "AS Colour",
+      "supplier": "as-colour",
+      "category": "t-shirts",
+      "subcategory": "t-shirts",
+      "image": "",
+      "sourceUrl": "https://www.ascolour.com.au/heavy-faded-tee-5082/",
+      "priceFrom": null,
+      "description": "Premium AS Colour blank — style 5082. Ready for embroidery.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "asc-5165",
+      "sku": "5165",
+      "name": "Box Hood",
+      "brand": "AS Colour",
+      "supplier": "as-colour",
+      "category": "hoodies",
+      "subcategory": "hoodies",
+      "image": "",
+      "sourceUrl": "https://www.ascolour.com.au/box-hood-5165/",
+      "priceFrom": null,
+      "description": "Premium AS Colour blank — style 5165. Ready for embroidery.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "asc-5161",
+      "sku": "5161",
+      "name": "Relax Hood Relaxed - 5161",
+      "brand": "AS Colour",
+      "supplier": "as-colour",
+      "category": "hoodies",
+      "subcategory": "hoodies",
+      "image": "",
+      "sourceUrl": "https://www.ascolour.com.au/relax-hood-5161/",
+      "priceFrom": null,
+      "description": "Premium AS Colour blank — style 5161. Ready for embroidery.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "asc-5100",
+      "sku": "5100",
+      "name": "Heavy Fleece Crew",
+      "brand": "AS Colour",
+      "supplier": "as-colour",
+      "category": "hoodies",
+      "subcategory": "hoodies",
+      "image": "",
+      "sourceUrl": "https://www.ascolour.com.au/heavy-fleece-crew-5100/",
+      "priceFrom": null,
+      "description": "Premium AS Colour blank — style 5100. Ready for embroidery.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "asc-1130",
+      "sku": "1130",
+      "name": "Frame Cap",
+      "brand": "AS Colour",
+      "supplier": "as-colour",
+      "category": "headwear",
+      "subcategory": "headwear",
+      "image": "",
+      "sourceUrl": "https://www.ascolour.com.au/frame-cap-1130/",
+      "priceFrom": null,
+      "description": "Premium AS Colour blank — style 1130. Ready for embroidery.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "asc-1112",
+      "sku": "1112",
+      "name": "Cable Beanie",
+      "brand": "AS Colour",
+      "supplier": "as-colour",
+      "category": "headwear",
+      "subcategory": "headwear",
+      "image": "",
+      "sourceUrl": "https://www.ascolour.com.au/cable-beanie-1112/",
+      "priceFrom": null,
+      "description": "Premium AS Colour blank — style 1112. Ready for embroidery.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "asc-1114",
+      "sku": "1114",
+      "name": "Surf Mid Profile Cap - 1114",
+      "brand": "AS Colour",
+      "supplier": "as-colour",
+      "category": "headwear",
+      "subcategory": "headwear",
+      "image": "",
+      "sourceUrl": "https://www.ascolour.com.au/surf-cap-1114/",
+      "priceFrom": null,
+      "description": "Premium AS Colour blank — style 1114. Ready for embroidery.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "asc-5501",
+      "sku": "5501",
+      "name": "Pique Polo",
+      "brand": "AS Colour",
+      "supplier": "as-colour",
+      "category": "polos",
+      "subcategory": "polos",
+      "image": "",
+      "sourceUrl": "https://www.ascolour.com.au/pique-polo-5501/",
+      "priceFrom": null,
+      "description": "Premium AS Colour blank — style 5501. Ready for embroidery.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "asc-5102",
+      "sku": "5102",
+      "name": "Staple Hood",
+      "brand": "AS Colour",
+      "supplier": "as-colour",
+      "category": "hoodies",
+      "subcategory": "hoodies",
+      "image": "",
+      "sourceUrl": "https://www.ascolour.com.au/staple-hood-5102/",
+      "priceFrom": null,
+      "description": "Premium AS Colour blank — style 5102. Ready for embroidery.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "asc-5001g",
+      "sku": "5001G",
+      "name": "Supply Tee",
+      "brand": "AS Colour",
+      "supplier": "as-colour",
+      "category": "t-shirts",
+      "subcategory": "t-shirts",
+      "image": "",
+      "sourceUrl": "https://www.ascolour.com.au/supply-tee-5001g/",
+      "priceFrom": null,
+      "description": "Premium AS Colour blank — style 5001G. Ready for embroidery.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "asc-5533",
+      "sku": "5533",
+      "name": "Canvas Heavy Cord Collar Jacket - 5533",
+      "brand": "AS Colour",
+      "supplier": "as-colour",
+      "category": "jackets",
+      "subcategory": "jackets",
+      "image": "",
+      "sourceUrl": "https://www.ascolour.com.au/canvas-cord-collar-jacket-5533/",
+      "priceFrom": null,
+      "description": "Premium AS Colour blank — style 5533. Ready for embroidery.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "asc-4932",
+      "sku": "4932",
+      "name": "Relax Trackpants",
+      "brand": "AS Colour",
+      "supplier": "as-colour",
+      "category": "pants",
+      "subcategory": "pants",
+      "image": "",
+      "sourceUrl": "https://www.ascolour.com.au/relax-trackpants-4932/",
+      "priceFrom": null,
+      "description": "Premium AS Colour blank — style 4932. Ready for embroidery.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-rxp",
+      "sku": "RXP",
+      "name": "Biz Cool Mens Sprint Polo",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "polos",
+      "subcategory": "polos",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=RXP",
+      "priceFrom": null,
+      "description": "Breathable polo for corporate and teamwear.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-rxpw",
+      "sku": "RXPW",
+      "name": "Biz Cool Womens Sprint Polo",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "polos",
+      "subcategory": "polos",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=RXPW",
+      "priceFrom": null,
+      "description": "Ladies fit breathable polo.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-rxpj",
+      "sku": "RXPJ",
+      "name": "Biz Collection Kids Polo",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "schools",
+      "subcategory": "schools",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=RXPJ",
+      "priceFrom": null,
+      "description": "Kids school and club polo.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-bsc",
+      "sku": "BSC",
+      "name": "Biz Collection Mens Oxford Shirt",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "shirts",
+      "subcategory": "shirts",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=BSC",
+      "priceFrom": null,
+      "description": "Classic corporate oxford shirt.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-bscw",
+      "sku": "BSCW",
+      "name": "Biz Collection Womens Oxford Shirt",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "shirts",
+      "subcategory": "shirts",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=BSCW",
+      "priceFrom": null,
+      "description": "Ladies corporate oxford shirt.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-bsh",
+      "sku": "BSH",
+      "name": "Biz Collection Mens Chino",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "pants",
+      "subcategory": "pants",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=BSH",
+      "priceFrom": null,
+      "description": "Corporate chino pant.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-bshw",
+      "sku": "BSHW",
+      "name": "Biz Collection Womens Chino",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "pants",
+      "subcategory": "pants",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=BSHW",
+      "priceFrom": null,
+      "description": "Ladies corporate chino.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-bsj",
+      "sku": "BSJ",
+      "name": "Biz Collection Mens Jacket",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "jackets",
+      "subcategory": "jackets",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=BSJ",
+      "priceFrom": null,
+      "description": "Lightweight corporate jacket.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-bshp",
+      "sku": "BSHP",
+      "name": "Biz Collection Hospitality Apron",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "hospitality",
+      "subcategory": "hospitality",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=BSHP",
+      "priceFrom": null,
+      "description": "Hospitality apron — bib style.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-bsr",
+      "sku": "BSR",
+      "name": "Biz Collection Scrubs Top",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "healthcare",
+      "subcategory": "healthcare",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=BSR",
+      "priceFrom": null,
+      "description": "Healthcare scrubs top.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-bsrp",
+      "sku": "BSRP",
+      "name": "Biz Collection Scrubs Pant",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "healthcare",
+      "subcategory": "healthcare",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=BSRP",
+      "priceFrom": null,
+      "description": "Healthcare scrubs pant.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-bshv",
+      "sku": "BSHV",
+      "name": "Biz Collection Hi-Vis Vest",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "hivis",
+      "subcategory": "hivis",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=BSHV",
+      "priceFrom": null,
+      "description": "Hi-vis safety vest.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-rxl",
+      "sku": "RXL",
+      "name": "Biz Cool Mens Long Sleeve Polo",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "polos",
+      "subcategory": "polos",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=RXL",
+      "priceFrom": null,
+      "description": "Long sleeve corporate polo.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-rxlw",
+      "sku": "RXLW",
+      "name": "Biz Cool Womens Long Sleeve Polo",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "polos",
+      "subcategory": "polos",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=RXLW",
+      "priceFrom": null,
+      "description": "Ladies long sleeve polo.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-bshs",
+      "sku": "BSHS",
+      "name": "Biz Collection Soft Shell Jacket",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "jackets",
+      "subcategory": "jackets",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=BSHS",
+      "priceFrom": null,
+      "description": "Soft shell corporate jacket.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-bshk",
+      "sku": "BSHK",
+      "name": "Biz Collection Knit Polo",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "polos",
+      "subcategory": "polos",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=BSHK",
+      "priceFrom": null,
+      "description": "Knit corporate polo.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-bshf",
+      "sku": "BSHF",
+      "name": "Biz Collection Fleece Jacket",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "jackets",
+      "subcategory": "jackets",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=BSHF",
+      "priceFrom": null,
+      "description": "Corporate fleece jacket.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "biz-bsha",
+      "sku": "BSHA",
+      "name": "Biz Collection Chef Jacket",
+      "brand": "Biz Collection",
+      "supplier": "biz-collection",
+      "category": "hospitality",
+      "subcategory": "hospitality",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "sourceUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&search=BSHA",
+      "priceFrom": null,
+      "description": "Chef jacket for hospitality.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1po",
+      "sku": "1PO",
+      "name": "JB's Podium Polo",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "polos",
+      "subcategory": "polos",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "Classic work and school polo.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1pp",
+      "sku": "1PP",
+      "name": "JB's Premium Polo",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "polos",
+      "subcategory": "polos",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "Premium cotton polo for corporate wear.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1ppl",
+      "sku": "1PPL",
+      "name": "JB's Premium Polo Long Sleeve",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "polos",
+      "subcategory": "polos",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "Long sleeve premium polo.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1ht",
+      "sku": "1HT",
+      "name": "JB's Heritage Tee",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "t-shirts",
+      "subcategory": "t-shirts",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "Heavyweight cotton tee.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1htl",
+      "sku": "1HTL",
+      "name": "JB's Heritage Tee Long Sleeve",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "t-shirts",
+      "subcategory": "t-shirts",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "Long sleeve heritage tee.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1hfl",
+      "sku": "1HFL",
+      "name": "JB's Hoodie",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "hoodies",
+      "subcategory": "hoodies",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "Fleece hoodie for work and leisure.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1hflz",
+      "sku": "1HFLZ",
+      "name": "JB's Zip Hoodie",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "hoodies",
+      "subcategory": "hoodies",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "Zip-through fleece hoodie.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1hv",
+      "sku": "1HV",
+      "name": "JB's Hi-Vis Singlet",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "hivis",
+      "subcategory": "hivis",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "AS/NZS approved hi-vis singlet.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1hvp",
+      "sku": "1HVP",
+      "name": "JB's Hi-Vis Polo",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "hivis",
+      "subcategory": "hivis",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "Hi-vis safety polo shirt.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1hvj",
+      "sku": "1HVJ",
+      "name": "JB's Hi-Vis Jacket",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "hivis",
+      "subcategory": "hivis",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "Hi-vis wet weather jacket.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1hvv",
+      "sku": "1HVV",
+      "name": "JB's Hi-Vis Vest",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "hivis",
+      "subcategory": "hivis",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "Hi-vis safety vest.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1che",
+      "sku": "1CHE",
+      "name": "JB's Chef Shirt",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "hospitality",
+      "subcategory": "hospitality",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "Hospitality chef shirt.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1ap",
+      "sku": "1AP",
+      "name": "JB's Apron",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "hospitality",
+      "subcategory": "hospitality",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "Bib apron for hospitality.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1cp",
+      "sku": "1CP",
+      "name": "JB's Childcare Polo",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "schools",
+      "subcategory": "schools",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "Childcare and school polo.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1ws",
+      "sku": "1WS",
+      "name": "JB's Work Shirt",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "workwear",
+      "subcategory": "workwear",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "Cotton drill work shirt.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1wp",
+      "sku": "1WP",
+      "name": "JB's Work Pant",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "workwear",
+      "subcategory": "workwear",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "Reinforced work pant.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1bk",
+      "sku": "1BK",
+      "name": "JB's Bucket Hat",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "headwear",
+      "subcategory": "headwear",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "Cotton bucket hat.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "jbs-1cpk",
+      "sku": "1CPK",
+      "name": "JB's Cap",
+      "brand": "JB's Wear",
+      "supplier": "jbs-wear",
+      "category": "headwear",
+      "subcategory": "headwear",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "sourceUrl": "https://www.jbswear.com.au/general/catalogue",
+      "priceFrom": null,
+      "description": "Brushed cotton cap.",
+      "sizes": [
+        "2XS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "dnc-dnc3900",
+      "sku": "DNC3900",
+      "name": "DNC Hi-Vis Safety Vest",
+      "brand": "DNC Workwear",
+      "supplier": "dnc-workwear",
+      "category": "hivis",
+      "subcategory": "hivis",
+      "image": "https://static.wixstatic.com/media/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg/v1/crop/x_14,y_0,w_281,h_306,q_80,enc_avif,quality_auto/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg",
+      "sourceUrl": "https://www.dncworkwear.com.au/documents/Catalogue13.pdf",
+      "priceFrom": null,
+      "description": "Day/night hi-vis vest.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "dnc-dnc3950",
+      "sku": "DNC3950",
+      "name": "DNC Hi-Vis Polo",
+      "brand": "DNC Workwear",
+      "supplier": "dnc-workwear",
+      "category": "hivis",
+      "subcategory": "hivis",
+      "image": "https://static.wixstatic.com/media/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg/v1/crop/x_14,y_0,w_281,h_306,q_80,enc_avif,quality_auto/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg",
+      "sourceUrl": "https://www.dncworkwear.com.au/documents/Catalogue13.pdf",
+      "priceFrom": null,
+      "description": "Breathable hi-vis polo.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "dnc-dnc3960",
+      "sku": "DNC3960",
+      "name": "DNC Hi-Vis Long Sleeve Shirt",
+      "brand": "DNC Workwear",
+      "supplier": "dnc-workwear",
+      "category": "hivis",
+      "subcategory": "hivis",
+      "image": "https://static.wixstatic.com/media/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg/v1/crop/x_14,y_0,w_281,h_306,q_80,enc_avif,quality_auto/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg",
+      "sourceUrl": "https://www.dncworkwear.com.au/documents/Catalogue13.pdf",
+      "priceFrom": null,
+      "description": "Long sleeve hi-vis shirt.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "dnc-dnc1200",
+      "sku": "DNC1200",
+      "name": "DNC Cotton Drill Work Shirt",
+      "brand": "DNC Workwear",
+      "supplier": "dnc-workwear",
+      "category": "workwear",
+      "subcategory": "workwear",
+      "image": "https://static.wixstatic.com/media/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg/v1/crop/x_14,y_0,w_281,h_306,q_80,enc_avif,quality_auto/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg",
+      "sourceUrl": "https://www.dncworkwear.com.au/documents/Catalogue13.pdf",
+      "priceFrom": null,
+      "description": "Heavy cotton drill work shirt.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "dnc-dnc1300",
+      "sku": "DNC1300",
+      "name": "DNC Cargo Work Pant",
+      "brand": "DNC Workwear",
+      "supplier": "dnc-workwear",
+      "category": "workwear",
+      "subcategory": "workwear",
+      "image": "https://static.wixstatic.com/media/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg/v1/crop/x_14,y_0,w_281,h_306,q_80,enc_avif,quality_auto/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg",
+      "sourceUrl": "https://www.dncworkwear.com.au/documents/Catalogue13.pdf",
+      "priceFrom": null,
+      "description": "Reinforced cargo work pant.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "dnc-dnc1500",
+      "sku": "DNC1500",
+      "name": "DNC Softshell Jacket",
+      "brand": "DNC Workwear",
+      "supplier": "dnc-workwear",
+      "category": "jackets",
+      "subcategory": "jackets",
+      "image": "https://static.wixstatic.com/media/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg/v1/crop/x_14,y_0,w_281,h_306,q_80,enc_avif,quality_auto/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg",
+      "sourceUrl": "https://www.dncworkwear.com.au/documents/Catalogue13.pdf",
+      "priceFrom": null,
+      "description": "Wind/water resistant softshell.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "dnc-dnc2100",
+      "sku": "DNC2100",
+      "name": "DNC Coverall",
+      "brand": "DNC Workwear",
+      "supplier": "dnc-workwear",
+      "category": "workwear",
+      "subcategory": "workwear",
+      "image": "https://static.wixstatic.com/media/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg/v1/crop/x_14,y_0,w_281,h_306,q_80,enc_avif,quality_auto/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg",
+      "sourceUrl": "https://www.dncworkwear.com.au/documents/Catalogue13.pdf",
+      "priceFrom": null,
+      "description": "Full coverall for industrial use.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "dnc-dnc3100",
+      "sku": "DNC3100",
+      "name": "DNC Wet Weather Jacket",
+      "brand": "DNC Workwear",
+      "supplier": "dnc-workwear",
+      "category": "jackets",
+      "subcategory": "jackets",
+      "image": "https://static.wixstatic.com/media/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg/v1/crop/x_14,y_0,w_281,h_306,q_80,enc_avif,quality_auto/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg",
+      "sourceUrl": "https://www.dncworkwear.com.au/documents/Catalogue13.pdf",
+      "priceFrom": null,
+      "description": "Waterproof work jacket.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "dnc-dnc4100",
+      "sku": "DNC4100",
+      "name": "DNC Polo Shirt",
+      "brand": "DNC Workwear",
+      "supplier": "dnc-workwear",
+      "category": "polos",
+      "subcategory": "polos",
+      "image": "https://static.wixstatic.com/media/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg/v1/crop/x_14,y_0,w_281,h_306,q_80,enc_avif,quality_auto/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg",
+      "sourceUrl": "https://www.dncworkwear.com.au/documents/Catalogue13.pdf",
+      "priceFrom": null,
+      "description": "Industrial polo shirt.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "dnc-dnc4200",
+      "sku": "DNC4200",
+      "name": "DNC Fleecy Sweat",
+      "brand": "DNC Workwear",
+      "supplier": "dnc-workwear",
+      "category": "hoodies",
+      "subcategory": "hoodies",
+      "image": "https://static.wixstatic.com/media/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg/v1/crop/x_14,y_0,w_281,h_306,q_80,enc_avif,quality_auto/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg",
+      "sourceUrl": "https://www.dncworkwear.com.au/documents/Catalogue13.pdf",
+      "priceFrom": null,
+      "description": "Industrial fleece sweat.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "dnc-dnc4300",
+      "sku": "DNC4300",
+      "name": "DNC Hoodie",
+      "brand": "DNC Workwear",
+      "supplier": "dnc-workwear",
+      "category": "hoodies",
+      "subcategory": "hoodies",
+      "image": "https://static.wixstatic.com/media/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg/v1/crop/x_14,y_0,w_281,h_306,q_80,enc_avif,quality_auto/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg",
+      "sourceUrl": "https://www.dncworkwear.com.au/documents/Catalogue13.pdf",
+      "priceFrom": null,
+      "description": "Industrial hooded fleece.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "dnc-dnc4400",
+      "sku": "DNC4400",
+      "name": "DNC Beanie",
+      "brand": "DNC Workwear",
+      "supplier": "dnc-workwear",
+      "category": "headwear",
+      "subcategory": "headwear",
+      "image": "https://static.wixstatic.com/media/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg/v1/crop/x_14,y_0,w_281,h_306,q_80,enc_avif,quality_auto/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg",
+      "sourceUrl": "https://www.dncworkwear.com.au/documents/Catalogue13.pdf",
+      "priceFrom": null,
+      "description": "Acrylic work beanie.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "dnc-dnc4500",
+      "sku": "DNC4500",
+      "name": "DNC Cap",
+      "brand": "DNC Workwear",
+      "supplier": "dnc-workwear",
+      "category": "headwear",
+      "subcategory": "headwear",
+      "image": "https://static.wixstatic.com/media/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg/v1/crop/x_14,y_0,w_281,h_306,q_80,enc_avif,quality_auto/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg",
+      "sourceUrl": "https://www.dncworkwear.com.au/documents/Catalogue13.pdf",
+      "priceFrom": null,
+      "description": "Cotton drill cap.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "dnc-dnc1600",
+      "sku": "DNC1600",
+      "name": "DNC Flame Retardant Shirt",
+      "brand": "DNC Workwear",
+      "supplier": "dnc-workwear",
+      "category": "workwear",
+      "subcategory": "workwear",
+      "image": "https://static.wixstatic.com/media/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg/v1/crop/x_14,y_0,w_281,h_306,q_80,enc_avif,quality_auto/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg",
+      "sourceUrl": "https://www.dncworkwear.com.au/documents/Catalogue13.pdf",
+      "priceFrom": null,
+      "description": "Flame retardant work shirt.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "ws-ps55",
+      "sku": "PS55",
+      "name": "Winning Spirit Polo",
+      "brand": "Winning Spirit",
+      "supplier": "winning-spirit",
+      "category": "polos",
+      "subcategory": "polos",
+      "image": "https://static.wixstatic.com/media/c92cd4_48a9c13959284ab0a368a35451929d7c.gif",
+      "sourceUrl": "https://ws-au-imgs.s3.amazonaws.com/2024+catalogue/2024_CATALOGUE.pdf",
+      "priceFrom": null,
+      "description": "Classic promotional polo.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "ws-ps59",
+      "sku": "PS59",
+      "name": "Winning Spirit Ladies Polo",
+      "brand": "Winning Spirit",
+      "supplier": "winning-spirit",
+      "category": "polos",
+      "subcategory": "polos",
+      "image": "https://static.wixstatic.com/media/c92cd4_48a9c13959284ab0a368a35451929d7c.gif",
+      "sourceUrl": "https://ws-au-imgs.s3.amazonaws.com/2024+catalogue/2024_CATALOGUE.pdf",
+      "priceFrom": null,
+      "description": "Ladies fit promotional polo.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "ws-ts20",
+      "sku": "TS20",
+      "name": "Winning Spirit Tee",
+      "brand": "Winning Spirit",
+      "supplier": "winning-spirit",
+      "category": "t-shirts",
+      "subcategory": "t-shirts",
+      "image": "https://static.wixstatic.com/media/c92cd4_48a9c13959284ab0a368a35451929d7c.gif",
+      "sourceUrl": "https://ws-au-imgs.s3.amazonaws.com/2024+catalogue/2024_CATALOGUE.pdf",
+      "priceFrom": null,
+      "description": "Cotton promotional tee.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "ws-jh001",
+      "sku": "JH001",
+      "name": "Winning Spirit Hoodie",
+      "brand": "Winning Spirit",
+      "supplier": "winning-spirit",
+      "category": "hoodies",
+      "subcategory": "hoodies",
+      "image": "https://static.wixstatic.com/media/c92cd4_48a9c13959284ab0a368a35451929d7c.gif",
+      "sourceUrl": "https://ws-au-imgs.s3.amazonaws.com/2024+catalogue/2024_CATALOGUE.pdf",
+      "priceFrom": null,
+      "description": "Fleece hoodie for teams.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "ws-hve001",
+      "sku": "HVE001",
+      "name": "Winning Spirit Hi-Vis Vest",
+      "brand": "Winning Spirit",
+      "supplier": "winning-spirit",
+      "category": "hivis",
+      "subcategory": "hivis",
+      "image": "https://static.wixstatic.com/media/c92cd4_48a9c13959284ab0a368a35451929d7c.gif",
+      "sourceUrl": "https://ws-au-imgs.s3.amazonaws.com/2024+catalogue/2024_CATALOGUE.pdf",
+      "priceFrom": null,
+      "description": "Safety hi-vis vest.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "ws-ap01",
+      "sku": "AP01",
+      "name": "Winning Spirit Apron",
+      "brand": "Winning Spirit",
+      "supplier": "winning-spirit",
+      "category": "hospitality",
+      "subcategory": "hospitality",
+      "image": "https://static.wixstatic.com/media/c92cd4_48a9c13959284ab0a368a35451929d7c.gif",
+      "sourceUrl": "https://ws-au-imgs.s3.amazonaws.com/2024+catalogue/2024_CATALOGUE.pdf",
+      "priceFrom": null,
+      "description": "Bib apron for hospitality.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "ws-bs01",
+      "sku": "BS01",
+      "name": "Benchmark Scrubs Top",
+      "brand": "Winning Spirit",
+      "supplier": "winning-spirit",
+      "category": "healthcare",
+      "subcategory": "healthcare",
+      "image": "https://static.wixstatic.com/media/c92cd4_48a9c13959284ab0a368a35451929d7c.gif",
+      "sourceUrl": "https://ws-au-imgs.s3.amazonaws.com/2024+catalogue/2024_CATALOGUE.pdf",
+      "priceFrom": null,
+      "description": "Healthcare scrubs top.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    },
+    {
+      "id": "ws-bs02",
+      "sku": "BS02",
+      "name": "Benchmark Scrubs Pant",
+      "brand": "Winning Spirit",
+      "supplier": "winning-spirit",
+      "category": "healthcare",
+      "subcategory": "healthcare",
+      "image": "https://static.wixstatic.com/media/c92cd4_48a9c13959284ab0a368a35451929d7c.gif",
+      "sourceUrl": "https://ws-au-imgs.s3.amazonaws.com/2024+catalogue/2024_CATALOGUE.pdf",
+      "priceFrom": null,
+      "description": "Healthcare scrubs pant.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "5XL"
+      ],
+      "colours": [
+        "Multiple colours available"
+      ]
+    }
+  ]
+}

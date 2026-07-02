@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Computerised Embroidery — Gold Coast short run specialists. Logo embroidery, digitising and workwear supply with 30+ years experience.">
+  <title>Computerised Embroidery | Logo Embroidery & Workwear — Gold Coast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+  <div class="announcement">
+    <p>Short run specialists · No minimum order · <strong>30+ years</strong> on the Gold Coast</p>
+  </div>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <span class="logo__icon" aria-hidden="true">✦</span>
+        <span class="logo__text">Computerised<span>Embroidery</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <a href="shop.html">Shop</a>
+        <a href="designer.html">Design Studio</a>
+        <a href="#services">Services</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header__actions">
+        <a href="checkout.html" class="cart-link">Order <span class="cart-badge" data-cart-count hidden>0</span></a>
+        <a href="tel:0755913383" class="header__phone">07 5591 3383</a>
+        <a href="shop.html" class="btn btn--primary">Shop Now</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Southport, Gold Coast</p>
+          <h1>Custom embroidery &amp; workwear, done right</h1>
+          <p class="hero__lead">Browse 200+ polos, hoodies, caps, hi-vis and uniforms. Add to your order, choose embroidery, and checkout — we'll send you a quote.</p>
+          <div class="hero__cta">
+            <a href="shop.html" class="btn btn--primary btn--lg">Shop Now</a>
+            <a href="#how-it-works" class="btn btn--outline btn--lg">How It Works</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <img src="https://static.wixstatic.com/media/4ec7a30946f041f2a32b90b9175c7410.jpg/v1/fill/w_800,h_600,al_c,q_85,enc_avif,quality_auto/4ec7a30946f041f2a32b90b9175c7410.jpg" alt="Colourful embroidery threads" width="800" height="600" loading="eager">
+          <div class="hero__badge">
+            <strong>30+</strong>
+            <span>Years experience</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-bar">
+      <div class="container trust-bar__grid" id="valueProps"></div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__header">
+          <h2>Expert embroidery for workwear, uniforms &amp; merchandise</h2>
+          <p>From digitising your logo to delivering finished garments — everything under one roof on the Gold Coast.</p>
+        </div>
+        <div class="services-grid" id="servicesGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section--muted" id="how-it-works">
+      <div class="container">
+        <div class="section__header">
+          <h2 id="catalogueHeadline">Choose from thousands of garments</h2>
+          <p id="catalogueSummary">Browse any supplier catalogue, pick your styles, and send us the details. We order the clothing in and embroider your logo.</p>
+        </div>
+        <div class="order-flow order-flow--home" id="orderFlow"></div>
+        <div class="catalogue-preview" id="cataloguePreview"></div>
+        <div class="catalogue-preview__cta">
+          <a href="shop.html" class="btn btn--primary btn--lg">Browse All Products</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="container">
+        <div class="section__header">
+          <h2>What clothing can you order?</h2>
+          <p>Click a category to see which catalogues stock it.</p>
+        </div>
+        <div class="category-grid" id="categoryGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section--dark" id="sectors">
+      <div class="container">
+        <div class="section__header section__header--light">
+          <h2>Shop by sector</h2>
+          <p>Uniform and embroidery solutions tailored to your industry.</p>
+        </div>
+        <div class="sector-grid" id="sectorGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section--muted">
+      <div class="container">
+        <div class="section__header">
+          <h2>3 easy ways to order</h2>
+        </div>
+        <div class="order-methods">
+          <article class="order-card">
+            <div class="order-card__num">1</div>
+            <h3>Online quote</h3>
+            <p>Send us your logo, garment choice and quantity. We'll respond with a tailored quote.</p>
+            <ul>
+              <li>No minimum order quantity</li>
+              <li>Short run specialists</li>
+              <li>Fast local turnaround</li>
+            </ul>
+            <a href="#quote" class="btn btn--primary">Get a Quote</a>
+          </article>
+          <article class="order-card">
+            <div class="order-card__num">2</div>
+            <h3>By phone</h3>
+            <p>Speak to our team for advice on garments, decoration and placing your order.</p>
+            <ul>
+              <li>Product recommendations</li>
+              <li>Logo and artwork advice</li>
+              <li>End-to-end order support</li>
+            </ul>
+            <a href="tel:0755913383" class="btn btn--outline">07 5591 3383</a>
+          </article>
+          <article class="order-card">
+            <div class="order-card__num">3</div>
+            <h3>Visit our warehouse</h3>
+            <p>Drop in to our Southport warehouse during business hours to discuss your project in person.</p>
+            <ul>
+              <li>Mon–Fri 7:30am – 3:00pm</li>
+              <li>2B 11/13 Olympic Circuit</li>
+              <li>Southport 4215, QLD</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline">Find Us</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-content">
+          <h2>About us</h2>
+          <div id="aboutText"></div>
+        </div>
+        <div class="clients-panel">
+          <h3>Trusted by local businesses</h3>
+          <div class="clients-grid" id="clientsGrid"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--accent" id="quote">
+      <div class="container quote-grid">
+        <div class="quote-info">
+          <h2>Request a quote</h2>
+          <p>Tell us about your project and we'll get back to you with pricing and turnaround details.</p>
+          <div class="quote-details">
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:compemb@onthenet.com.au">compemb@onthenet.com.au</a>
+            </div>
+            <div>
+              <strong>Phone</strong>
+              <a href="tel:0755913383">07 5591 3383</a>
+            </div>
+          </div>
+        </div>
+        <form class="quote-form" id="quoteForm">
+          <p class="quote-form__intro">No time for the builder? Pick a product, upload your logo, and get a quick quote.</p>
+          <div class="form-row">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required placeholder="Your name">
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required placeholder="you@company.com">
+            </label>
+          </div>
+          <div class="form-row">
+            <label>
+              <span>Phone</span>
+              <input type="tel" name="phone" placeholder="04xx xxx xxx">
+            </label>
+            <label>
+              <span>Quantity</span>
+              <input type="number" name="quantity" min="1" value="10" placeholder="e.g. 10">
+            </label>
+          </div>
+          <label>
+            <span>Product</span>
+            <select name="product" id="productSelect" required>
+              <option value="">Select a garment…</option>
+            </select>
+          </label>
+          <div class="form-row">
+            <label>
+              <span>Size</span>
+              <select name="size" id="sizeSelect">
+                <option value="Mixed sizes">Mixed sizes</option>
+              </select>
+            </label>
+            <label>
+              <span>Garment colour</span>
+              <input type="text" name="colour" placeholder="e.g. Navy">
+            </label>
+          </div>
+          <label>
+            <span>Embroidery position</span>
+            <select name="embroidery">
+              <option value="Left chest">Left chest</option>
+              <option value="Right chest">Right chest</option>
+              <option value="Back">Back</option>
+              <option value="Left sleeve">Left sleeve</option>
+              <option value="Cap front">Cap front</option>
+              <option value="Not sure">Not sure — advise me</option>
+            </select>
+          </label>
+          <label>
+            <span>Upload logo <small>(300 DPI PNG/JPG/PDF recommended)</small></span>
+            <input type="file" name="artwork" id="quoteArtwork" accept="image/png,image/jpeg,image/webp,.pdf,.ai,.eps">
+            <span class="upload-hint" id="quoteUploadHint"></span>
+          </label>
+          <label>
+            <span>Additional notes</span>
+            <textarea name="message" rows="3" placeholder="Deadline, thread colours, special instructions…"></textarea>
+          </label>
+          <p class="quote-pricing-hint">Guide: ~$45 one-off digitizing + ~$15 per garment embroidery (varies by size)</p>
+          <button type="submit" class="btn btn--primary btn--lg btn--full">Send Quote Request</button>
+          <p class="form-success" id="formSuccess" hidden>Thanks! We'll be in touch shortly.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact &amp; warehouse</h2>
+          <address>
+            <p><strong>Computerised Embroidery</strong></p>
+            <p>2B 11/13 Olympic Circuit<br>Southport 4215, QLD</p>
+            <p><a href="mailto:compemb@onthenet.com.au">compemb@onthenet.com.au</a></p>
+            <p>Ph: <a href="tel:0755913383">07 5591 3383</a></p>
+            <p>Fax: 07 5591 3361</p>
+          </address>
+          <div class="hours">
+            <h3>Opening hours</h3>
+            <p>Monday – Friday: 7:30am – 3:00pm</p>
+            <p>Saturday &amp; Sunday: Closed</p>
+          </div>
+        </div>
+        <div class="map-wrap">
+          <iframe
+            title="Computerised Embroidery location"
+            src="https://maps.google.com/maps?q=2B+11%2F13+Olympic+Circuit+Southport+4215+QLD&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="logo__text">Computerised<span>Embroidery</span></span>
+        <p>Short run embroidery specialists · Southport, Gold Coast</p>
+      </div>
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <a href="#services">Services</a>
+        <a href="shop.html">Shop</a>
+        <a href="#about">About</a>
+        <a href="#quote">Quote</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer__copy">&copy; <span id="year"></span> Computerised Embroidery. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="module">
+    import { updateCartBadge } from './js/cart.js';
+    updateCartBadge();
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>

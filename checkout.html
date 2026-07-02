@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout | Computerised Embroidery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__icon" aria-hidden="true">✦</span>
+        <span class="logo__text">Computerised<span>Embroidery</span></span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="shop.html">Shop</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <div class="header__actions">
+        <a href="checkout.html" class="cart-link nav--active">
+          Order <span class="cart-badge" data-cart-count hidden>0</span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="checkout-page">
+    <div class="container checkout-layout">
+      <section class="checkout-cart">
+        <h1>Your order</h1>
+        <p class="checkout-lead">Review your items, then submit for a quote. No payment required now — we'll confirm pricing and turnaround by email or phone.</p>
+
+        <div id="cartEmpty" class="cart-empty" hidden>
+          <p>Your order is empty.</p>
+          <a href="shop.html" class="btn btn--primary btn--lg">Browse Products</a>
+        </div>
+
+        <div class="cart-items" id="cartItems"></div>
+
+        <div class="order-summary" id="orderSummary" hidden>
+          <div class="order-summary__row">
+            <span>Line items</span>
+            <strong id="summaryItems">0</strong>
+          </div>
+          <div class="order-summary__row">
+            <span>Total pieces</span>
+            <strong id="summaryQty">0</strong>
+          </div>
+          <div class="order-summary__row">
+            <span>Guide decoration</span>
+            <strong id="summaryDecor">~$45 + $15/pc</strong>
+          </div>
+          <div class="order-summary__row order-summary__total">
+            <span>Garments + final total</span>
+            <strong>Quoted on request</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="checkout-form-wrap">
+        <form id="checkoutForm" class="checkout-form" hidden>
+          <h2>Your details</h2>
+          <label>
+            <span>Full name</span>
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required>
+          </label>
+          <div class="form-row">
+            <label>
+              <span>Phone</span>
+              <input type="tel" name="phone" required>
+            </label>
+            <label>
+              <span>Company (optional)</span>
+              <input type="text" name="company">
+            </label>
+          </div>
+          <label>
+            <span>Delivery address</span>
+            <textarea name="address" rows="2" placeholder="Street, suburb, postcode"></textarea>
+          </label>
+          <label>
+            <span>Upload logo <small>(300 DPI — if not already in order)</small></span>
+            <input type="file" name="extraArtwork" accept="image/png,image/jpeg,image/webp,.pdf,.ai,.eps">
+          </label>
+          <label>
+            <span>Order notes</span>
+            <textarea name="notes" rows="3" placeholder="Deadline, logo file details, special instructions…"></textarea>
+          </label>
+          <p class="checkout-note">By placing this order you request a quote. We'll confirm garment availability, embroidery pricing and delivery timeframe before any work begins.</p>
+          <button type="submit" class="btn btn--primary btn--lg btn--full">Place Order &amp; Request Quote</button>
+        </form>
+
+        <div id="orderSuccess" class="order-success" hidden>
+          <h2>Order submitted!</h2>
+          <p>Your email client should open with the order details. If it didn't, email us at <a href="mailto:compemb@onthenet.com.au">compemb@onthenet.com.au</a> or call <a href="tel:0755913383">07 5591 3383</a>.</p>
+          <a href="shop.html" class="btn btn--primary">Continue Shopping</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">&copy; <span id="year"></span> Computerised Embroidery</p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/checkout.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Studio | Computerised Embroidery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="shop.css">
+  <link rel="stylesheet" href="designer.css">
+</head>
+<body class="designer-body">
+  <header class="designer-header">
+    <a href="index.html" class="logo">
+      <span class="logo__icon">✦</span>
+      <span class="logo__text">Computerised<span>Embroidery</span></span>
+    </a>
+    <h1>Design Studio</h1>
+    <div class="designer-header__actions">
+      <a href="checkout.html" class="cart-link">Order <span class="cart-badge" data-cart-count hidden>0</span></a>
+      <button type="button" class="btn btn--outline" id="saveDesign">Save to Order</button>
+      <button type="button" class="btn btn--primary" id="addToOrder">Add to Order</button>
+    </div>
+  </header>
+
+  <div class="designer-layout">
+    <aside class="designer-panel designer-panel--left">
+      <section class="panel-block">
+        <h2>Product</h2>
+        <select id="productSelect" class="designer-select"></select>
+        <a href="#" id="changeProduct" class="panel-link">Browse all products</a>
+      </section>
+
+      <section class="panel-block">
+        <h2>Garment colour</h2>
+        <input type="text" id="garmentColour" class="designer-input" placeholder="e.g. Black, Navy">
+      </section>
+
+      <section class="panel-block">
+        <h2>Size &amp; quantity</h2>
+        <div class="panel-row">
+          <select id="sizeSelect" class="designer-select"></select>
+          <input type="number" id="qtyInput" class="designer-input" min="1" value="10">
+        </div>
+      </section>
+
+      <section class="panel-block">
+        <h2>Locations</h2>
+        <div class="view-tabs" id="viewTabs"></div>
+      </section>
+    </aside>
+
+    <main class="designer-canvas-wrap">
+      <div class="canvas-toolbar">
+        <button type="button" class="tool-btn" id="uploadBtn">+ Upload artwork</button>
+        <input type="file" id="artworkInput" accept="image/png,image/jpeg,image/webp,image/svg+xml,.pdf,.ai,.eps" hidden>
+        <button type="button" class="tool-btn" id="zoomOut">−</button>
+        <span id="zoomLevel">100%</span>
+        <button type="button" class="tool-btn" id="zoomIn">+</button>
+        <button type="button" class="tool-btn" id="centerDesign">Centre</button>
+        <button type="button" class="tool-btn" id="removeDesign" hidden>Remove design</button>
+      </div>
+      <div class="canvas-stage" id="canvasStage">
+        <canvas id="designCanvas" width="500" height="560"></canvas>
+        <p class="canvas-hint" id="canvasHint">Upload your logo to get started — 300 DPI recommended</p>
+      </div>
+      <div class="processing-overlay" id="processingOverlay" hidden>
+        <div class="processing-box">
+          <div class="spinner"></div>
+          <p id="processingText">Processing artwork…</p>
+        </div>
+      </div>
+    </main>
+
+    <aside class="designer-panel designer-panel--right">
+      <section class="panel-block">
+        <h2>Embroidery</h2>
+        <p class="panel-desc">Premium stitched decoration — great for logos and simple designs.</p>
+        <label class="panel-label">
+          Thread colours in design
+          <select id="threadCount">
+            <option value="1">1 colour</option>
+            <option value="2">2 colours</option>
+            <option value="3">3 colours</option>
+            <option value="4">4 colours</option>
+            <option value="5">5 colours</option>
+            <option value="6">6 colours</option>
+            <option value="7">7 colours</option>
+            <option value="8">8 colours</option>
+            <option value="9+">9+ colours</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="panel-block artwork-panel" id="artworkPanel" hidden>
+        <h2>Your artwork</h2>
+        <img id="artworkThumb" alt="Uploaded artwork">
+        <ul class="artwork-meta" id="artworkMeta"></ul>
+        <p class="artwork-digitize" id="digitizeStatus"></p>
+      </section>
+
+      <section class="panel-block pricing-panel">
+        <h2>Guide pricing</h2>
+        <div class="price-line"><span>Digitizing (one-off)</span><strong>~$45</strong></div>
+        <div class="price-line"><span>Embroidery per garment</span><strong>~$15</strong></div>
+        <div class="price-line price-line--total"><span>Est. decoration</span><strong id="priceTotal">$0</strong></div>
+        <p class="price-note">Garment cost quoted separately. Final price may vary by logo size.</p>
+      </section>
+
+      <section class="panel-block">
+        <label class="copyright-check">
+          <input type="checkbox" id="copyrightCheck">
+          I own the rights to this artwork and authorise embroidery production.
+        </label>
+      </section>
+
+      <section class="panel-block panel-block--muted">
+        <h3>Artwork requirements</h3>
+        <ul class="req-list">
+          <li><strong>300 DPI</strong> PNG or vector (AI, PDF, EPS)</li>
+          <li>High resolution — crisp when zoomed in</li>
+          <li>Solid colours work best for embroidery</li>
+          <li>We keep your <strong>original file</strong> plus an auto-digitized preview</li>
+        </ul>
+        <a href="index.html#quote" class="panel-link">Or skip the builder — quick quote →</a>
+      </section>
+    </aside>
+  </div>
+
+  <script type="module" src="js/designer.js"></script>
+</body>
+</html>

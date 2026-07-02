@@ -1,0 +1,249 @@
+{
+  "business": {
+    "name": "Computerised Embroidery",
+    "tagline": "Short run specialists on the Gold Coast",
+    "description": "Over 30 years of experience in logo embroidery, digitising and supplying workwear. Located in Southport, we tailor every job — no order too small or too large.",
+    "location": "2B 11/13 Olympic Circuit, Southport 4215, QLD",
+    "email": "compemb@onthenet.com.au",
+    "phone": "07 5591 3383",
+    "fax": "07 5591 3361",
+    "hours": {
+      "weekdays": "Monday – Friday: 7:30am – 3:00pm",
+      "saturday": "Saturday: Closed",
+      "sunday": "Sunday: Closed"
+    }
+  },
+  "catalogueModel": {
+    "headline": "Choose from thousands of garments — we source & embroider",
+    "summary": "We don't list every item on our website because the range is massive. Browse any catalogue below, pick your styles, and send us the details. We order the clothing in and embroider your logo.",
+    "note": "If you can find it in these catalogues, we can get it for you."
+  },
+  "orderSteps": [
+    {
+      "step": 1,
+      "title": "Browse & pick products",
+      "description": "Shop 200+ garments from JB's Wear, Biz Collection, Headwear, AS Colour, DNC and Winning Spirit — all on our site."
+    },
+    {
+      "step": 2,
+      "title": "Add to your order",
+      "description": "Choose size, colour, quantity and where you want your logo embroidered. Add as many items as you need."
+    },
+    {
+      "step": 3,
+      "title": "Checkout",
+      "description": "Enter your details and submit your order. No payment now — we send you a full quote for garments plus embroidery."
+    },
+    {
+      "step": 4,
+      "title": "We source & embroider",
+      "description": "Once you approve the quote, we order the clothing from our suppliers, embroider your logo, and deliver."
+    }
+  ],
+  "catalogues": [
+    {
+      "id": "jbs-wear",
+      "name": "JB's Wear",
+      "type": "online",
+      "typeLabel": "Online Catalogue",
+      "featured": true,
+      "description": "Industry-leading Australian workwear — corporate attire, hospitality uniforms, school clothing, sporting clubs and casual wear.",
+      "catalogueUrl": "https://www.jbswear.com.au/general/catalogue",
+      "website": "https://www.jbswear.com.au/",
+      "image": "https://static.wixstatic.com/media/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg/v1/fill/w_420,h_152,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_23bfd9f9e21b4e4aaed99f5e1a76b01f.jpg",
+      "ranges": ["Polos & shirts", "Hoodies & fleece", "Hi-vis workwear", "Hospitality", "School uniforms", "Bags & accessories"],
+      "categories": ["workwear", "corporate", "hospitality", "schools", "hivis"]
+    },
+    {
+      "id": "biz-collection",
+      "name": "Biz Collection",
+      "type": "search",
+      "typeLabel": "Product Search",
+      "featured": true,
+      "description": "Quality uniforms, teamwear and promotional apparel. Search by style — polos, tees, hospitality, healthcare, industrial and more.",
+      "catalogueUrl": "https://www.fashionbiz.com.au/product-search?brand=biz-collection&redirectedBy=biz-collection",
+      "website": "https://www.bizcollection.com.au/",
+      "image": "https://static.wixstatic.com/media/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg/v1/crop/x_215,y_341,w_300,h_53/fill/w_347,h_74,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_c50c0a6c5001491cbf073f7a1ded83eb~mv2.jpg",
+      "ranges": ["Polos", "Tees & shirting", "Hospitality", "Healthcare scrubs", "Industrial", "Jackets & knitwear", "Activewear"],
+      "categories": ["corporate", "hospitality", "healthcare", "industrial"]
+    },
+    {
+      "id": "headwear",
+      "name": "The Headwear Professionals",
+      "type": "online",
+      "typeLabel": "Online Shop",
+      "featured": true,
+      "description": "Caps, bucket hats, beanies and visors — corporate, sporting, licensed or retail. Hundreds of styles with style codes for easy ordering.",
+      "catalogueUrl": "https://qld.headwear.com.au/",
+      "website": "https://qld.headwear.com.au/",
+      "image": "https://static.wixstatic.com/media/c92cd4_bd963b52e9df43ce9704bb25c72da1ad~mv2.jpg/v1/fill/w_472,h_200,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c92cd4_bd963b52e9df43ce9704bb25c72da1ad~mv2.jpg",
+      "ranges": ["Caps", "Bucket hats", "Beanies", "Hi-vis headwear", "Kids caps", "Custom headwear"],
+      "categories": ["headwear", "corporate", "sportswear"]
+    },
+    {
+      "id": "winning-spirit",
+      "name": "Winning Spirit",
+      "type": "pdf",
+      "typeLabel": "PDF Catalogue",
+      "featured": true,
+      "description": "Leading promotional clothing since 1993. Healthcare, hospitality, industrial, sports, corporate and lifestyle — includes Winning Spirit, Benchmark and AIW brands.",
+      "catalogueUrl": "https://ws-au-imgs.s3.amazonaws.com/2024+catalogue/2024_CATALOGUE.pdf",
+      "website": "https://www.winningspirit.com.au/",
+      "image": "https://static.wixstatic.com/media/c92cd4_48a9c13959284ab0a368a35451929d7c.gif",
+      "ranges": ["Corporate uniforms", "Healthcare", "Hospitality", "Industrial workwear", "Sportswear", "Casual & lifestyle"],
+      "categories": ["corporate", "healthcare", "hospitality", "sportswear", "hivis"]
+    },
+    {
+      "id": "dnc-workwear",
+      "name": "DNC Workwear",
+      "type": "pdf",
+      "typeLabel": "PDF Catalogue",
+      "featured": true,
+      "description": "Over 1,000 workwear products with innovative designs and New Tech Fabrics. Hi-vis, industrial and trade clothing built to Australian standards.",
+      "catalogueUrl": "https://www.dncworkwear.com.au/documents/Catalogue13.pdf",
+      "website": "https://www.dncworkwear.com.au/",
+      "image": "https://static.wixstatic.com/media/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg/v1/crop/x_14,y_0,w_281,h_306,q_80,enc_avif,quality_auto/c92cd4_b5fdcd8768b24d5c8620a648b7725f44~mv2.jpg",
+      "ranges": ["Hi-vis vests & shirts", "Trade pants & shorts", "Jackets & wet weather", "Polo & work shirts", "Coveralls", "Accessories"],
+      "categories": ["workwear", "hivis", "construction", "industrial"]
+    },
+    {
+      "id": "as-colour",
+      "name": "AS Colour",
+      "type": "online",
+      "typeLabel": "Online Shop",
+      "featured": true,
+      "description": "Premium blank apparel built to last — t-shirts, hoodies, sweats, jackets, headwear and bags. Ideal for retail, events and branded merchandise.",
+      "catalogueUrl": "https://www.ascolour.com.au/",
+      "website": "https://www.ascolour.com.au/",
+      "image": "https://static.wixstatic.com/media/c92cd4_29d1778fc8874192b96fa7245c10179d~mv2.jpg/v1/fill/w_200,h_200,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c92cd4_29d1778fc8874192b96fa7245c10179d~mv2.jpg",
+      "ranges": ["T-shirts", "Hoodies & sweats", "Headwear", "Jackets", "Bags", "Women's & kids"],
+      "categories": ["polos", "hoodies", "headwear", "retail"]
+    }
+  ],
+  "moreSuppliers": [
+    {
+      "id": "john-kevin",
+      "name": "John Kevin",
+      "catalogueUrl": "http://www.johnkevin.com",
+      "website": "http://www.johnkevin.com",
+      "image": "https://static.wixstatic.com/media/c92cd4_45043cb924e64f489a75f2ccd32a2f37.jpg/v1/fill/w_286,h_286,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c92cd4_45043cb924e64f489a75f2ccd32a2f37.jpg"
+    },
+    {
+      "id": "stencil",
+      "name": "Stencil",
+      "catalogueUrl": "http://www.stencil.net.au/",
+      "website": "http://www.stencil.net.au/",
+      "image": "https://static.wixstatic.com/media/c92cd4_f7e4d61b5b20458e8afb6df107a0c4f0.jpg/v1/fill/w_272,h_130,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_f7e4d61b5b20458e8afb6df107a0c4f0.jpg"
+    },
+    {
+      "id": "legend-life",
+      "name": "Legend Life",
+      "catalogueUrl": "https://www.legendlife.com.au/",
+      "website": "https://www.legendlife.com.au/",
+      "image": "https://static.wixstatic.com/media/c92cd4_b7dde376e1aa4ad7905197ca61bafd63.jpg/v1/crop/x_91,y_93,w_333,h_110/fill/w_324,h_116,al_c,lg_1,q_80,enc_avif,quality_auto/c92cd4_b7dde376e1aa4ad7905197ca61bafd63.jpg"
+    }
+  ],
+  "services": [
+    {
+      "id": "embroidery",
+      "title": "Logo Embroidery",
+      "description": "Premium stitched decoration with precision and durability. Chest, back, sleeves and more — built to withstand repeated commercial washing.",
+      "features": [
+        "Fine detail and multi-colour designs",
+        "State-of-the-art industrial machinery",
+        "Short runs welcome — no minimum order"
+      ]
+    },
+    {
+      "id": "digitising",
+      "title": "Digitising",
+      "description": "We convert your artwork into embroidery-ready files with expert attention to stitch density, underlay and colour accuracy.",
+      "features": [
+        "Logo optimisation before production",
+        "Consistent results on every reorder",
+        "Fast turnaround for new designs"
+      ]
+    },
+    {
+      "id": "workwear",
+      "title": "Workwear Supply",
+      "description": "We source garments from Australia's leading uniform brands, then embroider and deliver — you pick from the catalogues, we handle the rest.",
+      "features": [
+        "Access to 6+ major supplier catalogues",
+        "Corporate, hospitality, healthcare & industrial",
+        "Caps, polos, jackets, hi-vis and more"
+      ]
+    }
+  ],
+  "valueProps": [
+    {
+      "icon": "scissors",
+      "title": "Short Run Specialists",
+      "description": "No job too small. Order one piece or hundreds — we specialise in flexible, fast-turnaround embroidery."
+    },
+    {
+      "icon": "clock",
+      "title": "30+ Years Experience",
+      "description": "Three decades of industry expertise with cutting-edge equipment and a dedicated local team."
+    },
+    {
+      "icon": "check",
+      "title": "Every Order Checked",
+      "description": "Each stitch is executed with precision. We review every job before production to ensure the best result."
+    },
+    {
+      "icon": "heart",
+      "title": "Family-Run & Local",
+      "description": "A Southport business supporting the Gold Coast community with quality craftsmanship you can trust."
+    }
+  ],
+  "categories": [
+    { "name": "Polos & Shirts", "slug": "polos", "icon": "👔", "filter": "corporate" },
+    { "name": "Hoodies & Fleece", "slug": "hoodies", "icon": "🧥", "filter": "hoodies" },
+    { "name": "Caps & Headwear", "slug": "headwear", "icon": "🧢", "filter": "headwear" },
+    { "name": "Hi-Vis & Workwear", "slug": "hivis", "icon": "🦺", "filter": "hivis" },
+    { "name": "Corporate Uniforms", "slug": "corporate", "icon": "💼", "filter": "corporate" },
+    { "name": "Hospitality", "slug": "hospitality", "icon": "🍽️", "filter": "hospitality" },
+    { "name": "Healthcare", "slug": "healthcare", "icon": "🏥", "filter": "healthcare" },
+    { "name": "Sportswear", "slug": "sportswear", "icon": "⚽", "filter": "sportswear" },
+    { "name": "Schools & Clubs", "slug": "schools", "icon": "🎓", "filter": "schools" },
+    { "name": "Industrial", "slug": "industrial", "icon": "🔧", "filter": "industrial" }
+  ],
+  "sectors": [
+    { "name": "Construction", "slug": "construction" },
+    { "name": "Corporate", "slug": "corporate" },
+    { "name": "Hospitality", "slug": "hospitality" },
+    { "name": "Healthcare", "slug": "healthcare" },
+    { "name": "Sport & Fitness", "slug": "sport" },
+    { "name": "Schools & Childcare", "slug": "schools" },
+    { "name": "Marine & Tourism", "slug": "marine" },
+    { "name": "Retail & Promotional", "slug": "retail" }
+  ],
+  "clients": [
+    {
+      "name": "Emerald Lakes",
+      "image": "https://static.wixstatic.com/media/c92cd4_b104ce0559c740279b77378a3ba79d78~mv2.jpg/v1/fill/w_200,h_118,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Emerald%2BLakes%2Bnew%2Blogo-03%2B-%2BBlue.jpg"
+    },
+    {
+      "name": "Spirit Marine QLD",
+      "image": "https://static.wixstatic.com/media/c92cd4_9826570b4aeb42229dce32fcc15a3594~mv2.jpg/v1/fill/w_180,h_180,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/spirit_marine_qld_logo.jpg"
+    },
+    {
+      "name": "Client",
+      "image": "https://static.wixstatic.com/media/c92cd4_b83d39a59a0448f081febea6090f0019~mv2.png/v1/fill/w_200,h_71,al_c,q_85,enc_avif,quality_auto/c92cd4_b83d39a59a0448f081febea6090f0019~mv2.png"
+    },
+    {
+      "name": "Client",
+      "image": "https://static.wixstatic.com/media/c92cd4_7c3ba342cc414bbaad3e18f100ac6c3f.png/v1/fill/w_180,h_180,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c92cd4_7c3ba342cc414bbaad3e18f100ac6c3f.png"
+    }
+  ],
+  "about": {
+    "headline": "Decades of expertise. Cutting-edge technology.",
+    "paragraphs": [
+      "Welcome to Computerised Embroidery, where decades of industry expertise meet cutting-edge technology to bring your embroidery visions to life. With over 30 years of dedicated service, we pride ourselves on being pioneers in the art of computerised embroidery.",
+      "Our journey began with a passion for precision and a commitment to excellence. Over the years, we have evolved alongside advancements in industrial machinery, ensuring our state-of-the-art equipment remains at the forefront of innovation.",
+      "Whether you're a small business adding branding to uniforms or a large corporation needing custom merchandise, we tailor our services to suit your unique requirements. No job is too small or too large for our dedicated team.",
+      "As a local, family-run business, we take great pride in supporting our community. Each stitch is executed with precision, ensuring every piece meets the highest standards of excellence."
+    ]
+  }
+}

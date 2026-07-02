@@ -1,0 +1,13 @@
+node_modules/
+uploads/original/*
+uploads/preview/*
+uploads/digitize/*
+!uploads/original/.gitkeep
+!uploads/preview/.gitkeep
+!uploads/digitize/.gitkeep
+data/orders/*
+!data/orders/.gitkeep
+.env
+.DS_Store
+Thumbs.db
+*.log
