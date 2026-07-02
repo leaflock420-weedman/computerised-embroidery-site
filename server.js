@@ -53,6 +53,36 @@ function listJobs() {
     .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
 }
 
+function publicJobStatus(job) {
+  const base = {
+    id: job.id,
+    status: job.status,
+    stitchCount: job.stitchCount,
+    colorCount: job.colorCount,
+  };
+  if (job.status === 'processing') {
+    base.message = 'Our team is preparing your embroidery files…';
+  } else if (job.status === 'ready' || job.status === 'approved') {
+    base.message = `✓ Design received (${(job.stitchCount || 0).toLocaleString()} stitches, ${job.colorCount || '?'} colours). Our team will handle production.`;
+  } else if (job.status === 'failed') {
+    base.message = 'Design saved — our team will prepare production files manually.';
+  }
+  return base;
+}
+
+function publicUploadMeta(meta) {
+  const {
+    dstUrl, pesUrl, jefUrl, stitchPreviewUrl,
+    ...safe
+  } = meta;
+  if (safe.digitizeNote && /DST|PES|JEF|Production Hub/i.test(safe.digitizeNote)) {
+    safe.digitizeNote = safe.stitchCount
+      ? `Design received (${safe.stitchCount} stitches). Our team will handle production.`
+      : 'Sent to our team for embroidery production.';
+  }
+  return safe;
+}
+
 function runAutoDigitize(inputPath, jobId) {
   return new Promise((resolve, reject) => {
     const script = path.join(ROOT, 'scripts', 'auto-digitize.py');
@@ -145,15 +175,16 @@ async function processArtwork(filePath, originalName, clientMeta = {}) {
         meta.jefUrl = job.files?.jef;
         meta.stitchPreviewUrl = job.files?.preview;
         meta.stitchCount = job.stitchCount;
-        meta.digitizeNote = `Auto-digitized: ${job.stitchCount} stitches, ${job.colorCount} colours. Review in Production Hub.`;
+        meta.colorCount = job.colorCount;
+        meta.digitizeNote = `Design received (${job.stitchCount} stitches). Our team will handle production.`;
       } else if (job.error) {
-        meta.digitizeNote = `Preview ready. Production digitize pending: ${job.error}`;
+        meta.digitizeNote = 'Design saved — our team will prepare production files.';
       }
       fs.writeFileSync(path.join(UPLOADS, 'digitize', `${id}.json`), JSON.stringify(meta, null, 2));
     });
 
-    meta.digitizeNote = 'Processing production files (DST/PES/JEF)…';
-    return meta;
+    meta.digitizeNote = 'Sent to our team for embroidery production.';
+    return publicUploadMeta(meta);
   } catch (err) {
     meta.error = err.message;
     meta.digitizeNote = 'Could not auto-process — original saved for manual digitizing.';
@@ -170,7 +201,7 @@ app.post('/api/upload-artwork', upload.single('artwork'), async (req, res) => {
   try {
     const clientMeta = req.body.meta ? JSON.parse(req.body.meta) : {};
     const result = await processArtwork(req.file.path, req.file.originalname, clientMeta);
-    res.json({ ...result, clientMeta });
+    res.json({ ...publicUploadMeta(result), clientMeta });
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
@@ -179,7 +210,7 @@ app.post('/api/upload-artwork', upload.single('artwork'), async (req, res) => {
 app.get('/api/digitize-status/:id', (req, res) => {
   const job = loadJob(req.params.id);
   if (!job) return res.status(404).json({ error: 'Job not found' });
-  res.json(job);
+  res.json(publicJobStatus(job));
 });
 
 app.post('/api/export-design', (req, res) => {
@@ -195,9 +226,8 @@ app.post('/api/export-design', (req, res) => {
 
   archive.append(JSON.stringify(spec, null, 2), { name: 'embroidery-spec.json' });
   archive.append(
-    'Computerised Embroidery — production package.\n' +
-    'DST/PES/JEF files are in the Production Hub after auto-digitizing.\n' +
-    'Workers: open /admin.html to review and download machine files.\n',
+    'Computerised Embroidery — design preview package.\n' +
+    'Machine embroidery files are prepared by our team after you place your order.\n',
     { name: 'README.txt' },
   );
   views.forEach(v => {

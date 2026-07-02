@@ -1,5 +1,7 @@
 /** Build embroidery-ready export package (Spreadshirt / Ember style). */
 
+import { drawTintedGarment } from './mockups.js';
+
 const PROD_WIDTH_MM = 100;
 const EXPORT_DPI = 300;
 
@@ -52,8 +54,7 @@ export function buildEmbroiderySpec({
       targetDpi: EXPORT_DPI,
       defaultWidthMm: PROD_WIDTH_MM,
       formats: ['PNG artwork @ 300 DPI', 'Placement mockups', 'JSON spec'],
-      machineFiles: 'DST/PES/JEF — use Ember digitizer or our manual digitizing service',
-      emberUrl: 'https://emberdesign.net/',
+      note: 'Machine embroidery files prepared by Computerised Embroidery team after order.',
     },
     views: views || [],
   };
@@ -92,15 +93,8 @@ export async function renderPlacementMockup({
     const ih = mockupImg.height * ratio;
     const ix = (canvasW - iw) / 2;
     const iy = (canvasH - ih) / 2;
-    cx.drawImage(mockupImg, ix, iy, iw, ih);
-    if (mockupKind === 'photo' && tint) {
-      cx.globalCompositeOperation = 'multiply';
-      cx.fillStyle = tint;
-      cx.globalAlpha = 0.4;
-      cx.fillRect(ix, iy, iw, ih);
-      cx.globalAlpha = 1;
-      cx.globalCompositeOperation = 'source-over';
-    }
+    if (tint) drawTintedGarment(cx, mockupImg, ix, iy, iw, ih, tint, mockupKind);
+    else cx.drawImage(mockupImg, ix, iy, iw, ih);
   }
 
   if (artworkImg) {

@@ -2,10 +2,11 @@ import { addToCart, updateCartBadge } from './cart.js';
 import { validateArtworkFile, uploadArtwork } from './artwork.js';
 import { estimateOrderTotal } from './pricing.js';
 import { getProductImage } from './images.js';
-import { loadGarmentMockup, retintGarmentMockup, clearMockupCache } from './mockups.js';
+import { loadGarmentMockup, clearMockupCache, drawTintedGarment } from './mockups.js';
+import { detectInkColor } from './recolor-artwork.js';
 import { removeBackground } from './remove-background.js';
 import { recolorArtworkToImage } from './recolor-artwork.js';
-import { exportEmbroideryPackage } from './export-design.js';
+
 
 const VIEWS = {
   default: ['Front', 'Back', 'Left', 'Right'],
@@ -56,6 +57,7 @@ let artworkImgOriginal = null;
 let artworkImgBase = null;
 let bgRemoved = false;
 let artworkRecolor = { mode: 'none', hue: 0, color: '#1e293b', intensity: 100 };
+let detectedInkColor = null;
 let transform = { x: 250, y: 280, scale: 0.45, rotation: 0 };
 let zoom = 1;
 let dragging = false;
@@ -94,20 +96,14 @@ async function loadBlankMockup(clearCache = false) {
   mockupImg = null;
   mockupKind = 'svg';
   try {
-    const loaded = await loadGarmentMockup(product, getGarmentFill());
+    const loaded = await loadGarmentMockup(product);
     mockupImg = loaded.img;
     mockupKind = loaded.kind;
   } catch (_) {}
 }
 
-async function updateGarmentColour() {
-  try {
-    const loaded = await retintGarmentMockup(product, getGarmentFill());
-    mockupImg = loaded.img;
-    scheduleDraw();
-  } catch (_) {
-    scheduleDraw();
-  }
+function updateGarmentColour() {
+  scheduleDraw();
 }
 
 function populateThreadSwatches() {
@@ -143,7 +139,9 @@ async function applyArtworkRecolor() {
     artworkImg = artworkImgBase;
     document.getElementById('artworkThumb').src = artworkImgBase.src;
   } else {
-    artworkImg = await recolorArtworkToImage(artworkImgBase, artworkRecolor);
+    const opts = { ...artworkRecolor };
+    if (mode === 'solid' && detectedInkColor) opts.inkColor = detectedInkColor;
+    artworkImg = await recolorArtworkToImage(artworkImgBase, opts);
     document.getElementById('artworkThumb').src = artworkImg.src;
   }
   saveCurrentDesign();
@@ -253,7 +251,7 @@ function setDesignUI(hasDesign) {
   document.getElementById('removeDesign').hidden = !hasDesign;
   document.getElementById('canvasHint').hidden = hasDesign;
   document.getElementById('designControls').hidden = !hasDesign;
-  document.getElementById('exportPanel').hidden = !hasDesign;
+  // Export panel hidden — production files are team-only via admin
 }
 
 function syncSliders() {
@@ -417,15 +415,7 @@ function drawBlankMockup(w, h, tint) {
   const ih = mockupImg.height * ratio;
   const ix = (w - iw) / 2;
   const iy = (h - ih) / 2;
-
-  ctx.save();
-  ctx.shadowColor = 'rgba(0,0,0,0.06)';
-  ctx.shadowBlur = 16;
-  ctx.shadowOffsetY = 4;
-  ctx.drawImage(mockupImg, ix, iy, iw, ih);
-  ctx.shadowBlur = 0;
-  ctx.shadowOffsetY = 0;
-  ctx.restore();
+  drawTintedGarment(ctx, mockupImg, ix, iy, iw, ih, tint, mockupKind);
 }
 
 function drawTee(fill, w, h) {
@@ -513,8 +503,10 @@ async function handleUpload(file) {
   artworkImgOriginal = artworkImg;
   artworkImgBase = artworkImg;
   bgRemoved = false;
+  detectedInkColor = null;
   resetBgRemoveUI();
   resetArtworkRecolorUI();
+  detectInkFromImage(artworkImg);
   artwork = { id: 'local-' + Date.now(), fileName: file.name, previewUrl: localUrl, validation };
 
   const zone = getZone(currentView, canvas.width, canvas.height);
@@ -528,7 +520,9 @@ async function handleUpload(file) {
     validation.dpi ? `<li>Est. ${validation.dpi} DPI</li>` : '',
     ...validation.warnings.map(w => `<li class="warn">${w}</li>`),
   ].filter(Boolean).join('');
-  document.getElementById('digitizeStatus').textContent = 'Preview live — processing in background…';
+  document.getElementById('digitizeStatus').textContent =
+    'Preview live — tick Remove background for logos, then pick a thread colour to replace the outline.';
+  suggestBackgroundRemoval();
 
   const status = document.getElementById('uploadStatus');
   status.hidden = false;
@@ -554,7 +548,7 @@ async function handleUpload(file) {
         }).catch(() => {});
       }
       document.getElementById('digitizeStatus').textContent =
-        result.digitizeNote || 'Auto-digitizing production files (DST/PES/JEF)…';
+        result.digitizeNote || 'Sent to our team for embroidery production.';
       if (result.id) pollProductionStatus(result.id);
       status.textContent = '✓ Artwork uploaded';
       status.className = 'upload-status upload-status--done';
@@ -578,22 +572,36 @@ function pollProductionStatus(jobId, attempt = 0) {
       if (!job) return;
       const el = document.getElementById('digitizeStatus');
       if (job.status === 'processing') {
-        el.textContent = 'Auto-digitizing DST/PES/JEF for production…';
+        el.textContent = job.message || 'Our team is preparing your embroidery files…';
         setTimeout(() => pollProductionStatus(jobId, attempt + 1), 2000);
       } else if (job.status === 'ready' || job.status === 'approved') {
-        el.innerHTML = `✓ <strong>${job.stitchCount?.toLocaleString()}</strong> stitches, ${job.colorCount} colours — ` +
-          `<a href="admin.html">open Production Hub</a> to download machine files.`;
+        el.textContent = job.message ||
+          `✓ Design received (${job.stitchCount?.toLocaleString()} stitches). Our team will handle production.`;
         if (artwork) {
           artwork.productionJobId = job.id;
-          artwork.dstUrl = job.files?.dst;
-          artwork.pesUrl = job.files?.pes;
           artwork.stitchCount = job.stitchCount;
         }
       } else if (job.status === 'failed') {
-        el.textContent = `Production digitize failed: ${job.error}. Workers can retry in Production Hub.`;
+        el.textContent = job.message || 'Design saved — our team will prepare production files manually.';
       }
     })
     .catch(() => setTimeout(() => pollProductionStatus(jobId, attempt + 1), 3000));
+}
+
+function detectInkFromImage(img) {
+  const w = img.naturalWidth || img.width;
+  const h = img.naturalHeight || img.height;
+  const c = document.createElement('canvas');
+  c.width = w;
+  c.height = h;
+  const cx = c.getContext('2d', { willReadFrequently: true });
+  cx.drawImage(img, 0, 0, w, h);
+  detectedInkColor = detectInkColor(cx.getImageData(0, 0, w, h));
+}
+
+function suggestBackgroundRemoval() {
+  const hint = document.getElementById('bgRemoveHint');
+  if (hint) hint.hidden = false;
 }
 
 function loadImage(src) {
@@ -644,6 +652,7 @@ async function applyBackgroundRemoval() {
     artworkImgBase = processed;
     artworkImg = processed;
     bgRemoved = true;
+    detectInkFromImage(processed);
     document.getElementById('artworkThumb').src = dataUrl;
     if (artworkRecolor.mode !== 'none') await applyArtworkRecolor();
     document.getElementById('restoreOriginalBg').hidden = false;
@@ -664,6 +673,7 @@ async function restoreOriginalArtwork() {
   if (!artworkImgOriginal) return;
   artworkImgBase = artworkImgOriginal;
   bgRemoved = false;
+  detectInkFromImage(artworkImgOriginal);
   document.getElementById('removeBgCheck').checked = false;
   document.getElementById('bgToleranceWrap').hidden = true;
   document.getElementById('restoreOriginalBg').hidden = true;
@@ -757,31 +767,6 @@ function bindEvents() {
   });
 
   document.getElementById('restoreOriginalBg').addEventListener('click', restoreOriginalArtwork);
-
-  document.getElementById('exportDesign').addEventListener('click', async () => {
-    if (!artworkImg) { alert('Upload artwork first.'); return; }
-    saveCurrentDesign();
-    const btn = document.getElementById('exportDesign');
-    btn.disabled = true;
-    btn.textContent = 'Preparing…';
-    try {
-      await exportEmbroideryPackage({
-        product,
-        designs,
-        artwork,
-        artworkImg,
-        mockupImg,
-        mockupKind,
-        mockupTint: null,
-        garmentColour: document.getElementById('garmentColour').value || 'Black',
-        threadCount: document.getElementById('threadCount').value,
-        qty: parseInt(document.getElementById('qtyInput').value, 10) || 1,
-      });
-    } finally {
-      btn.disabled = false;
-      btn.textContent = 'Download production pack';
-    }
-  });
 
   document.getElementById('qtyInput').addEventListener('input', updatePricing);
   document.getElementById('threadCount').addEventListener('change', updatePricing);

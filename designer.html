@@ -19,7 +19,6 @@
     </a>
     <h1>Design Studio</h1>
     <div class="designer-header__actions">
-      <a href="admin.html" class="cart-link" title="Production Hub for workers">Production</a>
       <a href="checkout.html" class="cart-link">Order <span class="cart-badge" data-cart-count hidden>0</span></a>
       <button type="button" class="btn btn--outline" id="saveDesign">Save to Order</button>
       <button type="button" class="btn btn--primary" id="addToOrder">Add to Order</button>
@@ -86,6 +85,7 @@
         </label>
 
         <h3 class="panel-subhead">Artwork colour</h3>
+        <p class="panel-desc">Remove background first, then thread colour replaces the main outline/ink.</p>
         <div class="recolor-mode" id="recolorMode">
           <label><input type="radio" name="recolorMode" value="none" checked> Original</label>
           <label><input type="radio" name="recolorMode" value="hue"> Hue shift</label>
@@ -130,6 +130,7 @@
         <img id="artworkThumb" alt="Uploaded artwork">
         <ul class="artwork-meta" id="artworkMeta"></ul>
         <div class="bg-remove-controls" id="bgRemoveControls">
+          <p class="panel-desc bg-remove-hint" id="bgRemoveHint" hidden>Recommended for logos — removes the background so thread colour can replace the outline.</p>
           <label class="bg-remove-toggle">
             <input type="checkbox" id="removeBgCheck">
             Remove background
@@ -141,12 +142,6 @@
           <button type="button" class="tool-btn tool-btn--sm" id="restoreOriginalBg" hidden>Restore original</button>
         </div>
         <p class="artwork-digitize" id="digitizeStatus"></p>
-      </section>
-
-      <section class="panel-block export-panel" id="exportPanel" hidden>
-        <h2>Export for embroidery</h2>
-        <p class="panel-desc">DST/PES/JEF auto-generated on upload. Workers review in <a href="admin.html">Production Hub</a>.</p>
-        <button type="button" class="btn btn--outline btn--block" id="exportDesign">Download production pack</button>
       </section>
 
       <section class="panel-block pricing-panel">

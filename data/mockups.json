@@ -1,10 +1,19 @@
 {
   "bases": {
+    "cap": "assets/mockups/photos/cap-black.jpg",
+    "beanie": "assets/mockups/photos/beanie-black.jpg",
+    "bucket": "assets/mockups/photos/bucket-black.jpg",
+    "tee": "assets/mockups/photos/tee-black.jpg",
+    "polo": "assets/mockups/photos/tee-black.jpg",
+    "hoodie": "assets/mockups/photos/hoodie-black.jpg"
+  },
+  "fallbacks": {
     "cap": "assets/mockups/cap-front.svg",
     "beanie": "assets/mockups/beanie-front.svg",
     "bucket": "assets/mockups/bucket-front.svg",
     "tee": "assets/mockups/tee-front.svg",
+    "polo": "assets/mockups/tee-front.svg",
     "hoodie": "assets/mockups/hoodie-front.svg"
   },
-  "note": "Designer uses one SVG silhouette per garment type and tints it to catalogue colours (Black, Navy, Maroon, etc.). No per-product photo swapping."
+  "note": "One real blank photo per garment shape. Designer tints via canvas overlay — no per-colour image fetching."
 }

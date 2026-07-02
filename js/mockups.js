@@ -1,7 +1,6 @@
-/** One blank mockup per garment shape — tinted live to any catalogue colour. */
+/** Real blank garment photos — tinted live via canvas colour overlay. */
 
-/** Canonical silhouettes (SVG). No per-product or per-colour image swapping. */
-const BASE_MOCKUPS = {
+const FALLBACK_SVG = {
   cap: 'assets/mockups/cap-front.svg',
   beanie: 'assets/mockups/beanie-front.svg',
   bucket: 'assets/mockups/bucket-front.svg',
@@ -10,7 +9,8 @@ const BASE_MOCKUPS = {
   hoodie: 'assets/mockups/hoodie-front.svg',
 };
 
-const baseCache = new Map();
+const photoCache = new Map();
+let basesConfig = null;
 
 export function getMockupType(product) {
   if (!product) return 'tee';
@@ -26,16 +26,19 @@ export function getMockupType(product) {
 }
 
 export function clearMockupCache() {
-  baseCache.clear();
+  photoCache.clear();
+  basesConfig = null;
 }
 
-async function loadBaseSvg(type) {
-  if (baseCache.has(type)) return baseCache.get(type);
-  const src = BASE_MOCKUPS[type] || BASE_MOCKUPS.tee;
-  const res = await fetch(src);
-  const svgText = await res.text();
-  baseCache.set(type, svgText);
-  return svgText;
+async function loadConfig() {
+  if (basesConfig) return basesConfig;
+  try {
+    const res = await fetch('data/mockups.json');
+    basesConfig = await res.json();
+  } catch {
+    basesConfig = { bases: {}, fallbacks: FALLBACK_SVG };
+  }
+  return basesConfig;
 }
 
 function parseHex(hex) {
@@ -47,53 +50,96 @@ function parseHex(hex) {
   ];
 }
 
-/** Map catalogue hex to SVG garment shades (dark / mid / light / highlight). */
-export function tintSvg(svgText, hex) {
-  const [r, g, b] = parseHex(hex);
-  const lum = (r * 0.299 + g * 0.587 + b * 0.114) / 255;
-  const darkMul = lum > 0.65 ? 0.72 : 0.48;
-  const midMul = lum > 0.65 ? 0.88 : 0.76;
-  const dark = `rgb(${Math.round(r * darkMul)},${Math.round(g * darkMul)},${Math.round(b * darkMul)})`;
-  const mid = `rgb(${Math.round(r * midMul)},${Math.round(g * midMul)},${Math.round(b * midMul)})`;
-  const light = `rgb(${Math.min(255, Math.round(r * 0.98 + 8))},${Math.min(255, Math.round(g * 0.98 + 8))},${Math.min(255, Math.round(b * 0.98 + 8))})`;
-  const highlight = `rgb(${Math.min(255, r + 35)},${Math.min(255, g + 35)},${Math.min(255, b + 35)})`;
-  return svgText
-    .replace(/#1a1a1a/gi, dark)
-    .replace(/#1f1f1f/gi, dark)
-    .replace(/#2a2a2a/gi, mid)
-    .replace(/#333333|#333/gi, light)
-    .replace(/#3a3a3a/gi, highlight);
-}
-
-function svgTextToImage(svgText) {
-  const url = URL.createObjectURL(new Blob([svgText], { type: 'image/svg+xml' }));
+function loadImage(src) {
   return new Promise((resolve, reject) => {
     const img = new Image();
-    img.onload = () => {
-      URL.revokeObjectURL(url);
-      resolve(img);
-    };
-    img.onerror = () => {
-      URL.revokeObjectURL(url);
-      reject(new Error('Mockup render failed'));
-    };
-    img.src = url;
+    img.onload = () => resolve(img);
+    img.onerror = () => reject(new Error(`Failed to load ${src}`));
+    img.src = src;
   });
 }
 
-/**
- * Load (or retint) the garment mockup for a product + catalogue colour hex.
- * Base SVG is cached per garment shape; only the tint changes when colour changes.
- */
-export async function loadGarmentMockup(product, colourHex = '#1e293b') {
-  const type = getMockupType(product);
-  const svgText = await loadBaseSvg(type);
-  const tinted = tintSvg(svgText, colourHex);
-  const img = await svgTextToImage(tinted);
-  return { img, kind: 'svg', type };
+async function loadSvgFallback(type) {
+  const config = await loadConfig();
+  const src = config.fallbacks?.[type] || FALLBACK_SVG[type] || FALLBACK_SVG.tee;
+  const res = await fetch(src);
+  const svgText = await res.text();
+  const url = URL.createObjectURL(new Blob([svgText], { type: 'image/svg+xml' }));
+  try {
+    return await loadImage(url);
+  } finally {
+    URL.revokeObjectURL(url);
+  }
 }
 
-/** Fast path when only garment colour changed (same product shape). */
-export async function retintGarmentMockup(product, colourHex) {
-  return loadGarmentMockup(product, colourHex);
+async function loadBasePhoto(type) {
+  if (photoCache.has(type)) return photoCache.get(type);
+  const config = await loadConfig();
+  const src = config.bases?.[type] || config.bases?.tee;
+  let img;
+  try {
+    img = await loadImage(src);
+    photoCache.set(type, { img, kind: 'photo' });
+  } catch {
+    img = await loadSvgFallback(type);
+    photoCache.set(type, { img, kind: 'svg' });
+  }
+  return photoCache.get(type);
+}
+
+/**
+ * Draw garment mockup with live colour overlay (multiply + screen).
+ * Works on black/grey base photos — no per-colour image swap.
+ */
+export function drawTintedGarment(ctx, img, x, y, w, h, hex, kind = 'photo') {
+  ctx.save();
+  ctx.shadowColor = 'rgba(0,0,0,0.06)';
+  ctx.shadowBlur = 16;
+  ctx.shadowOffsetY = 4;
+  ctx.drawImage(img, x, y, w, h);
+  ctx.shadowBlur = 0;
+  ctx.shadowOffsetY = 0;
+
+  if (kind !== 'photo') {
+    ctx.restore();
+    return;
+  }
+
+  const [r, g, b] = parseHex(hex);
+  const lum = (r * 0.299 + g * 0.587 + b * 0.114) / 255;
+  const color = `rgb(${r},${g},${b})`;
+
+  if (lum > 0.82) {
+    ctx.globalCompositeOperation = 'source-atop';
+    ctx.globalAlpha = 0.5;
+    ctx.fillStyle = color;
+    ctx.fillRect(x, y, w, h);
+    ctx.globalCompositeOperation = 'screen';
+    ctx.globalAlpha = 0.45;
+    ctx.fillRect(x, y, w, h);
+  } else {
+    ctx.globalCompositeOperation = 'multiply';
+    ctx.globalAlpha = lum < 0.2 ? 0.9 : 0.72;
+    ctx.fillStyle = color;
+    ctx.fillRect(x, y, w, h);
+    ctx.globalCompositeOperation = 'screen';
+    ctx.globalAlpha = 0.1;
+    ctx.fillRect(x, y, w, h);
+  }
+
+  ctx.globalCompositeOperation = 'source-over';
+  ctx.globalAlpha = 1;
+  ctx.restore();
+}
+
+/** Load base photo for product shape (cached). Tint applied at draw time. */
+export async function loadGarmentMockup(product) {
+  const type = getMockupType(product);
+  const cached = await loadBasePhoto(type);
+  return { img: cached.img, kind: cached.kind, type };
+}
+
+/** Colour changed — same cached photo, redraw only. */
+export async function retintGarmentMockup(product) {
+  return loadGarmentMockup(product);
 }
