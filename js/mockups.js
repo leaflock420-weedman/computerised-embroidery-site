@@ -12,6 +12,7 @@ const FALLBACK_SVG = {
 const photoCache = new Map();
 const tintCache = new Map();
 let basesConfig = null;
+let productBlanks = null;
 
 export function getMockupType(product) {
   if (!product) return 'tee';
@@ -31,6 +32,7 @@ export function clearMockupCache() {
   photoCache.clear();
   tintCache.clear();
   basesConfig = null;
+  productBlanks = null;
 }
 
 async function loadConfig() {
@@ -38,10 +40,21 @@ async function loadConfig() {
   try {
     const res = await fetch('data/mockups.json');
     basesConfig = await res.json();
+    productBlanks = Object.fromEntries(
+      (basesConfig.products || [])
+        .filter(p => p.blankImage && !p.error)
+        .map(p => [p.productId, p.blankImage]),
+    );
   } catch {
-    basesConfig = { bases: {}, fallbacks: FALLBACK_SVG };
+    basesConfig = { bases: {}, fallbacks: FALLBACK_SVG, products: [] };
+    productBlanks = {};
   }
   return basesConfig;
+}
+
+function proxyImageUrl(src) {
+  if (!src || src.startsWith('/') || src.startsWith(location.origin)) return src;
+  return `/api/proxy-image?url=${encodeURIComponent(src)}`;
 }
 
 function parseHex(hex) {
@@ -53,9 +66,10 @@ function parseHex(hex) {
   ];
 }
 
-function loadImage(src) {
+function loadImage(src, crossOrigin = false) {
   return new Promise((resolve, reject) => {
     const img = new Image();
+    if (crossOrigin) img.crossOrigin = 'anonymous';
     img.onload = () => resolve(img);
     img.onerror = () => reject(new Error(`Failed to load ${src}`));
     img.src = src;
@@ -143,10 +157,40 @@ export function drawTintedGarment(ctx, img, x, y, w, h, hex, kind = 'photo') {
   ctx.restore();
 }
 
-export async function loadGarmentMockup(product) {
+async function loadProductPhoto(product) {
+  const config = await loadConfig();
   const type = getMockupType(product);
+  const cacheKey = product?.id || type;
+  if (photoCache.has(cacheKey)) return photoCache.get(cacheKey);
+
+  const blank =
+    productBlanks?.[product?.id]
+    || (product?.image && !/wixstatic\.com/i.test(product.image) ? product.image : null);
+
+  if (blank) {
+    const proxied = proxyImageUrl(blank);
+    try {
+      const img = await loadImage(proxied, true);
+      const entry = { img, kind: 'photo', type, productId: product?.id };
+      photoCache.set(cacheKey, entry);
+      return entry;
+    } catch {
+      try {
+        const img = await loadImage(blank);
+        const entry = { img, kind: 'photo', type, productId: product?.id };
+        photoCache.set(cacheKey, entry);
+        return entry;
+      } catch { /* fall through to type base */ }
+    }
+  }
+
   const cached = await loadBasePhoto(type);
-  return { img: cached.img, kind: cached.kind, type };
+  photoCache.set(cacheKey, cached);
+  return cached;
+}
+
+export async function loadGarmentMockup(product) {
+  return loadProductPhoto(product);
 }
 
 export async function retintGarmentMockup(product) {

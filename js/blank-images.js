@@ -1,4 +1,4 @@
-/** Blank garment images — same rules as Design Studio (no pre-embroidered catalog photos). */
+/** Per-product blank garment images from supplier catalogues (mockups.json). */
 
 import { getMockupType } from './mockups.js';
 
@@ -12,44 +12,66 @@ const TYPE_BLANKS = {
 };
 
 let catalog = null;
+let catalogPromise = null;
 
 async function loadCatalog() {
   if (catalog) return catalog;
-  try {
-    const res = await fetch('data/mockups.json');
-    const data = await res.json();
-    catalog = {
-      byProduct: Object.fromEntries(
-        (data.products || [])
-          .filter(p => p.blankImage && !p.error)
-          .map(p => [p.productId, p.blankImage]),
-      ),
-      bases: data.bases || TYPE_BLANKS,
-    };
-  } catch {
-    catalog = { byProduct: {}, bases: TYPE_BLANKS };
+  if (!catalogPromise) {
+    catalogPromise = (async () => {
+      try {
+        const res = await fetch('data/mockups.json');
+        const data = await res.json();
+        catalog = {
+          byProduct: Object.fromEntries(
+            (data.products || [])
+              .filter(p => p.blankImage && !p.error)
+              .map(p => [p.productId, p.blankImage]),
+          ),
+          bases: data.bases || TYPE_BLANKS,
+        };
+      } catch {
+        catalog = { byProduct: {}, bases: TYPE_BLANKS };
+      }
+      return catalog;
+    })();
   }
-  return catalog;
+  return catalogPromise;
 }
 
-/** Local transparent blank for a product (matches designer mockup type). */
-export function getBlankImageSync(product) {
+/** Warm mockups.json so sync lookups work after first fetch. */
+export function preloadBlankCatalog() {
+  return loadCatalog();
+}
+
+function typeFallback(product) {
   const type = getMockupType(product);
   return TYPE_BLANKS[type] || TYPE_BLANKS.tee;
 }
 
-/** Prefer scraped black variant CDN URL for headwear, else local blank PNG. */
+function resolveBlank(product, byProduct = {}) {
+  if (!product) return TYPE_BLANKS.tee;
+  if (product.image && !isEmbroideredCatalogImage(product.image)) {
+    return product.image;
+  }
+  if (byProduct[product.id]) return byProduct[product.id];
+  return typeFallback(product);
+}
+
+/** Best known blank for a product (catalog must be preloaded for scraped URLs). */
+export function getBlankImageSync(product) {
+  const byProduct = catalog?.byProduct || {};
+  return resolveBlank(product, byProduct);
+}
+
+/** Prefer scraped per-product CDN URL, else product.image, else type PNG. */
 export async function getBlankImage(product) {
   const cat = await loadCatalog();
-  const type = getMockupType(product);
-  if (product?.supplier === 'headwear' && cat.byProduct[product.id]) {
-    return cat.byProduct[product.id];
-  }
-  return cat.bases[type] || TYPE_BLANKS[type] || TYPE_BLANKS.tee;
+  return resolveBlank(product, cat.byProduct);
 }
 
 export function isEmbroideredCatalogImage(url) {
   if (!url) return true;
+  if (/assets\/mockups\/photos\//.test(url)) return false;
   return /hero|mixed|default|main|logo|embroider|sample/i.test(url)
-    && !/black|blk|charcoal/i.test(url);
+    && !/black|blk|charcoal|_bx_|08000000/i.test(url);
 }

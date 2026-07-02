@@ -31,6 +31,48 @@ app.use(express.json({ limit: '50mb' }));
 app.use(express.static(ROOT));
 app.use('/uploads', express.static(UPLOADS));
 
+const PROXY_HOSTS = new Set([
+  'cdn11.bigcommerce.com',
+  'www.jbswear.com.au',
+  'www.winningspirit.com.au',
+  'kcembroidery.co.nz',
+  'www.dncworkwear.com.au',
+  'www.ascolour.com.au',
+  'cdn.shopify.com',
+]);
+
+app.get('/api/health', (_req, res) => {
+  res.json({ ok: true, service: 'computerised-embroidery' });
+});
+
+app.get('/api/proxy-image', async (req, res) => {
+  const raw = req.query.url;
+  if (!raw) return res.status(400).send('url required');
+  let target;
+  try {
+    target = new URL(raw);
+  } catch {
+    return res.status(400).send('invalid url');
+  }
+  if (!PROXY_HOSTS.has(target.hostname)) {
+    return res.status(403).send('host not allowed');
+  }
+  try {
+    const upstream = await fetch(target.toString(), {
+      headers: { 'User-Agent': 'CE-Image-Proxy/1.0' },
+    });
+    if (!upstream.ok) return res.status(upstream.status).end();
+    const ct = upstream.headers.get('content-type') || 'image/jpeg';
+    res.setHeader('Content-Type', ct);
+    res.setHeader('Cache-Control', 'public, max-age=86400');
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    const buf = Buffer.from(await upstream.arrayBuffer());
+    res.send(buf);
+  } catch (e) {
+    res.status(502).send('proxy failed');
+  }
+});
+
 function requireAdmin(req, res, next) {
   const key = req.headers['x-admin-key'] || req.query.key;
   if (key !== ADMIN_KEY) return res.status(401).json({ error: 'Unauthorized' });

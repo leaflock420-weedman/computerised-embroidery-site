@@ -1,6 +1,6 @@
 import { addToCart, updateCartBadge } from './cart.js';
 import { validateArtworkFile, uploadArtwork } from './artwork.js';
-import { getProductImage, categoryPlaceholder } from './images.js';
+import { getProductImage, categoryPlaceholder, blankCatalogReady } from './images.js';
 
 let product = null;
 
@@ -9,7 +9,7 @@ async function init() {
   const id = params.get('id');
   if (!id) { location.href = 'shop.html'; return; }
 
-  const res = await fetch('data/products.json');
+  const [, res] = await Promise.all([blankCatalogReady, fetch('data/products.json')]);
   const data = await res.json();
   product = data.products.find(p => p.id === id);
   if (!product) { location.href = 'shop.html'; return; }

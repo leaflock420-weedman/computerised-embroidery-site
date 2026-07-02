@@ -1,4 +1,4 @@
-import { getBlankImageSync } from './blank-images.js';
+import { getBlankImage, getBlankImageSync, preloadBlankCatalog } from './blank-images.js';
 
 const CATEGORY_EMOJI = {
   polos: '👔', 't-shirts': '👕', hoodies: '🧥', headwear: '🧢', hivis: '🦺',
@@ -6,15 +6,23 @@ const CATEGORY_EMOJI = {
   jackets: '🧥', shirts: '👔', pants: '👖',
 };
 
+/** Load mockups.json before shop/designer render. */
+export const blankCatalogReady = preloadBlankCatalog();
+
 export function isBadImage(url) {
   if (!url) return true;
   return /loading\.svg|loading\.gif|placeholder/i.test(url);
 }
 
-/** Always show blank garment mockup — never catalog photos with logos. */
+/** Specific supplier blank — never generic type photo when a product match exists. */
 export function getProductImage(product) {
   if (!product) return '';
   return getBlankImageSync(product);
+}
+
+export async function getProductImageAsync(product) {
+  if (!product) return '';
+  return getBlankImage(product);
 }
 
 export function productImageHtml(product, className = '') {

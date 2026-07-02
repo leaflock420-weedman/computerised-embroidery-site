@@ -1,5 +1,5 @@
 import { updateCartBadge } from './cart.js';
-import { getProductImage, categoryPlaceholder } from './images.js';
+import { getProductImage, categoryPlaceholder, blankCatalogReady } from './images.js';
 
 let products = [];
 let activeCategory = 'all';
@@ -7,7 +7,10 @@ let activeBrand = 'all';
 let searchQuery = '';
 
 async function init() {
-  const res = await fetch('data/products.json');
+  const [, res] = await Promise.all([
+    blankCatalogReady,
+    fetch('data/products.json'),
+  ]);
   const data = await res.json();
   products = data.products;
 

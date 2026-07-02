@@ -1,7 +1,7 @@
 import { addToCart, updateCartBadge } from './cart.js';
 import { validateArtworkFile, uploadArtwork } from './artwork.js';
 import { estimateOrderTotal } from './pricing.js';
-import { getProductImage } from './images.js';
+import { getProductImage, blankCatalogReady } from './images.js';
 import { parseHexInput, colourNameFromHex } from './colour-utils.js';
 import { loadGarmentMockup, clearMockupCache, drawTintedGarment } from './mockups.js';
 import { detectInkColor } from './recolor-artwork.js';
@@ -70,7 +70,7 @@ let garmentFill = null;
 const HANDLE_HIT = 14;
 
 async function init() {
-  const res = await fetch('data/products.json');
+  const [, res] = await Promise.all([blankCatalogReady, fetch('data/products.json')]);
   const data = await res.json();
   products = data.products;
 

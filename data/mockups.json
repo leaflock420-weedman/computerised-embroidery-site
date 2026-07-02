@@ -15,8 +15,455 @@
     "polo": "assets/mockups/tee-front.svg",
     "hoodie": "assets/mockups/hoodie-front.svg"
   },
-  "note": "Transparent PNG blanks per garment shape \u2014 pixel tint at draw time, no coloured photo backgrounds.",
   "products": [
+    {
+      "productId": "asc-1112",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/234/555/1120_CABLE_BEANIE_BLACK__91360.1589001529.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/234/555/1120_CABLE_BEANIE_BLACK__91360.1589001529.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/500w/products/234/555/1120_CABLE_BEANIE_BLACK__91360.1589001529.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/625w/products/234/555/1120_CABLE_BEANIE_BLACK__91360.1589001529.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/750w/products/234/555/1120_CABLE_BEANIE_BLACK__91360.1589001529.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/875w/products/234/555/1120_CABLE_BEANIE_BLACK__91360.1589001529.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1250w/products/234/555/1120_CABLE_BEANIE_BLACK__91360.1589001529.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1500w/products/234/555/1120_CABLE_BEANIE_BLACK__91360.1589001529.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/100w/products/234/555/1120_CABLE_BEANIE_BLACK__91360.1589001529.jpg?c=1"
+      ],
+      "matched": "black-filename",
+      "source": "https://www.ascolour.com.au/cable-beanie-1120/"
+    },
+    {
+      "productId": "asc-1114",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/229/20667/1114_SURF_CAP_BLACK__90790.1758751223.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/229/20667/1114_SURF_CAP_BLACK__90790.1758751223.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/229/20707/1114_SURF_CAP_BLACK_SIDE__31519.1758751223.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/229/20745/1114_SURF_CAP_BLACK_BACK__31758.1758751223.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/500w/products/229/20667/1114_SURF_CAP_BLACK__90790.1758751223.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/625w/products/229/20667/1114_SURF_CAP_BLACK__90790.1758751223.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/750w/products/229/20667/1114_SURF_CAP_BLACK__90790.1758751223.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/875w/products/229/20667/1114_SURF_CAP_BLACK__90790.1758751223.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1250w/products/229/20667/1114_SURF_CAP_BLACK__90790.1758751223.jpg?c=1"
+      ],
+      "matched": "black-filename",
+      "source": "https://www.ascolour.com.au/surf-cap-1114/"
+    },
+    {
+      "productId": "asc-1130",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/760/17141/1130_ACCESS_CAP_BLACK_FRONT__44269.1751586379.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/760/17141/1130_ACCESS_CAP_BLACK_FRONT__44269.1751586379.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/760/11182/1130_ACCESS_CAP_BLACK__51484.1751586379.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/760/17144/1130_ACCESS_CAP_BLACK_BACK__88128.1751586379.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/500w/products/760/17141/1130_ACCESS_CAP_BLACK_FRONT__44269.1751586379.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/625w/products/760/17141/1130_ACCESS_CAP_BLACK_FRONT__44269.1751586379.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/750w/products/760/17141/1130_ACCESS_CAP_BLACK_FRONT__44269.1751586379.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/875w/products/760/17141/1130_ACCESS_CAP_BLACK_FRONT__44269.1751586379.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1250w/products/760/17141/1130_ACCESS_CAP_BLACK_FRONT__44269.1751586379.jpg?c=1"
+      ],
+      "matched": "black-filename",
+      "source": "https://www.ascolour.com.au/access-cap-1130/"
+    },
+    {
+      "productId": "asc-4932",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/868/12763/4932_WOS_RELAX_TRACK_PANTS_BLACK__95898.1678923866.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/868/12763/4932_WOS_RELAX_TRACK_PANTS_BLACK__95898.1678923866.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/868/12765/4932_WOS_RELAX_TRACK_PANTS_BLACK_BACK__16398.1678923865.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/868/25914/4932_WOS_RELAX_TRACK_PANTS_BLACK_THUMB__14798.1744588515.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/500w/products/868/12763/4932_WOS_RELAX_TRACK_PANTS_BLACK__95898.1678923866.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/625w/products/868/12763/4932_WOS_RELAX_TRACK_PANTS_BLACK__95898.1678923866.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/750w/products/868/12763/4932_WOS_RELAX_TRACK_PANTS_BLACK__95898.1678923866.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/875w/products/868/12763/4932_WOS_RELAX_TRACK_PANTS_BLACK__95898.1678923866.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1250w/products/868/12763/4932_WOS_RELAX_TRACK_PANTS_BLACK__95898.1678923866.jpg?c=1"
+      ],
+      "matched": "black-filename",
+      "source": "https://www.ascolour.com.au/wos-relax-track-pants-4932/"
+    },
+    {
+      "productId": "asc-5001",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/417/20509/5001_STAPLE_TEE_BLACK__75804.1771986127.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/417/20509/5001_STAPLE_TEE_BLACK__75804.1771986127.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/417/20582/5001_STAPLE_TEE_BLACK_BACK__44710.1771986127.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/500w/products/417/20509/5001_STAPLE_TEE_BLACK__75804.1771986127.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/625w/products/417/20509/5001_STAPLE_TEE_BLACK__75804.1771986127.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/750w/products/417/20509/5001_STAPLE_TEE_BLACK__75804.1771986127.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/875w/products/417/20509/5001_STAPLE_TEE_BLACK__75804.1771986127.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1250w/products/417/20509/5001_STAPLE_TEE_BLACK__75804.1771986127.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1500w/products/417/20509/5001_STAPLE_TEE_BLACK__75804.1771986127.jpg?c=1"
+      ],
+      "matched": "black-filename",
+      "source": "https://www.ascolour.com.au/staple-tee-5001/"
+    },
+    {
+      "productId": "asc-5001g",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/318/1331/5001G_STAPLE_ORGANIC_TEE_BLACK__38371.1751513988.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/318/1331/5001G_STAPLE_ORGANIC_TEE_BLACK__38371.1751513988.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/318/1332/5001G_STAPLE_ORGANIC_TEE_BLACK_BACK__90591.1751513988.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/500w/products/318/1331/5001G_STAPLE_ORGANIC_TEE_BLACK__38371.1751513988.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/625w/products/318/1331/5001G_STAPLE_ORGANIC_TEE_BLACK__38371.1751513988.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/750w/products/318/1331/5001G_STAPLE_ORGANIC_TEE_BLACK__38371.1751513988.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/875w/products/318/1331/5001G_STAPLE_ORGANIC_TEE_BLACK__38371.1751513988.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1250w/products/318/1331/5001G_STAPLE_ORGANIC_TEE_BLACK__38371.1751513988.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1500w/products/318/1331/5001G_STAPLE_ORGANIC_TEE_BLACK__38371.1751513988.jpg?c=1"
+      ],
+      "matched": "black-filename",
+      "source": "https://www.ascolour.com.au/staple-organic-tee-5001g/"
+    },
+    {
+      "productId": "asc-5026",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/333/22287/5026_CLASSIC_TEE_BLACK__54859.1748553035.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/333/22287/5026_CLASSIC_TEE_BLACK__54859.1748553035.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/333/22288/5026_CLASSIC_TEE_BLACK_BACK__54904.1748553035.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/500w/products/333/22287/5026_CLASSIC_TEE_BLACK__54859.1748553035.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/625w/products/333/22287/5026_CLASSIC_TEE_BLACK__54859.1748553035.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/750w/products/333/22287/5026_CLASSIC_TEE_BLACK__54859.1748553035.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/875w/products/333/22287/5026_CLASSIC_TEE_BLACK__54859.1748553035.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1250w/products/333/22287/5026_CLASSIC_TEE_BLACK__54859.1748553035.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1500w/products/333/22287/5026_CLASSIC_TEE_BLACK__54859.1748553035.jpg?c=1"
+      ],
+      "matched": "black-filename",
+      "source": "https://www.ascolour.com.au/classic-tee-5026/"
+    },
+    {
+      "productId": "asc-5071",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/505/4833/5071_CLASSIC_LONGSLEEVE_BLACK__95891.1765749977.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/505/4833/5071_CLASSIC_LONGSLEEVE_BLACK__95891.1765749977.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/505/5307/5071_CLASSIC_LONGSLEEVE_BLACK_BACK__78490.1765749977.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/500w/products/505/4833/5071_CLASSIC_LONGSLEEVE_BLACK__95891.1765749977.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/625w/products/505/4833/5071_CLASSIC_LONGSLEEVE_BLACK__95891.1765749977.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/750w/products/505/4833/5071_CLASSIC_LONGSLEEVE_BLACK__95891.1765749977.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/875w/products/505/4833/5071_CLASSIC_LONGSLEEVE_BLACK__95891.1765749977.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1250w/products/505/4833/5071_CLASSIC_LONGSLEEVE_BLACK__95891.1765749977.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1500w/products/505/4833/5071_CLASSIC_LONGSLEEVE_BLACK__95891.1765749977.jpg?c=1"
+      ],
+      "matched": "black-filename",
+      "source": "https://www.ascolour.com.au/classic-l-s-tee-5071/"
+    },
+    {
+      "productId": "asc-5082",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/888/28542/5082_HEAVY_FADED_TEE_FADED_BLACK__85732.1759879009.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/888/28542/5082_HEAVY_FADED_TEE_FADED_BLACK__85732.1759879009.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/888/28566/5082_HEAVY_FADED_TEE_FADED_BLACK_BACK__26810.1759891478.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/500w/products/888/28542/5082_HEAVY_FADED_TEE_FADED_BLACK__85732.1759879009.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/625w/products/888/28542/5082_HEAVY_FADED_TEE_FADED_BLACK__85732.1759879009.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/750w/products/888/28542/5082_HEAVY_FADED_TEE_FADED_BLACK__85732.1759879009.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/875w/products/888/28542/5082_HEAVY_FADED_TEE_FADED_BLACK__85732.1759879009.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1250w/products/888/28542/5082_HEAVY_FADED_TEE_FADED_BLACK__85732.1759879009.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1500w/products/888/28542/5082_HEAVY_FADED_TEE_FADED_BLACK__85732.1759879009.jpg?c=1"
+      ],
+      "matched": "black-filename",
+      "source": "https://www.ascolour.com.au/heavy-faded-tee-5082/"
+    },
+    {
+      "productId": "asc-5100",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/504/5018/5100_SUPPLY_CREW_BLACK__73607.1752190548.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/504/5018/5100_SUPPLY_CREW_BLACK__73607.1752190548.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/504/5323/5100_SUPPLY_CREW_BLACK_BACK__08004.1752190548.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/500w/products/504/5018/5100_SUPPLY_CREW_BLACK__73607.1752190548.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/625w/products/504/5018/5100_SUPPLY_CREW_BLACK__73607.1752190548.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/750w/products/504/5018/5100_SUPPLY_CREW_BLACK__73607.1752190548.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/875w/products/504/5018/5100_SUPPLY_CREW_BLACK__73607.1752190548.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1250w/products/504/5018/5100_SUPPLY_CREW_BLACK__73607.1752190548.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1500w/products/504/5018/5100_SUPPLY_CREW_BLACK__73607.1752190548.jpg?c=1"
+      ],
+      "matched": "black-filename",
+      "source": "https://www.ascolour.com.au/supply-crew-5100/"
+    },
+    {
+      "productId": "asc-5102",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/358/1919/5102_STENCIL_HOOD_BLACK__51516.1753825723.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/358/1919/5102_STENCIL_HOOD_BLACK__51516.1753825723.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/358/1920/5102_STENCIL_HOOD_BLACK_BACK__74347.1753825723.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/500w/products/358/1919/5102_STENCIL_HOOD_BLACK__51516.1753825723.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/625w/products/358/1919/5102_STENCIL_HOOD_BLACK__51516.1753825723.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/750w/products/358/1919/5102_STENCIL_HOOD_BLACK__51516.1753825723.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/875w/products/358/1919/5102_STENCIL_HOOD_BLACK__51516.1753825723.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1250w/products/358/1919/5102_STENCIL_HOOD_BLACK__51516.1753825723.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1500w/products/358/1919/5102_STENCIL_HOOD_BLACK__51516.1753825723.jpg?c=1"
+      ],
+      "matched": "black-filename",
+      "source": "https://www.ascolour.com.au/stencil-hood-5102/"
+    },
+    {
+      "productId": "asc-5161",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/691/26296/5161_RELAX_HOOD_BLACK__42977.1747259376.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/691/26296/5161_RELAX_HOOD_BLACK__42977.1747259376.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/691/26299/5161_RELAX_HOOD_BLACK_BACK__97985.1747259376.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/500w/products/691/26296/5161_RELAX_HOOD_BLACK__42977.1747259376.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/625w/products/691/26296/5161_RELAX_HOOD_BLACK__42977.1747259376.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/750w/products/691/26296/5161_RELAX_HOOD_BLACK__42977.1747259376.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/875w/products/691/26296/5161_RELAX_HOOD_BLACK__42977.1747259376.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1250w/products/691/26296/5161_RELAX_HOOD_BLACK__42977.1747259376.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1500w/products/691/26296/5161_RELAX_HOOD_BLACK__42977.1747259376.jpg?c=1"
+      ],
+      "matched": "black-filename",
+      "source": "https://www.ascolour.com.au/relax-hood-5161/"
+    },
+    {
+      "productId": "asc-5165",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/1289/25416/5171_BOX_HOOD_BLACK__82849.1742527790.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/1289/25416/5171_BOX_HOOD_BLACK__82849.1742527790.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/1289/23880/5171_BOX_HOOD_BLACK_BACK__55525.1740519290.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/1289/26253/5171_BOX_HOOD_BLACK_THUMB__96450.1751258843.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/500w/products/1289/25416/5171_BOX_HOOD_BLACK__82849.1742527790.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/625w/products/1289/25416/5171_BOX_HOOD_BLACK__82849.1742527790.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/750w/products/1289/25416/5171_BOX_HOOD_BLACK__82849.1742527790.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/875w/products/1289/25416/5171_BOX_HOOD_BLACK__82849.1742527790.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1250w/products/1289/25416/5171_BOX_HOOD_BLACK__82849.1742527790.jpg?c=1"
+      ],
+      "matched": "black-filename",
+      "source": "https://www.ascolour.com.au/box-hood-5171/"
+    },
+    {
+      "productId": "asc-5501",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/389/2270/5501_CYRUS_WINDBREAKER_BLACK__12278.1683843006.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/389/2270/5501_CYRUS_WINDBREAKER_BLACK__12278.1683843006.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/389/2271/5501_CYRUS_WINDBREAKER_BLACK_BACK__64635.1683843004.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/389/13371/5501_CYRUS_WINDBREAKER_BLACK_THUMB_1__95535.1683843030.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/500w/products/389/2270/5501_CYRUS_WINDBREAKER_BLACK__12278.1683843006.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/625w/products/389/2270/5501_CYRUS_WINDBREAKER_BLACK__12278.1683843006.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/750w/products/389/2270/5501_CYRUS_WINDBREAKER_BLACK__12278.1683843006.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/875w/products/389/2270/5501_CYRUS_WINDBREAKER_BLACK__12278.1683843006.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1250w/products/389/2270/5501_CYRUS_WINDBREAKER_BLACK__12278.1683843006.jpg?c=1"
+      ],
+      "matched": "black-filename",
+      "source": "https://www.ascolour.com.au/cyrus-windbreaker-5501/"
+    },
+    {
+      "productId": "asc-5533",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/1269/23088/5533_CANVAS_CORD_COLLAR_JACKET_MAIN__92215.1736305184.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/1269/23088/5533_CANVAS_CORD_COLLAR_JACKET_MAIN__92215.1736305184.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/1269/23071/5533_CANVAS_CORD_COLLAR_JACKET_FRONT__80540.1736301688.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/1269/23072/5533_CANVAS_CORD_COLLAR_JACKET_TURN__49793.1736301704.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/1269/23073/5533_CANVAS_CORD_COLLAR_JACKET_SIDE__27679.1736301720.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/1269/23074/5533_CANVAS_CORD_COLLAR_JACKET_BACK__98816.1736301735.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/1269/23087/5533_CANVAS_CORD_COLLAR_JACKET_LOOSE__45974.1736305213.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/1269/23589/5533_CANVAS_CORD_COLLAR_JACKET_ARMY_DETAIL__52415.1738883775.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lqiq2tqil5/images/stencil/1000w/products/1269/23076/5533_CANVAS_CORD_COLLAR_JACKET_INK_BLUE__82172.1748554777.jpg?c=1"
+      ],
+      "matched": "",
+      "source": "https://www.ascolour.com.au/canvas-cord-collar-jacket-5533/"
+    },
+    {
+      "productId": "biz-bsc",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2025/08/RU569LL_Talent_MineralBlue_01_BNeAsLh.jpg",
+      "matched": "kce-search",
+      "source": "https://kcembroidery.co.nz/shop/?s=Biz%20Collection%20Mens"
+    },
+    {
+      "productId": "biz-bscw",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2025/08/RU569LL_Talent_MineralBlue_01_BNeAsLh.jpg",
+      "matched": "kce-search",
+      "source": "https://kcembroidery.co.nz/shop/?s=Biz%20Collection%20Womens"
+    },
+    {
+      "productId": "biz-bsh",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2024/06/PJW20Navy-Fullbody-JPG-1.jpg",
+      "matched": "kce-search",
+      "source": "https://kcembroidery.co.nz/shop/?s=BSH"
+    },
+    {
+      "productId": "biz-bsha",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/files/CH330LL_Product_White_01_TpVKdK3.jpg?v=1763465317",
+      "matched": "budgetworkwear-api",
+      "source": "https://www.budgetworkwear.com.au/products/biz-collection-womens-alfresco-long-sleeve-chef-jacket-ch330ll?_pos=1&_psq=Biz+Collection+Biz+Collection+Chef+Jacket&_ss=e&_v=1.0",
+      "title": "Biz Collection Womens Alfresco Long Sleeve Chef Jacket (CH330LL)"
+    },
+    {
+      "productId": "biz-bshf",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/Black_5536320_cd9b6ba8-2cee-419b-b4d5-bee28358a63c.jpg?v=1763525667",
+      "matched": "manual-bww2",
+      "source": "Biz Collection Womens Trinity Fleece (F10520)"
+    },
+    {
+      "productId": "biz-bshk",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/WP916M_Black_F_755635a3-32d1-40b0-8a64-9dcea0f5147a.jpg?v=1763448107",
+      "matched": "manual-bww2",
+      "source": "Biz Collection Mens Roma Knit Pullover (WP916M)"
+    },
+    {
+      "productId": "biz-bshp",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/BA55_Natural-SelfStraps.jpg?v=1763524394",
+      "matched": "budgetworkwear-api",
+      "source": "https://www.budgetworkwear.com.au/products/biz-collection-unisex-urban-bib-apron?_pos=1&_psq=Biz+Collection+Biz+Collection+apron&_ss=e&_v=1.0",
+      "title": "Biz Collection Urban Bib Apron (BA55)"
+    },
+    {
+      "productId": "biz-bshs",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/j3880_10_navy_725_a7a67c53-3afb-4672-a4bb-b2944840dd52.jpg?v=1763525434",
+      "matched": "manual-bww2",
+      "source": "Biz Collection Mens Softshell Jacket (J3880)"
+    },
+    {
+      "productId": "biz-bshv",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/ZV426_OrangeNavy_F.jpg?v=1753430958",
+      "matched": "manual-bww2",
+      "source": "Syzmik Unisex Hi Vis Softshell Vest (ZV426)"
+    },
+    {
+      "productId": "biz-bshw",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2025/08/RU569LL_Talent_MineralBlue_01_BNeAsLh.jpg",
+      "matched": "kce-search",
+      "source": "https://kcembroidery.co.nz/shop/?s=Biz%20Collection%20Womens"
+    },
+    {
+      "productId": "biz-bsj",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2025/08/RU569LL_Talent_MineralBlue_01_BNeAsLh.jpg",
+      "matched": "kce-search",
+      "source": "https://kcembroidery.co.nz/shop/?s=Biz%20Collection%20Mens"
+    },
+    {
+      "productId": "biz-bsr",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/Product_CST150US_Black_AUSNZ_01_gMgPnCv.jpg?v=1763456756",
+      "matched": "budgetworkwear-api",
+      "source": "https://www.budgetworkwear.com.au/products/biz-care-unisex-hartwell-reversible-scrub-top-cst150us?_pos=1&_psq=Biz+Collection+Biz+Collection+Scrubs+Top&_ss=e&_v=1.0",
+      "title": "Biz Collection Unisex Hartwell Reversible Scrub Top (CST150US)"
+    },
+    {
+      "productId": "biz-bsrp",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/Product_CSP151UL_Black_AUSNZ_01_K2k1jrX.jpg?v=1763456810",
+      "matched": "budgetworkwear-api",
+      "source": "https://www.budgetworkwear.com.au/products/biz-care-unisex-hartwell-reversible-scrub-pant-csp151ul?_pos=1&_psq=Biz+Collection+Biz+Collection+Scrubs+Pant&_ss=e&_v=1.0",
+      "title": "Biz Collection Unisex Hartwell Reversible Scrub Pant (CSP151UL)"
+    },
+    {
+      "productId": "biz-rxl",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2024/09/unpinrxl_2_1.jpg",
+      "matched": "kce-sku",
+      "source": "https://kcembroidery.co.nz/shop/?s=RXL"
+    },
+    {
+      "productId": "biz-rxlw",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2024/08/P200LS_Talent_Forest_White_00.jpg",
+      "matched": "kce-search",
+      "source": "https://kcembroidery.co.nz/shop/?s=Biz%20Cool%20Womens%20Long%20Sleeve%20Polo"
+    },
+    {
+      "productId": "biz-rxp",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2024/09/rxp-1-08000000-right.jpg",
+      "matched": "kce-sku",
+      "source": "https://kcembroidery.co.nz/shop/?s=RXP"
+    },
+    {
+      "productId": "biz-rxpj",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/ash_black_d4553fbb-3a58-4a5a-8845-3fce9c6a18c3.jpg?v=1763524710",
+      "matched": "budgetworkwear-api",
+      "source": "https://www.budgetworkwear.com.au/products/biz-collection-kids-razor-polo?_pos=1&_psq=Biz+Collection+Biz+Collection+Kids+Polo&_ss=e&_v=1.0",
+      "title": "Biz Collection Kids Razor S/S Polo (P405KS)"
+    },
+    {
+      "productId": "biz-rxpw",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2024/08/P300LS_Talent_White_00.jpg",
+      "matched": "kce-search",
+      "source": "https://kcembroidery.co.nz/shop/?s=Biz%20Cool%20Womens%20Sprint%20Polo"
+    },
+    {
+      "productId": "dnc-dnc1200",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/1_36477a6c-c80b-476a-b868-0635bf4bd697.jpg?v=1753425385",
+      "matched": "budgetworkwear-api",
+      "source": "https://www.budgetworkwear.com.au/products/cotton-drill-work-shirt-long-sleeve?_pos=1&_psq=DNC+Workwear+Cotton+Drill+Work+Shirt&_ss=e&_v=1.0",
+      "title": "DNC Cotton Drill L/S Work Shirt Long Sleeve (3202)"
+    },
+    {
+      "productId": "dnc-dnc1300",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/3312_Navy_Back.jpg?v=1753425351",
+      "matched": "manual-bww",
+      "source": "DNC Cotton Drill Cargo Pants (3312)"
+    },
+    {
+      "productId": "dnc-dnc1500",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/3523YNfront1500.jpg?v=1753424377",
+      "matched": "budgetworkwear-api",
+      "source": "https://www.budgetworkwear.com.au/products/dnc-hi-vis-csr-taped-softshell-jacket-3523?_pos=1&_psq=DNC+Workwear+Softshell+Jacket&_ss=e&_v=1.0",
+      "title": "DNC Hi Vis CSR Taped Softshell Jacket (3523)"
+    },
+    {
+      "productId": "dnc-dnc1600",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/3406357.jpg?v=1753424886",
+      "matched": "budgetworkwear-api",
+      "source": "https://www.budgetworkwear.com.au/products/patron-saint-flame-retardant-two-tone-drill-shirt-l-s-190-gsm?_pos=1&_psq=DNC+Workwear+Flame+Retardant+Shirt&_ss=e&_v=1.0",
+      "title": "DNC Patron Saint Flame Retardant Two Tone Drill Shirt L/S (3406)"
+    },
+    {
+      "productId": "dnc-dnc2100",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/3104200.jpg?v=1753425396",
+      "matched": "manual-bww",
+      "source": "DNC Lightweight Cool-Breeze Cotton Drill Coverall (3104)"
+    },
+    {
+      "productId": "dnc-dnc3100",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/3702_Yellow.jpg?v=1753425224",
+      "matched": "budgetworkwear-api",
+      "source": "https://www.budgetworkwear.com.au/products/pvc-rain-jacket?_pos=1&_psq=DNC+Workwear+rain+jacket&_ss=e&_v=1.0",
+      "title": "DNC PVC Rain Jacket (3702)"
+    },
+    {
+      "productId": "dnc-dnc3900",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/3801_2_1.jpg?v=1753424895",
+      "matched": "budgetworkwear-api",
+      "source": "https://www.budgetworkwear.com.au/products/daytime-hivis-safety-vest?_pos=4&_psq=DNC+Workwear+Hi-Vis+Safety+Vest&_ss=e&_v=1.0",
+      "title": "DNC Day Time Hi Vis Safety Vest (3801)"
+    },
+    {
+      "productId": "dnc-dnc3950",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/3563_Orange-Navy.jpg?v=1753424556",
+      "matched": "budgetworkwear-api",
+      "source": "https://www.budgetworkwear.com.au/products/dnc-wave-hivis-sublimated-polo?_pos=1&_psq=DNC+Workwear+Hi-Vis+Polo&_ss=e&_v=1.0",
+      "title": "DNC Wave Hi Vis Sublimated Polo (3563)"
+    },
+    {
+      "productId": "dnc-dnc3960",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/3948_O-N.jpg?v=1753425056",
+      "matched": "budgetworkwear-api",
+      "source": "https://www.budgetworkwear.com.au/products/hivis-3-way-cool-breeze-cotton-shirt-with-3m-8910-reflective-tape-l-s?_pos=1&_psq=DNC+Workwear+Hi-Vis+Long+Sleeve+Shirt&_ss=e&_v=1.0",
+      "title": "DNC Hi Vis 3 Way Cool Breeze Cotton Shirt With CSR/Tape Long Sleeve (3948)"
+    },
+    {
+      "productId": "dnc-dnc4100",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/3893_O-N.jpg?v=1763451765",
+      "matched": "budgetworkwear-api",
+      "source": "https://www.budgetworkwear.com.au/products/hivis-two-tone-action-polo-s-s-175-gsm-polyester-micromesh?_pos=1&_psq=DNC+Workwear+Polo+Shirt&_ss=e&_v=1.0",
+      "title": "DNC Cool Breathe Action Polo Shirt Short Sleeve (3893)"
+    },
+    {
+      "productId": "dnc-dnc4200",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/3725357.jpg?v=1753424675",
+      "matched": "budgetworkwear-api",
+      "source": "https://www.budgetworkwear.com.au/products/dnc-hivis-2-tone-full-zip-fleecy-sweat-shirt-with-two-side-zipped-pockets?_pos=1&_psq=DNC+Workwear+Fleecy+Sweat&_ss=e&_v=1.0",
+      "title": "DNC Hi Vis 2 Tone Full Zip Fleecy Sweat Shirt With Two Side Zipped Pockets (3725)"
+    },
+    {
+      "productId": "dnc-dnc4300",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/5424_ON.jpg?v=1753424534",
+      "matched": "budgetworkwear-api",
+      "source": "https://www.budgetworkwear.com.au/products/dnc-full-zip-super-brushed-fleece-hoodie?_pos=1&_psq=DNC+Workwear+hoodie+fleece&_ss=e&_v=1.0",
+      "title": "DNC Full Zip Super Brushed Fleece Hoodie (5424)"
+    },
+    {
+      "productId": "dnc-dnc4400",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/11729.jpg?v=1753425195",
+      "matched": "budgetworkwear-api",
+      "source": "https://www.budgetworkwear.com.au/products/acrylic-beanie?_pos=1&_psq=DNC+Workwear+beanie+acrylic&_ss=e&_v=1.0",
+      "title": "DNC Acrylic Beanie (H243)"
+    },
+    {
+      "productId": "dnc-dnc4500",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/11682.jpg?v=1753425194",
+      "matched": "manual-bww",
+      "source": "DNC Cotton Cap With Velcro Strap (H199)"
+    },
     {
       "productId": "hw-100-recycled-earth-friendly-fabric-4050",
       "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/539/1328/4050_Black__05037.1760408551.jpg?c=1",
@@ -2161,10 +2608,173 @@
         "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/747/1807/4143-cyan-stone__69612.1741323299.jpg?c=1"
       ],
       "matched": "black"
+    },
+    {
+      "productId": "jbs-1ap",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2025/08/5ACBP_BB_01_CS_638724673078944241.jpg",
+      "matched": "kce-fallback",
+      "source": "https://kcembroidery.co.nz/shop/?s=JB%27s%20Apron"
+    },
+    {
+      "productId": "jbs-1bk",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2025/05/1181_FADED_BUCKET_HAT_FADED_BLACK__92958.1719310978.1280.1280.jpg",
+      "matched": "kce-search-jbs",
+      "source": "https://kcembroidery.co.nz/shop/?s=Bucket%20Hat"
+    },
+    {
+      "productId": "jbs-1che",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2024/08/CH329MS_Talent_GreySmoke_00_uAQMijv.jpg",
+      "matched": "kce-search-jbs",
+      "source": "https://kcembroidery.co.nz/shop/?s=Chef%20Shirt"
+    },
+    {
+      "productId": "jbs-1cp",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/2KPN_1_635479330178729897.jpg?v=1753433530",
+      "matched": "manual-bww2",
+      "source": "JB's  Kids 210 Polo (2KP)"
+    },
+    {
+      "productId": "jbs-1cpk",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2024/09/5FC_W_01_638436004042786450_LG.jpg",
+      "matched": "kce-fallback",
+      "source": "https://kcembroidery.co.nz/shop/?s=JB%27s%20Cap"
+    },
+    {
+      "productId": "jbs-1hfl",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2025/08/3SHP_BB_01_CS_638724662975754646.jpg",
+      "matched": "kce-fallback",
+      "source": "https://kcembroidery.co.nz/shop/?s=JB%27s%20Hoodie"
+    },
+    {
+      "productId": "jbs-1hflz",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2025/08/3SHP_BB_01_CS_638724662975754646.jpg",
+      "matched": "kce-fallback",
+      "source": "https://kcembroidery.co.nz/shop/?s=JB%27s%20Zip%20Hoodie"
+    },
+    {
+      "productId": "jbs-1ht",
+      "blankImage": "https://www.jbswear.com.au/ClientData/ClientImages/Colours/1HT_BX_01%20copy_637279165950477841.jpg",
+      "matched": "jbs-black",
+      "source": "https://www.jbswear.com.au/product-detail/1HT"
+    },
+    {
+      "productId": "jbs-1htl",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2024/09/CT-2W-NAVY.jpg",
+      "matched": "kce-search-jbs",
+      "source": "https://kcembroidery.co.nz/shop/?s=Heritage%20Tee%20Long%20Sleeve"
+    },
+    {
+      "productId": "jbs-1hv",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/6HCS4EN_1_635484457267482388.jpg?v=1763449409",
+      "matched": "budgetworkwear-api-jbs",
+      "source": "https://www.budgetworkwear.com.au/products/jbs-hi-vis-contrast-singlet-adults?_pos=1&_psq=JB%27s+Wear+Hi-Vis+Singlet&_ss=e&_v=1.0",
+      "title": "JB's Hi Vis Contrast Singlet - Adults (6HCS4)"
+    },
+    {
+      "productId": "jbs-1hvj",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/LimeCharcoal.jpg?v=1753433151",
+      "matched": "budgetworkwear-api-jbs",
+      "source": "https://www.budgetworkwear.com.au/products/jbs-hi-vis-d-n-water-resistant-softshell-jacket-6dwj?_pos=1&_psq=JB%27s+Wear+Hi-Vis+Jacket&_ss=e&_v=1.0",
+      "title": "Jb's  Hi Vis D+N Water Resistant Softshell Jacket (6DWJ)"
+    },
+    {
+      "productId": "jbs-1hvp",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2024/09/5425F_WORK_SAFETY_POLO_SAFETY_ORANGE__10666.1714950165.1280.1280.jpg",
+      "matched": "kce-search-jbs",
+      "source": "https://kcembroidery.co.nz/shop/?s=Hi-Vis%20Polo"
+    },
+    {
+      "productId": "jbs-1hvv",
+      "blankImage": "https://cdn.shopify.com/s/files/1/0161/4730/products/6HVSUE_1_635484527484145530.jpg?v=1753434085",
+      "matched": "budgetworkwear-api-jbs",
+      "source": "https://www.budgetworkwear.com.au/products/jbs-kids-hi-vis-safety-vest?_pos=1&_psq=JB%27s+Wear+Hi-Vis+Vest&_ss=e&_v=1.0",
+      "title": "JB's Kids Hi Vis Safety Vest (6HVSU)"
+    },
+    {
+      "productId": "jbs-1po",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2025/08/7SPR_BX_01_CS_638731343178755329.jpg",
+      "matched": "kce-search-jbs",
+      "source": "https://kcembroidery.co.nz/shop/?s=Podium%20Polo"
+    },
+    {
+      "productId": "jbs-1pp",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2026/05/P515LS_Talent_MineralBlue_01_dGt59l3.jpg",
+      "matched": "kce-search-jbs",
+      "source": "https://kcembroidery.co.nz/shop/?s=Premium%20Polo"
+    },
+    {
+      "productId": "jbs-1ppl",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2024/06/P42420Black20Marle-Fullbody-JPG-1.jpg",
+      "matched": "kce-search-jbs",
+      "source": "https://kcembroidery.co.nz/shop/?s=Premium%20Polo%20Long"
+    },
+    {
+      "productId": "jbs-1wp",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2024/09/cfp-1w_black_800x.jpg",
+      "matched": "kce-search-jbs",
+      "source": "https://kcembroidery.co.nz/shop/?s=Work%20Pant"
+    },
+    {
+      "productId": "jbs-1ws",
+      "blankImage": "https://kcembroidery.co.nz/wp-content/uploads/2025/08/6WLCS_NX_01_638759854151302909.jpg",
+      "matched": "kce-fallback",
+      "source": "https://kcembroidery.co.nz/shop/?s=JB%27s%20Work%20Shirt"
+    },
+    {
+      "productId": "ws-ap01",
+      "blankImage": "https://www.winningspirit.com.au/site/Product Images/AP01_01.jpg",
+      "matched": "ws-pattern",
+      "source": "https://www.winningspirit.com.au/site/Product%20Images/AP01_01.jpg"
+    },
+    {
+      "productId": "ws-bs01",
+      "blankImage": "https://www.winningspirit.com.au/site/Product Images/BS11_01.jpg",
+      "matched": "ws-pattern",
+      "source": "https://www.winningspirit.com.au/site/Product%20Images/BS11_01.jpg"
+    },
+    {
+      "productId": "ws-bs02",
+      "blankImage": "https://www.winningspirit.com.au/site/Product Images/BS02_01.jpg",
+      "matched": "ws-pattern",
+      "source": "https://www.winningspirit.com.au/site/Product%20Images/BS02_01.jpg"
+    },
+    {
+      "productId": "ws-hve001",
+      "blankImage": "https://www.winningspirit.com.au/site/Product Images/JK67_01.jpg",
+      "matched": "ws-pattern",
+      "source": "https://www.winningspirit.com.au/site/Product%20Images/JK67_01.jpg"
+    },
+    {
+      "productId": "ws-jh001",
+      "blankImage": "https://www.winningspirit.com.au/site/Product Images/SW92_01.jpg",
+      "matched": "ws-pattern",
+      "source": "https://www.winningspirit.com.au/site/Product%20Images/SW92_01.jpg"
+    },
+    {
+      "productId": "ws-ps55",
+      "blankImage": "https://www.winningspirit.com.au/site/Product Images/PS55_01.jpg",
+      "matched": "ws-pattern",
+      "source": "https://www.winningspirit.com.au/site/Product%20Images/PS55_01.jpg"
+    },
+    {
+      "productId": "ws-ps59",
+      "blankImage": "https://www.winningspirit.com.au/site/Product Images/PS59_01.jpg",
+      "matched": "ws-pattern",
+      "source": "https://www.winningspirit.com.au/site/Product%20Images/PS59_01.jpg"
+    },
+    {
+      "productId": "ws-ts20",
+      "blankImage": "https://www.winningspirit.com.au/site/Product Images/TS20_01.jpg",
+      "matched": "ws-pattern",
+      "source": "https://www.winningspirit.com.au/site/Product%20Images/TS20_01.jpg"
     }
   ],
   "meta": {
-    "scraped": 143,
-    "note": "Transparent PNG blanks per garment shape \u2014 pixel tint at draw time, no coloured photo backgrounds."
+    "total": 216,
+    "withBlankImage": 216,
+    "scrapedOk": 15,
+    "scrapedFail": 0,
+    "skippedExisting": 0,
+    "note": "blankImage = supplier catalogue photo (black/neutral) per productId"
   }
 }
