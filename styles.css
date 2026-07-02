@@ -79,9 +79,19 @@ a:hover { color: var(--teal-dark); }
   font-weight: 700;
   font-size: 1.05rem;
   flex-shrink: 0;
+  line-height: 0;
 }
 
-.logo:hover { color: var(--navy); }
+.logo:hover { color: var(--navy); opacity: 0.92; }
+
+.logo__img {
+  display: block;
+  height: auto;
+  width: auto;
+  max-height: 52px;
+  max-width: min(220px, 42vw);
+  object-fit: contain;
+}
 
 .logo__icon {
   display: grid;
@@ -230,13 +240,20 @@ a:hover { color: var(--teal-dark); }
   position: relative;
   border-radius: var(--radius);
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: linear-gradient(160deg, #f8fafc 0%, #eef2f6 100%);
   box-shadow: var(--shadow-lg);
 }
 
 .hero__visual img {
   width: 100%;
-  aspect-ratio: 4/3;
-  object-fit: cover;
+  max-width: 520px;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 12px 28px rgba(15, 39, 68, 0.1));
 }
 
 .hero__badge {
@@ -1098,6 +1115,12 @@ address a { font-weight: 500; }
 
 .footer .logo__text { color: #fff; font-size: 1.1rem; }
 .footer .logo__text span { color: var(--teal); }
+
+.footer .logo__img {
+  max-height: 64px;
+  max-width: 240px;
+  margin-bottom: 0.75rem;
+}
 .footer__brand p { font-size: 0.85rem; margin-top: 0.35rem; }
 
 .footer__nav {
