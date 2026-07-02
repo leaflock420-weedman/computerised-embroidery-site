@@ -28,6 +28,30 @@ const storage = multer.diskStorage({
 const upload = multer({ storage, limits: { fileSize: 25 * 1024 * 1024 } });
 
 app.use(express.json({ limit: '50mb' }));
+
+const PAGE_SLUGS = ['designer', 'shop', 'checkout', 'admin', 'product', 'index'];
+
+app.get(new RegExp(`^/(${PAGE_SLUGS.join('|')})/?$`, 'i'), (req, res) => {
+  const page = req.params[0].toLowerCase();
+  const file = page === 'index' ? 'index.html' : `${page}.html`;
+  const qs = req.originalUrl.includes('?') ? req.originalUrl.slice(req.originalUrl.indexOf('?')) : '';
+  res.redirect(301, `/${file}${qs}`);
+});
+
+app.use((req, res, next) => {
+  if (req.method !== 'GET' && req.method !== 'HEAD') return next();
+  const match = req.path.match(/^\/(.+\.html)$/i);
+  if (!match) return next();
+  const rel = match[1].toLowerCase();
+  const file = path.join(ROOT, rel);
+  if (!fs.existsSync(file)) return next();
+  if (req.path !== `/${rel}`) {
+    const qs = req.originalUrl.includes('?') ? req.originalUrl.slice(req.originalUrl.indexOf('?')) : '';
+    return res.redirect(301, `/${rel}${qs}`);
+  }
+  return res.sendFile(file);
+});
+
 app.use(express.static(ROOT));
 app.use('/uploads', express.static(UPLOADS));
 
@@ -362,7 +386,7 @@ app.get('/api/production/stats', requireAdmin, (_req, res) => {
   });
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Computerised Embroidery site → http://localhost:${PORT}`);
   console.log(`Designer        → http://localhost:${PORT}/designer.html`);
   console.log(`Production Hub  → http://localhost:${PORT}/admin.html`);
