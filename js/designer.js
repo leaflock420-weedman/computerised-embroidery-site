@@ -554,8 +554,9 @@ async function handleUpload(file) {
         }).catch(() => {});
       }
       document.getElementById('digitizeStatus').textContent =
-        result.digitizeNote || 'Original + digitized preview saved.';
-      status.textContent = '✓ Artwork processed';
+        result.digitizeNote || 'Auto-digitizing production files (DST/PES/JEF)…';
+      if (result.id) pollProductionStatus(result.id);
+      status.textContent = '✓ Artwork uploaded';
       status.className = 'upload-status upload-status--done';
       setTimeout(() => { status.hidden = true; }, 3000);
       saveCurrentDesign();
@@ -567,6 +568,32 @@ async function handleUpload(file) {
       status.className = 'upload-status upload-status--warn';
       setTimeout(() => { status.hidden = true; }, 4000);
     });
+}
+
+function pollProductionStatus(jobId, attempt = 0) {
+  if (attempt > 60) return;
+  fetch(`/api/digitize-status/${jobId}`)
+    .then(r => r.ok ? r.json() : null)
+    .then(job => {
+      if (!job) return;
+      const el = document.getElementById('digitizeStatus');
+      if (job.status === 'processing') {
+        el.textContent = 'Auto-digitizing DST/PES/JEF for production…';
+        setTimeout(() => pollProductionStatus(jobId, attempt + 1), 2000);
+      } else if (job.status === 'ready' || job.status === 'approved') {
+        el.innerHTML = `✓ <strong>${job.stitchCount?.toLocaleString()}</strong> stitches, ${job.colorCount} colours — ` +
+          `<a href="admin.html">open Production Hub</a> to download machine files.`;
+        if (artwork) {
+          artwork.productionJobId = job.id;
+          artwork.dstUrl = job.files?.dst;
+          artwork.pesUrl = job.files?.pes;
+          artwork.stitchCount = job.stitchCount;
+        }
+      } else if (job.status === 'failed') {
+        el.textContent = `Production digitize failed: ${job.error}. Workers can retry in Production Hub.`;
+      }
+    })
+    .catch(() => setTimeout(() => pollProductionStatus(jobId, attempt + 1), 3000));
 }
 
 function loadImage(src) {

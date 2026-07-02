@@ -2,8 +2,10 @@ services:
   - type: web
     name: computerised-embroidery
     runtime: node
-    buildCommand: npm install
+    buildCommand: npm install && pip install -r requirements.txt
     startCommand: npm start
     envVars:
       - key: NODE_VERSION
         value: "20"
+      - key: ADMIN_KEY
+        generateValue: true

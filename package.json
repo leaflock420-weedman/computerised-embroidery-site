@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "scrape": "python scripts/scrape-products.py"
+    "scrape": "python scripts/scrape-products.py",
+    "digitize": "python scripts/auto-digitize.py",
+    "setup:python": "pip install -r requirements.txt"
   },
   "dependencies": {
     "archiver": "^8.0.0",

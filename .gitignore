@@ -7,6 +7,10 @@ uploads/digitize/*
 !uploads/digitize/.gitkeep
 data/orders/*
 !data/orders/.gitkeep
+data/digitize-jobs/*
+!data/digitize-jobs/.gitkeep
+uploads/production/*
+!uploads/production/.gitkeep
 .env
 .DS_Store
 Thumbs.db

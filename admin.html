@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Production Hub | Computerised Embroidery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <header class="admin-header">
+    <a href="index.html" class="logo">
+      <span class="logo__icon">✦</span>
+      <span class="logo__text">Computerised<span>Embroidery</span></span>
+    </a>
+    <h1>Production Hub</h1>
+    <span class="admin-badge">Auto-digitize</span>
+    <a href="designer.html" class="btn btn--outline btn--sm">Design Studio</a>
+  </header>
+
+  <div class="admin-login" id="adminLogin">
+    <div class="login-card">
+      <h2>Worker sign-in</h2>
+      <p>Enter your production key to review auto-digitized files.</p>
+      <input type="password" id="adminKeyInput" class="admin-input" placeholder="Production key">
+      <button type="button" class="btn btn--primary" id="adminLoginBtn">Enter</button>
+      <p class="login-hint">Default key: <code>ce-production-2026</code> — change via <code>ADMIN_KEY</code> on server.</p>
+    </div>
+  </div>
+
+  <main class="admin-main" id="adminMain" hidden>
+    <section class="stats-row" id="statsRow"></section>
+
+    <div class="admin-toolbar">
+      <input type="search" id="jobSearch" class="admin-input" placeholder="Search artwork or job ID…">
+      <select id="statusFilter" class="admin-select">
+        <option value="">All statuses</option>
+        <option value="processing">Processing</option>
+        <option value="ready">Ready for review</option>
+        <option value="approved">Approved</option>
+        <option value="failed">Failed</option>
+      </select>
+      <button type="button" class="btn btn--outline btn--sm" id="refreshJobs">Refresh</button>
+    </div>
+
+    <div class="admin-layout">
+      <div class="job-list" id="jobList"></div>
+      <div class="job-detail" id="jobDetail">
+        <p class="job-detail__empty">Select a digitize job to review stitches and download machine files.</p>
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="js/admin.js"></script>
+</body>
+</html>
