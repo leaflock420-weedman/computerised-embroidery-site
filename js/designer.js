@@ -3,7 +3,8 @@ import { validateArtworkFile, uploadArtwork } from './artwork.js';
 import { estimateOrderTotal } from './pricing.js';
 import { getProductImage } from './images.js';
 import { resolveBlankMockup, loadTintedMockupImage } from './mockups.js';
-import { removeBackground, canvasToImage } from './remove-background.js';
+import { removeBackground } from './remove-background.js';
+import { recolorArtworkToImage } from './recolor-artwork.js';
 import { exportEmbroideryPackage } from './export-design.js';
 
 const VIEWS = {
@@ -53,7 +54,9 @@ let designs = {};
 let artwork = null;
 let artworkImg = null;
 let artworkImgOriginal = null;
+let artworkImgBase = null;
 let bgRemoved = false;
+let artworkRecolor = { mode: 'none', hue: 0, color: '#1e293b', intensity: 100 };
 let transform = { x: 250, y: 280, scale: 0.45, rotation: 0 };
 let zoom = 1;
 let dragging = false;
@@ -77,6 +80,7 @@ async function init() {
   populateSizes();
   populateColourSwatches();
   setDefaultGarmentColour();
+  populateThreadSwatches();
   await loadBlankMockup();
   renderViewTabs();
   syncSliders();
@@ -86,18 +90,62 @@ async function init() {
   updateCartBadge();
 }
 
+function getGarmentColourInfo() {
+  const name = document.getElementById('garmentColour').value || 'Black';
+  return { name, hex: getGarmentFill() };
+}
+
 async function loadBlankMockup() {
   mockupImg = null;
   mockupKind = 'svg';
   mockupTint = null;
-  const fill = getGarmentFill();
   try {
-    const info = await resolveBlankMockup(product, fill);
+    const info = await resolveBlankMockup(product, getGarmentColourInfo());
     const loaded = await loadTintedMockupImage(info);
     mockupImg = loaded.img;
     mockupKind = loaded.kind;
     mockupTint = loaded.tint;
   } catch (_) {}
+}
+
+function populateThreadSwatches() {
+  const el = document.getElementById('threadSwatches');
+  el.innerHTML = COLOUR_SWATCHES.map(c =>
+    `<button type="button" class="swatch${c.name === 'Black' ? ' active' : ''}" style="background:${c.hex}" title="${c.name}" data-hex="${c.hex}"></button>`
+  ).join('');
+  el.querySelectorAll('.swatch').forEach(btn => {
+    btn.addEventListener('click', () => {
+      el.querySelectorAll('.swatch').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      artworkRecolor.color = btn.dataset.hex;
+      applyArtworkRecolor();
+    });
+  });
+}
+
+function syncRecolorUI() {
+  const mode = document.querySelector('input[name="recolorMode"]:checked')?.value || 'none';
+  document.getElementById('hueShiftWrap').hidden = mode !== 'hue';
+  document.getElementById('threadColourWrap').hidden = mode !== 'solid';
+  document.getElementById('recolorIntensityWrap').hidden = mode === 'none';
+}
+
+async function applyArtworkRecolor() {
+  if (!artworkImgBase) return;
+  const mode = document.querySelector('input[name="recolorMode"]:checked')?.value || 'none';
+  artworkRecolor.mode = mode;
+  artworkRecolor.hue = parseInt(document.getElementById('hueShift').value, 10);
+  artworkRecolor.intensity = parseInt(document.getElementById('recolorIntensity').value, 10);
+
+  if (mode === 'none') {
+    artworkImg = artworkImgBase;
+    document.getElementById('artworkThumb').src = artworkImgBase.src;
+  } else {
+    artworkImg = await recolorArtworkToImage(artworkImgBase, artworkRecolor);
+    document.getElementById('artworkThumb').src = artworkImg.src;
+  }
+  saveCurrentDesign();
+  scheduleDraw();
 }
 
 function setDefaultGarmentColour() {
@@ -375,15 +423,6 @@ function drawBlankMockup(w, h, tint) {
   ctx.drawImage(mockupImg, ix, iy, iw, ih);
   ctx.shadowBlur = 0;
   ctx.shadowOffsetY = 0;
-
-  if (mockupKind === 'photo' && mockupTint) {
-    ctx.globalCompositeOperation = 'multiply';
-    ctx.fillStyle = tint;
-    ctx.globalAlpha = 0.38;
-    ctx.fillRect(ix, iy, iw, ih);
-    ctx.globalAlpha = 1;
-    ctx.globalCompositeOperation = 'source-over';
-  }
   ctx.restore();
 }
 
@@ -470,8 +509,10 @@ async function handleUpload(file) {
   const localUrl = URL.createObjectURL(file);
   artworkImg = await loadImage(localUrl);
   artworkImgOriginal = artworkImg;
+  artworkImgBase = artworkImg;
   bgRemoved = false;
   resetBgRemoveUI();
+  resetArtworkRecolorUI();
   artwork = { id: 'local-' + Date.now(), fileName: file.name, previewUrl: localUrl, validation };
 
   const zone = getZone(currentView, canvas.width, canvas.height);
@@ -546,6 +587,20 @@ function resetBgRemoveUI() {
   document.getElementById('bgToleranceVal').textContent = '42';
 }
 
+function resetArtworkRecolorUI() {
+  artworkRecolor = { mode: 'none', hue: 0, color: '#1e293b', intensity: 100 };
+  const none = document.querySelector('input[name="recolorMode"][value="none"]');
+  if (none) none.checked = true;
+  document.getElementById('hueShift').value = 0;
+  document.getElementById('hueShiftVal').textContent = '0°';
+  document.getElementById('recolorIntensity').value = 100;
+  document.getElementById('recolorIntensityVal').textContent = '100%';
+  document.querySelectorAll('#threadSwatches .swatch').forEach(b => {
+    b.classList.toggle('active', b.title === 'Black');
+  });
+  syncRecolorUI();
+}
+
 async function applyBackgroundRemoval() {
   if (!artworkImgOriginal) return;
   const tolerance = parseInt(document.getElementById('bgTolerance').value, 10);
@@ -556,9 +611,12 @@ async function applyBackgroundRemoval() {
 
   try {
     const { dataUrl } = await removeBackground(artworkImgOriginal, { tolerance });
-    artworkImg = await loadImage(dataUrl);
+    const processed = await loadImage(dataUrl);
+    artworkImgBase = processed;
+    artworkImg = processed;
     bgRemoved = true;
     document.getElementById('artworkThumb').src = dataUrl;
+    if (artworkRecolor.mode !== 'none') await applyArtworkRecolor();
     document.getElementById('restoreOriginalBg').hidden = false;
     if (artwork) artwork.previewUrl = dataUrl;
     saveCurrentDesign();
@@ -575,15 +633,33 @@ async function applyBackgroundRemoval() {
 
 async function restoreOriginalArtwork() {
   if (!artworkImgOriginal) return;
-  artworkImg = artworkImgOriginal;
+  artworkImgBase = artworkImgOriginal;
   bgRemoved = false;
   document.getElementById('removeBgCheck').checked = false;
   document.getElementById('bgToleranceWrap').hidden = true;
   document.getElementById('restoreOriginalBg').hidden = true;
   const src = artwork?.originalUrl || artworkImgOriginal.src;
-  document.getElementById('artworkThumb').src = src;
+  if (artworkRecolor.mode !== 'none') await applyArtworkRecolor();
+  else {
+    artworkImg = artworkImgOriginal;
+    document.getElementById('artworkThumb').src = src;
+  }
   saveCurrentDesign();
   scheduleDraw();
+}
+
+function syncGarmentSwatchFromInput() {
+  const name = document.getElementById('garmentColour').value.trim();
+  const el = document.getElementById('colourSwatches');
+  el.querySelectorAll('.swatch').forEach(b => b.classList.remove('active'));
+  const match = COLOUR_SWATCHES.find(c => c.name.toLowerCase() === name.toLowerCase());
+  if (match) {
+    const btn = el.querySelector(`[data-colour="${match.name}"]`);
+    if (btn) btn.classList.add('active');
+    garmentFill = match.hex;
+  } else {
+    garmentFill = null;
+  }
 }
 
 function buildCartItem() {
@@ -611,6 +687,7 @@ function buildCartItem() {
       previewUrl: artwork.previewUrl,
       digitizePreviewUrl: artwork.digitizePreviewUrl,
       backgroundRemoved: bgRemoved,
+      recolor: { ...artworkRecolor },
     } : null,
     pricing: estimateOrderTotal({ qty, positions: Math.max(positions.length, 1), newLogo: !!artwork }),
   };
@@ -622,9 +699,20 @@ function bindEvents() {
   });
 
   document.getElementById('garmentColour').addEventListener('input', () => {
-    garmentFill = null;
-    document.querySelectorAll('.swatch').forEach(b => b.classList.remove('active'));
+    syncGarmentSwatchFromInput();
     loadBlankMockup().then(() => scheduleDraw());
+  });
+
+  document.querySelectorAll('input[name="recolorMode"]').forEach(r => {
+    r.addEventListener('change', () => { syncRecolorUI(); applyArtworkRecolor(); });
+  });
+  document.getElementById('hueShift').addEventListener('input', e => {
+    document.getElementById('hueShiftVal').textContent = e.target.value + '°';
+    applyArtworkRecolor();
+  });
+  document.getElementById('recolorIntensity').addEventListener('input', e => {
+    document.getElementById('recolorIntensityVal').textContent = e.target.value + '%';
+    applyArtworkRecolor();
   });
 
   document.getElementById('removeBgCheck').addEventListener('change', async e => {
@@ -718,8 +806,10 @@ function bindEvents() {
       artwork = null;
       artworkImg = null;
       artworkImgOriginal = null;
+      artworkImgBase = null;
       bgRemoved = false;
       resetBgRemoveUI();
+      resetArtworkRecolorUI();
       document.getElementById('artworkPanel').hidden = true;
       setDesignUI(false);
     }

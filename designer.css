@@ -229,6 +229,33 @@
   box-shadow: 0 0 0 2px rgba(13, 148, 136, 0.25);
 }
 
+.colour-swatches--thread { margin-bottom: 0.5rem; }
+
+.panel-subhead {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin: 0.85rem 0 0.5rem;
+}
+
+.recolor-mode {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 0.6rem;
+}
+
+.recolor-mode label {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--navy);
+  cursor: pointer;
+}
+
 .slider-label {
   display: flex;
   flex-direction: column;

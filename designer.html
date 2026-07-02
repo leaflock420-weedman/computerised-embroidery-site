@@ -83,6 +83,26 @@
           <span>Rotation <strong id="rotateVal">0°</strong></span>
           <input type="range" id="rotateSlider" min="-180" max="180" value="0">
         </label>
+
+        <h3 class="panel-subhead">Artwork colour</h3>
+        <div class="recolor-mode" id="recolorMode">
+          <label><input type="radio" name="recolorMode" value="none" checked> Original</label>
+          <label><input type="radio" name="recolorMode" value="hue"> Hue shift</label>
+          <label><input type="radio" name="recolorMode" value="solid"> Thread colour</label>
+        </div>
+        <label class="slider-label" id="hueShiftWrap" hidden>
+          <span>Hue <strong id="hueShiftVal">0°</strong></span>
+          <input type="range" id="hueShift" min="0" max="360" value="0">
+        </label>
+        <div id="threadColourWrap" hidden>
+          <p class="panel-desc">Pick embroidery thread colour</p>
+          <div class="colour-swatches colour-swatches--thread" id="threadSwatches"></div>
+        </div>
+        <label class="slider-label" id="recolorIntensityWrap" hidden>
+          <span>Strength <strong id="recolorIntensityVal">100%</strong></span>
+          <input type="range" id="recolorIntensity" min="20" max="100" value="100">
+        </label>
+
         <p class="panel-desc">Drag to move, pull corner handles or scroll to resize. Sliders update live.</p>
       </section>
 
