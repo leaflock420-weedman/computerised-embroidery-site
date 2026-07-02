@@ -7,6 +7,7 @@
     "scrape": "python scripts/scrape-products.py"
   },
   "dependencies": {
+    "archiver": "^8.0.0",
     "express": "^4.21.2",
     "multer": "^1.4.5-lts.1",
     "sharp": "^0.33.5",

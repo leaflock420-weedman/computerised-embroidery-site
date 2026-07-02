@@ -1,22 +1,16 @@
 import urllib.request, re
-html = urllib.request.urlopen(urllib.request.Request(
-    'https://qld.headwear.com.au/headwear-styles/',
-    headers={'User-Agent': 'Mozilla/5.0'}
-)).read().decode()
-
-# Find card-title links
-titles = re.findall(
-    r'class="card-title"[^>]*>\s*<a[^>]*href="([^"]+)"[^>]*>\s*([^<]+?)\s*</a>',
-    html
-)
-print('titles', len(titles))
-for t in titles[:8]:
-    print(t)
-
-# product id near title
-for href, name in titles[:3]:
-    idx = html.find(name)
-    chunk = html[max(0,idx-500):idx+500]
-    pid = re.search(r'data-product-id="(\d+)"', chunk)
-    img = re.search(r'src="(https://cdn11[^"]+)"', chunk)
-    print('chunk pid', pid.group(1) if pid else None, 'img', bool(img))
+url = 'https://qld.headwear.com.au/terry-towelling-bucket-hat/'
+html = urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0'})).read().decode()
+# listing page chunk
+list_html = urllib.request.urlopen(urllib.request.Request('https://qld.headwear.com.au/headwear-styles/', headers={'User-Agent':'Mozilla/5.0'})).read().decode()
+name = 'Terry Towelling Bucket Hat'
+idx = list_html.find(name)
+chunk = list_html[max(0,idx-1500):idx+800]
+print('--- listing chunk imgs ---')
+for m in re.findall(r'(?:data-src|src|data-lazy)=["\']([^"\']+)["\']', chunk):
+    if 'bigcommerce' in m or 'loading' in m:
+        print(m[:120])
+print('--- product page ---')
+for m in re.findall(r'(?:data-src|src)=["\'](https://cdn11[^"\']+)["\']', html):
+    if 'loading' not in m and 'products/' in m:
+        print(m[:120])

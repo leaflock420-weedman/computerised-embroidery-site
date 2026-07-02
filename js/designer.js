@@ -2,6 +2,9 @@ import { addToCart, updateCartBadge } from './cart.js';
 import { validateArtworkFile, uploadArtwork } from './artwork.js';
 import { estimateOrderTotal } from './pricing.js';
 import { getProductImage } from './images.js';
+import { resolveBlankMockup, loadTintedMockupImage } from './mockups.js';
+import { removeBackground, canvasToImage } from './remove-background.js';
+import { exportEmbroideryPackage } from './export-design.js';
 
 const VIEWS = {
   default: ['Front', 'Back', 'Left', 'Right'],
@@ -42,11 +45,15 @@ const ctx = canvas.getContext('2d');
 
 let products = [];
 let product = null;
-let productImg = null;
+let mockupImg = null;
+let mockupKind = 'svg';
+let mockupTint = null;
 let currentView = 'Front';
 let designs = {};
 let artwork = null;
 let artworkImg = null;
+let artworkImgOriginal = null;
+let bgRemoved = false;
 let transform = { x: 250, y: 280, scale: 0.45, rotation: 0 };
 let zoom = 1;
 let dragging = false;
@@ -66,10 +73,11 @@ async function init() {
   const id = params.get('id') || products[0]?.id;
   product = products.find(p => p.id === id) || products[0];
 
-  await loadProductImage();
   populateProductSelect();
   populateSizes();
   populateColourSwatches();
+  setDefaultGarmentColour();
+  await loadBlankMockup();
   renderViewTabs();
   syncSliders();
   updatePricing();
@@ -78,13 +86,28 @@ async function init() {
   updateCartBadge();
 }
 
-async function loadProductImage() {
-  productImg = null;
-  const src = getProductImage(product);
-  if (!src) return;
+async function loadBlankMockup() {
+  mockupImg = null;
+  mockupKind = 'svg';
+  mockupTint = null;
+  const fill = getGarmentFill();
   try {
-    productImg = await loadImage(src);
+    const info = await resolveBlankMockup(product, fill);
+    const loaded = await loadTintedMockupImage(info);
+    mockupImg = loaded.img;
+    mockupKind = loaded.kind;
+    mockupTint = loaded.tint;
   } catch (_) {}
+}
+
+function setDefaultGarmentColour() {
+  const el = document.getElementById('colourSwatches');
+  const black = el?.querySelector('[data-colour="Black"]');
+  if (black && !document.getElementById('garmentColour').value) {
+    black.classList.add('active');
+    document.getElementById('garmentColour').value = 'Black';
+    garmentFill = '#1e293b';
+  }
 }
 
 function populateProductSelect() {
@@ -114,7 +137,7 @@ function populateColourSwatches() {
       btn.classList.add('active');
       document.getElementById('garmentColour').value = btn.dataset.colour;
       garmentFill = btn.dataset.hex;
-      scheduleDraw();
+      loadBlankMockup().then(() => scheduleDraw());
     });
   });
 }
@@ -180,6 +203,7 @@ function setDesignUI(hasDesign) {
   document.getElementById('removeDesign').hidden = !hasDesign;
   document.getElementById('canvasHint').hidden = hasDesign;
   document.getElementById('designControls').hidden = !hasDesign;
+  document.getElementById('exportPanel').hidden = !hasDesign;
 }
 
 function syncSliders() {
@@ -291,8 +315,8 @@ function draw() {
   ctx.scale(zoom, zoom);
   ctx.translate(-w / 2, -h / 2);
 
-  if (productImg) {
-    drawProductPhoto(w, h, fill);
+  if (mockupImg) {
+    drawBlankMockup(w, h, fill);
   } else if (mock.type === 'cap') {
     drawCap(fill, w, h);
   } else if (mock.type === 'hoodie') {
@@ -334,28 +358,28 @@ function draw() {
   ctx.restore();
 }
 
-function drawProductPhoto(w, h, tint) {
-  const pad = 40;
+function drawBlankMockup(w, h, tint) {
+  const pad = 36;
   const maxW = w - pad * 2;
   const maxH = h - pad * 2;
-  const ratio = Math.min(maxW / productImg.width, maxH / productImg.height);
-  const iw = productImg.width * ratio;
-  const ih = productImg.height * ratio;
+  const ratio = Math.min(maxW / mockupImg.width, maxH / mockupImg.height);
+  const iw = mockupImg.width * ratio;
+  const ih = mockupImg.height * ratio;
   const ix = (w - iw) / 2;
   const iy = (h - ih) / 2;
 
   ctx.save();
-  ctx.fillStyle = '#fff';
-  ctx.shadowColor = 'rgba(0,0,0,0.08)';
-  ctx.shadowBlur = 12;
-  ctx.fillRect(ix - 8, iy - 8, iw + 16, ih + 16);
+  ctx.shadowColor = 'rgba(0,0,0,0.06)';
+  ctx.shadowBlur = 16;
+  ctx.shadowOffsetY = 4;
+  ctx.drawImage(mockupImg, ix, iy, iw, ih);
   ctx.shadowBlur = 0;
-  ctx.drawImage(productImg, ix, iy, iw, ih);
+  ctx.shadowOffsetY = 0;
 
-  if (garmentFill || document.getElementById('garmentColour').value) {
+  if (mockupKind === 'photo' && mockupTint) {
     ctx.globalCompositeOperation = 'multiply';
     ctx.fillStyle = tint;
-    ctx.globalAlpha = 0.35;
+    ctx.globalAlpha = 0.38;
     ctx.fillRect(ix, iy, iw, ih);
     ctx.globalAlpha = 1;
     ctx.globalCompositeOperation = 'source-over';
@@ -445,6 +469,9 @@ async function handleUpload(file) {
   // INSTANT preview — show on canvas immediately
   const localUrl = URL.createObjectURL(file);
   artworkImg = await loadImage(localUrl);
+  artworkImgOriginal = artworkImg;
+  bgRemoved = false;
+  resetBgRemoveUI();
   artwork = { id: 'local-' + Date.now(), fileName: file.name, previewUrl: localUrl, validation };
 
   const zone = getZone(currentView, canvas.width, canvas.height);
@@ -511,6 +538,54 @@ function loadImage(src) {
   });
 }
 
+function resetBgRemoveUI() {
+  document.getElementById('removeBgCheck').checked = false;
+  document.getElementById('bgToleranceWrap').hidden = true;
+  document.getElementById('restoreOriginalBg').hidden = true;
+  document.getElementById('bgTolerance').value = 42;
+  document.getElementById('bgToleranceVal').textContent = '42';
+}
+
+async function applyBackgroundRemoval() {
+  if (!artworkImgOriginal) return;
+  const tolerance = parseInt(document.getElementById('bgTolerance').value, 10);
+  const status = document.getElementById('uploadStatus');
+  status.hidden = false;
+  status.textContent = 'Removing background…';
+  status.className = 'upload-status upload-status--busy';
+
+  try {
+    const { dataUrl } = await removeBackground(artworkImgOriginal, { tolerance });
+    artworkImg = await loadImage(dataUrl);
+    bgRemoved = true;
+    document.getElementById('artworkThumb').src = dataUrl;
+    document.getElementById('restoreOriginalBg').hidden = false;
+    if (artwork) artwork.previewUrl = dataUrl;
+    saveCurrentDesign();
+    scheduleDraw();
+    status.textContent = '✓ Background removed';
+    status.className = 'upload-status upload-status--done';
+    setTimeout(() => { status.hidden = true; }, 2000);
+  } catch (e) {
+    status.textContent = 'Could not remove background';
+    status.className = 'upload-status upload-status--warn';
+    setTimeout(() => { status.hidden = true; }, 3000);
+  }
+}
+
+async function restoreOriginalArtwork() {
+  if (!artworkImgOriginal) return;
+  artworkImg = artworkImgOriginal;
+  bgRemoved = false;
+  document.getElementById('removeBgCheck').checked = false;
+  document.getElementById('bgToleranceWrap').hidden = true;
+  document.getElementById('restoreOriginalBg').hidden = true;
+  const src = artwork?.originalUrl || artworkImgOriginal.src;
+  document.getElementById('artworkThumb').src = src;
+  saveCurrentDesign();
+  scheduleDraw();
+}
+
 function buildCartItem() {
   saveCurrentDesign();
   const qty = parseInt(document.getElementById('qtyInput').value, 10);
@@ -535,6 +610,7 @@ function buildCartItem() {
       originalUrl: artwork.originalUrl,
       previewUrl: artwork.previewUrl,
       digitizePreviewUrl: artwork.digitizePreviewUrl,
+      backgroundRemoved: bgRemoved,
     } : null,
     pricing: estimateOrderTotal({ qty, positions: Math.max(positions.length, 1), newLogo: !!artwork }),
   };
@@ -548,7 +624,45 @@ function bindEvents() {
   document.getElementById('garmentColour').addEventListener('input', () => {
     garmentFill = null;
     document.querySelectorAll('.swatch').forEach(b => b.classList.remove('active'));
-    scheduleDraw();
+    loadBlankMockup().then(() => scheduleDraw());
+  });
+
+  document.getElementById('removeBgCheck').addEventListener('change', async e => {
+    document.getElementById('bgToleranceWrap').hidden = !e.target.checked;
+    if (e.target.checked) await applyBackgroundRemoval();
+    else await restoreOriginalArtwork();
+  });
+
+  document.getElementById('bgTolerance').addEventListener('input', e => {
+    document.getElementById('bgToleranceVal').textContent = e.target.value;
+    if (document.getElementById('removeBgCheck').checked) applyBackgroundRemoval();
+  });
+
+  document.getElementById('restoreOriginalBg').addEventListener('click', restoreOriginalArtwork);
+
+  document.getElementById('exportDesign').addEventListener('click', async () => {
+    if (!artworkImg) { alert('Upload artwork first.'); return; }
+    saveCurrentDesign();
+    const btn = document.getElementById('exportDesign');
+    btn.disabled = true;
+    btn.textContent = 'Preparing…';
+    try {
+      await exportEmbroideryPackage({
+        product,
+        designs,
+        artwork,
+        artworkImg,
+        mockupImg,
+        mockupKind,
+        mockupTint: getGarmentFill(),
+        garmentColour: document.getElementById('garmentColour').value || 'Black',
+        threadCount: document.getElementById('threadCount').value,
+        qty: parseInt(document.getElementById('qtyInput').value, 10) || 1,
+      });
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Download production pack';
+    }
   });
 
   document.getElementById('qtyInput').addEventListener('input', updatePricing);
@@ -603,6 +717,9 @@ function bindEvents() {
     if (!Object.keys(designs).length) {
       artwork = null;
       artworkImg = null;
+      artworkImgOriginal = null;
+      bgRemoved = false;
+      resetBgRemoveUI();
       document.getElementById('artworkPanel').hidden = true;
       setDesignUI(false);
     }

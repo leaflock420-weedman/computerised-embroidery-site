@@ -108,7 +108,24 @@
         <h2>Your artwork</h2>
         <img id="artworkThumb" alt="Uploaded artwork">
         <ul class="artwork-meta" id="artworkMeta"></ul>
+        <div class="bg-remove-controls" id="bgRemoveControls">
+          <label class="bg-remove-toggle">
+            <input type="checkbox" id="removeBgCheck">
+            Remove background
+          </label>
+          <label class="slider-label" id="bgToleranceWrap" hidden>
+            <span>Sensitivity <strong id="bgToleranceVal">42</strong></span>
+            <input type="range" id="bgTolerance" min="10" max="90" value="42">
+          </label>
+          <button type="button" class="tool-btn tool-btn--sm" id="restoreOriginalBg" hidden>Restore original</button>
+        </div>
         <p class="artwork-digitize" id="digitizeStatus"></p>
+      </section>
+
+      <section class="panel-block export-panel" id="exportPanel" hidden>
+        <h2>Export for embroidery</h2>
+        <p class="panel-desc">Download placement files and artwork at 300 DPI — ready for production or <a href="https://emberdesign.net/" target="_blank" rel="noopener">Ember digitizing</a>.</p>
+        <button type="button" class="btn btn--outline btn--block" id="exportDesign">Download production pack</button>
       </section>
 
       <section class="panel-block pricing-panel">

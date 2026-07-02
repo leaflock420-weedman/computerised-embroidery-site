@@ -1,6 +1,7 @@
 const express = require('express');
 const multer = require('multer');
 const sharp = require('sharp');
+const archiver = require('archiver');
 const path = require('path');
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
@@ -80,6 +81,34 @@ app.post('/api/upload-artwork', upload.single('artwork'), async (req, res) => {
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
+});
+
+app.post('/api/export-design', express.json({ limit: '50mb' }), (req, res) => {
+  const { spec, views, artworkFileName } = req.body || {};
+  if (!spec || !views?.length) return res.status(400).json({ error: 'Missing export data' });
+
+  res.setHeader('Content-Type', 'application/zip');
+  res.setHeader('Content-Disposition', `attachment; filename="embroidery-${spec.product?.sku || 'design'}.zip"`);
+
+  const archive = archiver('zip', { zlib: { level: 9 } });
+  archive.on('error', err => res.status(500).end(err.message));
+  archive.pipe(res);
+
+  archive.append(JSON.stringify(spec, null, 2), { name: 'embroidery-spec.json' });
+  archive.append(
+    'Production package from Computerised Embroidery Design Studio.\n' +
+    'Artwork PNGs are at 300 DPI. Import embroidery-spec.json for placement dimensions.\n' +
+    'For DST/PES machine files, digitize at https://emberdesign.net/ or send to compemb@onthenet.com.au\n',
+    { name: 'README.txt' },
+  );
+
+  views.forEach(v => {
+    if (v.artworkPng) archive.append(Buffer.from(v.artworkPng, 'base64'), { name: `artwork-${v.view}-300dpi.png` });
+    if (v.mockupPng) archive.append(Buffer.from(v.mockupPng, 'base64'), { name: `placement-${v.view}.png` });
+  });
+
+  if (artworkFileName) archive.append(`Original file: ${artworkFileName}\n`, { name: 'original-filename.txt' });
+  archive.finalize();
 });
 
 app.post('/api/submit-order', (req, res) => {
