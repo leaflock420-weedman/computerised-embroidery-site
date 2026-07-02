@@ -30,12 +30,13 @@
       <section class="panel-block">
         <h2>Product</h2>
         <select id="productSelect" class="designer-select"></select>
-        <a href="#" id="changeProduct" class="panel-link">Browse all products</a>
+        <a href="shop.html" class="panel-link">Browse all products</a>
       </section>
 
       <section class="panel-block">
         <h2>Garment colour</h2>
-        <input type="text" id="garmentColour" class="designer-input" placeholder="e.g. Black, Navy">
+        <div class="colour-swatches" id="colourSwatches"></div>
+        <input type="text" id="garmentColour" class="designer-input" placeholder="Or type a colour…">
       </section>
 
       <section class="panel-block">
@@ -54,30 +55,39 @@
 
     <main class="designer-canvas-wrap">
       <div class="canvas-toolbar">
-        <button type="button" class="tool-btn" id="uploadBtn">+ Upload artwork</button>
+        <button type="button" class="tool-btn tool-btn--primary" id="uploadBtn">+ Upload artwork</button>
         <input type="file" id="artworkInput" accept="image/png,image/jpeg,image/webp,image/svg+xml,.pdf,.ai,.eps" hidden>
-        <button type="button" class="tool-btn" id="zoomOut">−</button>
+        <span class="toolbar-divider"></span>
+        <button type="button" class="tool-btn" id="zoomOut" title="Zoom out">−</button>
         <span id="zoomLevel">100%</span>
-        <button type="button" class="tool-btn" id="zoomIn">+</button>
+        <button type="button" class="tool-btn" id="zoomIn" title="Zoom in">+</button>
         <button type="button" class="tool-btn" id="centerDesign">Centre</button>
-        <button type="button" class="tool-btn" id="removeDesign" hidden>Remove design</button>
+        <button type="button" class="tool-btn" id="removeDesign" hidden>Remove</button>
       </div>
+
       <div class="canvas-stage" id="canvasStage">
         <canvas id="designCanvas" width="500" height="560"></canvas>
-        <p class="canvas-hint" id="canvasHint">Upload your logo to get started — 300 DPI recommended</p>
-      </div>
-      <div class="processing-overlay" id="processingOverlay" hidden>
-        <div class="processing-box">
-          <div class="spinner"></div>
-          <p id="processingText">Processing artwork…</p>
-        </div>
+        <p class="canvas-hint" id="canvasHint">Upload your logo — it appears instantly on the garment</p>
+        <div class="upload-status" id="uploadStatus" hidden></div>
       </div>
     </main>
 
     <aside class="designer-panel designer-panel--right">
+      <section class="panel-block" id="designControls" hidden>
+        <h2>Adjust design</h2>
+        <label class="slider-label">
+          <span>Size <strong id="scaleVal">50%</strong></span>
+          <input type="range" id="scaleSlider" min="5" max="120" value="45">
+        </label>
+        <label class="slider-label">
+          <span>Rotation <strong id="rotateVal">0°</strong></span>
+          <input type="range" id="rotateSlider" min="-180" max="180" value="0">
+        </label>
+        <p class="panel-desc">Drag to move, pull corner handles or scroll to resize. Sliders update live.</p>
+      </section>
+
       <section class="panel-block">
         <h2>Embroidery</h2>
-        <p class="panel-desc">Premium stitched decoration — great for logos and simple designs.</p>
         <label class="panel-label">
           Thread colours in design
           <select id="threadCount">
@@ -106,7 +116,6 @@
         <div class="price-line"><span>Digitizing (one-off)</span><strong>~$45</strong></div>
         <div class="price-line"><span>Embroidery per garment</span><strong>~$15</strong></div>
         <div class="price-line price-line--total"><span>Est. decoration</span><strong id="priceTotal">$0</strong></div>
-        <p class="price-note">Garment cost quoted separately. Final price may vary by logo size.</p>
       </section>
 
       <section class="panel-block">
@@ -114,17 +123,6 @@
           <input type="checkbox" id="copyrightCheck">
           I own the rights to this artwork and authorise embroidery production.
         </label>
-      </section>
-
-      <section class="panel-block panel-block--muted">
-        <h3>Artwork requirements</h3>
-        <ul class="req-list">
-          <li><strong>300 DPI</strong> PNG or vector (AI, PDF, EPS)</li>
-          <li>High resolution — crisp when zoomed in</li>
-          <li>Solid colours work best for embroidery</li>
-          <li>We keep your <strong>original file</strong> plus an auto-digitized preview</li>
-        </ul>
-        <a href="index.html#quote" class="panel-link">Or skip the builder — quick quote →</a>
       </section>
     </aside>
   </div>

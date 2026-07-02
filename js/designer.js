@@ -1,6 +1,7 @@
 import { addToCart, updateCartBadge } from './cart.js';
 import { validateArtworkFile, uploadArtwork } from './artwork.js';
-import { estimateOrderTotal, PRICING } from './pricing.js';
+import { estimateOrderTotal } from './pricing.js';
+import { getProductImage } from './images.js';
 
 const VIEWS = {
   default: ['Front', 'Back', 'Left', 'Right'],
@@ -8,33 +9,53 @@ const VIEWS = {
   cap: ['Front', 'Side left', 'Side right'],
 };
 
+const COLOUR_SWATCHES = [
+  { name: 'Black', hex: '#1e293b' },
+  { name: 'Navy', hex: '#1e3a5f' },
+  { name: 'White', hex: '#f8fafc' },
+  { name: 'Grey', hex: '#94a3b8' },
+  { name: 'Red', hex: '#dc2626' },
+  { name: 'Royal Blue', hex: '#2563eb' },
+  { name: 'Green', hex: '#16a34a' },
+  { name: 'Yellow', hex: '#facc15' },
+  { name: 'Orange', hex: '#ea580c' },
+  { name: 'Maroon', hex: '#7f1d1d' },
+];
+
 const MOCKUP = {
-  't-shirts': { color: '#f1f5f9', type: 'tee' },
-  polos: { color: '#e2e8f0', type: 'tee' },
-  hoodies: { color: '#cbd5e1', type: 'hoodie' },
-  headwear: { color: '#1e293b', type: 'cap' },
-  hivis: { color: '#facc15', type: 'tee' },
-  workwear: { color: '#94a3b8', type: 'tee' },
-  hospitality: { color: '#f8fafc', type: 'tee' },
-  healthcare: { color: '#e0f2fe', type: 'tee' },
-  schools: { color: '#dbeafe', type: 'tee' },
-  jackets: { color: '#475569', type: 'hoodie' },
-  shirts: { color: '#f8fafc', type: 'tee' },
-  pants: { color: '#64748b', type: 'tee' },
+  't-shirts': { type: 'tee', fill: '#f1f5f9' },
+  polos: { type: 'tee', fill: '#e2e8f0' },
+  hoodies: { type: 'hoodie', fill: '#cbd5e1' },
+  headwear: { type: 'cap', fill: '#1e293b' },
+  hivis: { type: 'tee', fill: '#facc15' },
+  workwear: { type: 'tee', fill: '#94a3b8' },
+  hospitality: { type: 'tee', fill: '#f8fafc' },
+  healthcare: { type: 'tee', fill: '#e0f2fe' },
+  schools: { type: 'tee', fill: '#dbeafe' },
+  jackets: { type: 'hoodie', fill: '#475569' },
+  shirts: { type: 'tee', fill: '#f8fafc' },
+  pants: { type: 'tee', fill: '#64748b' },
 };
+
+const canvas = document.getElementById('designCanvas');
+const ctx = canvas.getContext('2d');
 
 let products = [];
 let product = null;
+let productImg = null;
 let currentView = 'Front';
 let designs = {};
 let artwork = null;
 let artworkImg = null;
-let transform = { x: 250, y: 280, scale: 0.5, rotation: 0 };
+let transform = { x: 250, y: 280, scale: 0.45, rotation: 0 };
 let zoom = 1;
 let dragging = false;
-let dragStart = { x: 0, y: 0 };
-const canvas = document.getElementById('designCanvas');
-const ctx = canvas.getContext('2d');
+let resizing = false;
+let resizeHandle = null;
+let dragOffset = { x: 0, y: 0 };
+let needsDraw = false;
+let garmentFill = null;
+const HANDLE_HIT = 14;
 
 async function init() {
   const res = await fetch('data/products.json');
@@ -45,21 +66,31 @@ async function init() {
   const id = params.get('id') || products[0]?.id;
   product = products.find(p => p.id === id) || products[0];
 
+  await loadProductImage();
   populateProductSelect();
   populateSizes();
+  populateColourSwatches();
   renderViewTabs();
+  syncSliders();
   updatePricing();
-  draw();
+  scheduleDraw();
   bindEvents();
   updateCartBadge();
+}
+
+async function loadProductImage() {
+  productImg = null;
+  const src = getProductImage(product);
+  if (!src) return;
+  try {
+    productImg = await loadImage(src);
+  } catch (_) {}
 }
 
 function populateProductSelect() {
   const sel = document.getElementById('productSelect');
   const groups = {};
-  products.forEach(p => {
-    (groups[p.category] ||= []).push(p);
-  });
+  products.forEach(p => { (groups[p.category] ||= []).push(p); });
   sel.innerHTML = Object.entries(groups).map(([cat, items]) =>
     `<optgroup label="${cat}">${items.map(p =>
       `<option value="${p.id}" ${p.id === product.id ? 'selected' : ''}>${p.brand} — ${p.name}</option>`
@@ -68,8 +99,24 @@ function populateProductSelect() {
 }
 
 function populateSizes() {
-  const sel = document.getElementById('sizeSelect');
-  sel.innerHTML = product.sizes.map(s => `<option value="${s}">${s}</option>`).join('');
+  document.getElementById('sizeSelect').innerHTML =
+    product.sizes.map(s => `<option value="${s}">${s}</option>`).join('');
+}
+
+function populateColourSwatches() {
+  const el = document.getElementById('colourSwatches');
+  el.innerHTML = COLOUR_SWATCHES.map(c =>
+    `<button type="button" class="swatch" style="background:${c.hex}" title="${c.name}" data-colour="${c.name}" data-hex="${c.hex}"></button>`
+  ).join('');
+  el.querySelectorAll('.swatch').forEach(btn => {
+    btn.addEventListener('click', () => {
+      el.querySelectorAll('.swatch').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById('garmentColour').value = btn.dataset.colour;
+      garmentFill = btn.dataset.hex;
+      scheduleDraw();
+    });
+  });
 }
 
 function getViews() {
@@ -93,7 +140,8 @@ function renderViewTabs() {
       currentView = btn.dataset.view;
       loadViewDesign();
       renderViewTabs();
-      draw();
+      syncSliders();
+      scheduleDraw();
     });
   });
 }
@@ -113,28 +161,129 @@ function loadViewDesign() {
   const d = designs[currentView];
   if (d) {
     transform = { ...d.transform };
-    document.getElementById('removeDesign').hidden = false;
-    document.getElementById('canvasHint').hidden = true;
+    setDesignUI(true);
   } else if (artworkImg) {
-    transform = { x: 250, y: 280, scale: 0.5, rotation: 0 };
-    document.getElementById('removeDesign').hidden = false;
-    document.getElementById('canvasHint').hidden = true;
+    const zone = getZone(currentView, canvas.width, canvas.height);
+    transform = {
+      x: zone.x + zone.w / 2,
+      y: zone.y + zone.h / 2,
+      scale: 0.45,
+      rotation: 0,
+    };
+    setDesignUI(true);
   } else {
-    transform = { x: 250, y: 280, scale: 0.5, rotation: 0 };
-    document.getElementById('removeDesign').hidden = true;
-    document.getElementById('canvasHint').hidden = false;
+    setDesignUI(false);
   }
 }
 
-function drawGarment() {
-  const garmentColour = document.getElementById('garmentColour').value;
-  const mock = MOCKUP[product.category] || MOCKUP['t-shirts'];
-  const fill = garmentColour ? guessColour(garmentColour) : mock.color;
+function setDesignUI(hasDesign) {
+  document.getElementById('removeDesign').hidden = !hasDesign;
+  document.getElementById('canvasHint').hidden = hasDesign;
+  document.getElementById('designControls').hidden = !hasDesign;
+}
+
+function syncSliders() {
+  document.getElementById('scaleSlider').value = Math.round(transform.scale * 100);
+  document.getElementById('rotateSlider').value = Math.round(transform.rotation);
+  document.getElementById('scaleVal').textContent = Math.round(transform.scale * 100) + '%';
+  document.getElementById('rotateVal').textContent = Math.round(transform.rotation) + '°';
+}
+
+/** Map screen pointer to design coordinates (CSS scale + zoom inverse) */
+function pointerOnCanvas(e) {
+  const rect = canvas.getBoundingClientRect();
+  const sx = canvas.width / rect.width;
+  const sy = canvas.height / rect.height;
+  const clientX = e.clientX ?? e.touches?.[0]?.clientX ?? 0;
+  const clientY = e.clientY ?? e.touches?.[0]?.clientY ?? 0;
+  let x = (clientX - rect.left) * sx;
+  let y = (clientY - rect.top) * sy;
   const w = canvas.width;
   const h = canvas.height;
+  x = (x - w / 2) / zoom + w / 2;
+  y = (y - h / 2) / zoom + h / 2;
+  return { x, y };
+}
+
+function localPointer(p) {
+  const dx = p.x - transform.x;
+  const dy = p.y - transform.y;
+  const rad = (-transform.rotation * Math.PI) / 180;
+  return {
+    x: dx * Math.cos(rad) - dy * Math.sin(rad),
+    y: dx * Math.sin(rad) + dy * Math.cos(rad),
+  };
+}
+
+function getArtworkSize() {
+  if (!artworkImg) return { w: 0, h: 0 };
+  return {
+    w: artworkImg.width * transform.scale,
+    h: artworkImg.height * transform.scale,
+  };
+}
+
+function getHandlePositions() {
+  const { w, h } = getArtworkSize();
+  const rad = (transform.rotation * Math.PI) / 180;
+  const cos = Math.cos(rad);
+  const sin = Math.sin(rad);
+  const corners = [
+    { id: 'nw', lx: -w / 2, ly: -h / 2 },
+    { id: 'ne', lx: w / 2, ly: -h / 2 },
+    { id: 'sw', lx: -w / 2, ly: h / 2 },
+    { id: 'se', lx: w / 2, ly: h / 2 },
+  ];
+  return corners.map(c => ({
+    id: c.id,
+    x: transform.x + c.lx * cos - c.ly * sin,
+    y: transform.y + c.lx * sin + c.ly * cos,
+  }));
+}
+
+function hitTest(p) {
+  if (!artworkImg) return null;
+  for (const h of getHandlePositions()) {
+    if (Math.abs(p.x - h.x) <= HANDLE_HIT && Math.abs(p.y - h.y) <= HANDLE_HIT) {
+      return { type: 'resize', handle: h.id };
+    }
+  }
+  const local = localPointer(p);
+  const { w, h } = getArtworkSize();
+  if (Math.abs(local.x) <= w / 2 + 8 && Math.abs(local.y) <= h / 2 + 8) {
+    return { type: 'drag' };
+  }
+  return null;
+}
+
+function scheduleDraw() {
+  if (needsDraw) return;
+  needsDraw = true;
+  requestAnimationFrame(() => {
+    needsDraw = false;
+    draw();
+  });
+}
+
+function getGarmentFill() {
+  if (garmentFill) return garmentFill;
+  const name = document.getElementById('garmentColour').value;
+  if (!name) return (MOCKUP[product.category] || MOCKUP['t-shirts']).fill;
+  const sw = COLOUR_SWATCHES.find(c => c.name.toLowerCase() === name.toLowerCase());
+  if (sw) return sw.hex;
+  const map = { black: '#1e293b', navy: '#1e3a5f', white: '#f8fafc', red: '#dc2626', blue: '#2563eb', green: '#16a34a', grey: '#94a3b8', gray: '#94a3b8', yellow: '#facc15', orange: '#ea580c' };
+  const key = Object.keys(map).find(k => name.toLowerCase().includes(k));
+  return key ? map[key] : '#e2e8f0';
+}
+
+function draw() {
+  const w = canvas.width;
+  const h = canvas.height;
+  const fill = getGarmentFill();
+  const mock = MOCKUP[product.category] || MOCKUP['t-shirts'];
 
   ctx.clearRect(0, 0, w, h);
-  ctx.fillStyle = '#fafafa';
+  ctx.fillStyle = '#eef2f6';
   ctx.fillRect(0, 0, w, h);
 
   ctx.save();
@@ -142,7 +291,9 @@ function drawGarment() {
   ctx.scale(zoom, zoom);
   ctx.translate(-w / 2, -h / 2);
 
-  if (mock.type === 'cap') {
+  if (productImg) {
+    drawProductPhoto(w, h, fill);
+  } else if (mock.type === 'cap') {
     drawCap(fill, w, h);
   } else if (mock.type === 'hoodie') {
     drawHoodie(fill, w, h);
@@ -152,25 +303,63 @@ function drawGarment() {
 
   drawPlacementZone(w, h);
 
-  if (artworkImg && (designs[currentView] || artworkImg)) {
+  if (artworkImg) {
     ctx.save();
     ctx.translate(transform.x, transform.y);
     ctx.rotate((transform.rotation * Math.PI) / 180);
     const iw = artworkImg.width * transform.scale;
     const ih = artworkImg.height * transform.scale;
     ctx.drawImage(artworkImg, -iw / 2, -ih / 2, iw, ih);
-    ctx.strokeStyle = 'rgba(13, 148, 136, 0.6)';
-    ctx.lineWidth = 2;
-    ctx.setLineDash([6, 4]);
+    const active = dragging || resizing;
+    ctx.strokeStyle = active ? '#0d9488' : 'rgba(13, 148, 136, 0.7)';
+    ctx.lineWidth = active ? 2.5 : 2;
+    ctx.setLineDash(active ? [] : [6, 4]);
     ctx.strokeRect(-iw / 2, -ih / 2, iw, ih);
+    ctx.fillStyle = '#fff';
+    ctx.strokeStyle = '#0d9488';
+    ctx.lineWidth = 1.5;
+    ctx.setLineDash([]);
+    [[-iw / 2, -ih / 2], [iw / 2, -ih / 2], [-iw / 2, ih / 2], [iw / 2, ih / 2]].forEach(([cx, cy]) => {
+      ctx.fillRect(cx - 5, cy - 5, 10, 10);
+      ctx.strokeRect(cx - 5, cy - 5, 10, 10);
+    });
     ctx.restore();
   }
 
-  ctx.fillStyle = 'rgba(15,39,68,0.5)';
-  ctx.font = '600 11px Inter, sans-serif';
+  ctx.fillStyle = 'rgba(15,39,68,0.55)';
+  ctx.font = '600 11px Inter, system-ui, sans-serif';
   ctx.textAlign = 'center';
-  ctx.fillText(currentView.toUpperCase(), w / 2, h - 16);
+  ctx.fillText(currentView.toUpperCase(), w / 2, h - 14);
 
+  ctx.restore();
+}
+
+function drawProductPhoto(w, h, tint) {
+  const pad = 40;
+  const maxW = w - pad * 2;
+  const maxH = h - pad * 2;
+  const ratio = Math.min(maxW / productImg.width, maxH / productImg.height);
+  const iw = productImg.width * ratio;
+  const ih = productImg.height * ratio;
+  const ix = (w - iw) / 2;
+  const iy = (h - ih) / 2;
+
+  ctx.save();
+  ctx.fillStyle = '#fff';
+  ctx.shadowColor = 'rgba(0,0,0,0.08)';
+  ctx.shadowBlur = 12;
+  ctx.fillRect(ix - 8, iy - 8, iw + 16, ih + 16);
+  ctx.shadowBlur = 0;
+  ctx.drawImage(productImg, ix, iy, iw, ih);
+
+  if (garmentFill || document.getElementById('garmentColour').value) {
+    ctx.globalCompositeOperation = 'multiply';
+    ctx.fillStyle = tint;
+    ctx.globalAlpha = 0.35;
+    ctx.fillRect(ix, iy, iw, ih);
+    ctx.globalAlpha = 1;
+    ctx.globalCompositeOperation = 'source-over';
+  }
   ctx.restore();
 }
 
@@ -216,10 +405,15 @@ function drawCap(fill, w, h) {
 
 function drawPlacementZone(w, h) {
   const zone = getZone(currentView, w, h);
-  ctx.strokeStyle = 'rgba(13, 148, 136, 0.25)';
-  ctx.setLineDash([4, 4]);
+  ctx.strokeStyle = 'rgba(13, 148, 136, 0.3)';
+  ctx.setLineDash([5, 5]);
+  ctx.lineWidth = 1;
   ctx.strokeRect(zone.x, zone.y, zone.w, zone.h);
   ctx.setLineDash([]);
+  ctx.font = '500 9px Inter, sans-serif';
+  ctx.fillStyle = 'rgba(13, 148, 136, 0.6)';
+  ctx.textAlign = 'left';
+  ctx.fillText('embroidery zone', zone.x + 4, zone.y + 12);
 }
 
 function getZone(view, w, h) {
@@ -233,14 +427,6 @@ function getZone(view, w, h) {
   };
   return zones[view] || zones.Front;
 }
-
-function guessColour(name) {
-  const map = { black: '#1e293b', navy: '#1e3a5f', white: '#f8fafc', red: '#dc2626', blue: '#2563eb', green: '#16a34a', grey: '#94a3b8', gray: '#94a3b8', yellow: '#facc15', orange: '#ea580c', maroon: '#7f1d1d', pink: '#ec4899' };
-  const key = Object.keys(map).find(k => name.toLowerCase().includes(k));
-  return key ? map[key] : '#e2e8f0';
-}
-
-function draw() { drawGarment(); }
 
 function updatePricing() {
   const qty = parseInt(document.getElementById('qtyInput').value, 10) || 1;
@@ -256,73 +442,73 @@ async function handleUpload(file) {
     return;
   }
 
-  showProcessing('Validating artwork…');
-  showProcessing('Making embroidery-ready copy…');
+  // INSTANT preview — show on canvas immediately
+  const localUrl = URL.createObjectURL(file);
+  artworkImg = await loadImage(localUrl);
+  artwork = { id: 'local-' + Date.now(), fileName: file.name, previewUrl: localUrl, validation };
 
-  let uploadResult = null;
-  try {
-    uploadResult = await uploadArtwork(file, { productId: product.id, view: currentView });
-  } catch (e) {
-    showProcessing('Server offline — saving locally…');
-    uploadResult = {
-      id: 'local-' + Date.now(),
-      fileName: file.name,
-      previewUrl: await blobPreview(file),
-      originalUrl: null,
-      digitizeNote: 'Upload server unavailable — original will be sent with order.',
-      warnings: [e.message],
-    };
-  }
-
-  hideProcessing();
-
-  artwork = { ...uploadResult, fileName: file.name, validation };
-  artworkImg = await loadImage(uploadResult.previewUrl || URL.createObjectURL(file));
+  const zone = getZone(currentView, canvas.width, canvas.height);
+  transform = { x: zone.x + zone.w / 2, y: zone.y + zone.h / 2, scale: 0.45, rotation: 0 };
 
   document.getElementById('artworkPanel').hidden = false;
-  document.getElementById('artworkThumb').src = artworkImg.src;
+  document.getElementById('artworkThumb').src = localUrl;
   document.getElementById('artworkMeta').innerHTML = [
     `<li>File: ${file.name}</li>`,
     validation.width ? `<li>${validation.width} × ${validation.height}px</li>` : '',
     validation.dpi ? `<li>Est. ${validation.dpi} DPI</li>` : '',
     ...validation.warnings.map(w => `<li class="warn">${w}</li>`),
   ].filter(Boolean).join('');
-  document.getElementById('digitizeStatus').textContent = uploadResult.digitizeNote || 'Original + digitized preview saved.';
+  document.getElementById('digitizeStatus').textContent = 'Preview live — processing in background…';
 
-  document.getElementById('removeDesign').hidden = false;
-  document.getElementById('canvasHint').hidden = true;
-  transform = { x: 250, y: 280, scale: 0.45, rotation: 0 };
+  const status = document.getElementById('uploadStatus');
+  status.hidden = false;
+  status.textContent = 'Processing embroidery file…';
+  status.className = 'upload-status upload-status--busy';
+
+  setDesignUI(true);
+  syncSliders();
   saveCurrentDesign();
   renderViewTabs();
   updatePricing();
-  draw();
+  scheduleDraw();
+
+  // Background upload + digitize (non-blocking)
+  uploadArtwork(file, { productId: product.id, view: currentView })
+    .then(result => {
+      artwork = { ...result, fileName: file.name, validation };
+      if (result.previewUrl) {
+        loadImage(result.previewUrl).then(img => {
+          artworkImg = img;
+          document.getElementById('artworkThumb').src = result.previewUrl;
+          scheduleDraw();
+        }).catch(() => {});
+      }
+      document.getElementById('digitizeStatus').textContent =
+        result.digitizeNote || 'Original + digitized preview saved.';
+      status.textContent = '✓ Artwork processed';
+      status.className = 'upload-status upload-status--done';
+      setTimeout(() => { status.hidden = true; }, 3000);
+      saveCurrentDesign();
+    })
+    .catch(err => {
+      document.getElementById('digitizeStatus').textContent =
+        'Local preview active. Server upload pending — will send with order.';
+      status.textContent = 'Preview ready (offline mode)';
+      status.className = 'upload-status upload-status--warn';
+      setTimeout(() => { status.hidden = true; }, 4000);
+    });
 }
 
 function loadImage(src) {
   return new Promise((resolve, reject) => {
     const img = new Image();
-    img.crossOrigin = 'anonymous';
+    if (src.startsWith('/') || src.startsWith(location.origin)) {
+      img.crossOrigin = 'anonymous';
+    }
     img.onload = () => resolve(img);
-    img.onerror = reject;
+    img.onerror = () => reject(new Error('Image load failed'));
     img.src = src;
   });
-}
-
-function blobPreview(file) {
-  return new Promise(r => {
-    const reader = new FileReader();
-    reader.onload = () => r(reader.result);
-    reader.readAsDataURL(file);
-  });
-}
-
-function showProcessing(text) {
-  document.getElementById('processingOverlay').hidden = false;
-  document.getElementById('processingText').textContent = text;
-}
-
-function hideProcessing() {
-  document.getElementById('processingOverlay').hidden = true;
 }
 
 function buildCartItem() {
@@ -338,11 +524,8 @@ function buildCartItem() {
     sku: product.sku,
     name: product.name,
     brand: product.brand,
-    image: product.image,
-    size,
-    colour,
-    qty,
-    embroidery,
+    image: getProductImage(product),
+    size, colour, qty, embroidery,
     notes: `Threads: ${document.getElementById('threadCount').value}. Designed in studio.`,
     designed: true,
     designs: { ...designs },
@@ -362,10 +545,14 @@ function bindEvents() {
     location.href = `designer.html?id=${e.target.value}`;
   });
 
-  document.getElementById('changeProduct').href = 'shop.html';
+  document.getElementById('garmentColour').addEventListener('input', () => {
+    garmentFill = null;
+    document.querySelectorAll('.swatch').forEach(b => b.classList.remove('active'));
+    scheduleDraw();
+  });
 
-  document.getElementById('garmentColour').addEventListener('input', draw);
   document.getElementById('qtyInput').addEventListener('input', updatePricing);
+  document.getElementById('threadCount').addEventListener('change', updatePricing);
 
   document.getElementById('uploadBtn').addEventListener('click', () => {
     document.getElementById('artworkInput').click();
@@ -373,15 +560,42 @@ function bindEvents() {
 
   document.getElementById('artworkInput').addEventListener('change', e => {
     if (e.target.files[0]) handleUpload(e.target.files[0]);
+    e.target.value = '';
   });
 
-  document.getElementById('zoomIn').addEventListener('click', () => { zoom = Math.min(1.5, zoom + 0.1); document.getElementById('zoomLevel').textContent = Math.round(zoom * 100) + '%'; draw(); });
-  document.getElementById('zoomOut').addEventListener('click', () => { zoom = Math.max(0.6, zoom - 0.1); document.getElementById('zoomLevel').textContent = Math.round(zoom * 100) + '%'; draw(); });
+  document.getElementById('scaleSlider').addEventListener('input', e => {
+    transform.scale = e.target.value / 100;
+    document.getElementById('scaleVal').textContent = e.target.value + '%';
+    saveCurrentDesign();
+    scheduleDraw();
+  });
+
+  document.getElementById('rotateSlider').addEventListener('input', e => {
+    transform.rotation = parseInt(e.target.value, 10);
+    document.getElementById('rotateVal').textContent = e.target.value + '°';
+    saveCurrentDesign();
+    scheduleDraw();
+  });
+
+  document.getElementById('zoomIn').addEventListener('click', () => {
+    zoom = Math.min(1.5, zoom + 0.1);
+    document.getElementById('zoomLevel').textContent = Math.round(zoom * 100) + '%';
+    scheduleDraw();
+  });
+
+  document.getElementById('zoomOut').addEventListener('click', () => {
+    zoom = Math.max(0.6, zoom - 0.1);
+    document.getElementById('zoomLevel').textContent = Math.round(zoom * 100) + '%';
+    scheduleDraw();
+  });
 
   document.getElementById('centerDesign').addEventListener('click', () => {
-    transform.x = 250;
-    transform.y = 280;
-    draw();
+    const zone = getZone(currentView, canvas.width, canvas.height);
+    transform.x = zone.x + zone.w / 2;
+    transform.y = zone.y + zone.h / 2;
+    syncSliders();
+    saveCurrentDesign();
+    scheduleDraw();
   });
 
   document.getElementById('removeDesign').addEventListener('click', () => {
@@ -390,45 +604,92 @@ function bindEvents() {
       artwork = null;
       artworkImg = null;
       document.getElementById('artworkPanel').hidden = true;
+      setDesignUI(false);
     }
-    document.getElementById('removeDesign').hidden = !artworkImg;
-    document.getElementById('canvasHint').hidden = !!artworkImg;
     renderViewTabs();
     updatePricing();
-    draw();
+    scheduleDraw();
   });
 
-  canvas.addEventListener('mousedown', e => {
+  canvas.style.touchAction = 'none';
+
+  const onPointerDown = e => {
     if (!artworkImg) return;
-    dragging = true;
-    const rect = canvas.getBoundingClientRect();
-    dragStart = { x: e.clientX - rect.left - transform.x, y: e.clientY - rect.top - transform.y };
-  });
-  canvas.addEventListener('mousemove', e => {
-    if (!dragging) return;
-    const rect = canvas.getBoundingClientRect();
-    transform.x = e.clientX - rect.left - dragStart.x;
-    transform.y = e.clientY - rect.top - dragStart.y;
-    draw();
-  });
-  canvas.addEventListener('mouseup', () => { dragging = false; saveCurrentDesign(); });
-  canvas.addEventListener('mouseleave', () => { dragging = false; });
+    const hit = hitTest(pointerOnCanvas(e));
+    if (!hit) return;
+    e.preventDefault();
+    if (hit.type === 'resize') {
+      resizing = true;
+      resizeHandle = hit.handle;
+      canvas.style.cursor = 'nwse-resize';
+    } else {
+      dragging = true;
+      const p = pointerOnCanvas(e);
+      dragOffset = { x: p.x - transform.x, y: p.y - transform.y };
+      canvas.style.cursor = 'grabbing';
+    }
+    canvas.setPointerCapture(e.pointerId);
+    scheduleDraw();
+  };
+
+  const onPointerMove = e => {
+    if (!dragging && !resizing) {
+      if (artworkImg) {
+        const hit = hitTest(pointerOnCanvas(e));
+        if (hit?.type === 'resize') canvas.style.cursor = 'nwse-resize';
+        else if (hit?.type === 'drag') canvas.style.cursor = 'grab';
+        else canvas.style.cursor = 'default';
+      }
+      return;
+    }
+    e.preventDefault();
+    const p = pointerOnCanvas(e);
+    if (resizing) {
+      const local = localPointer(p);
+      const scaleX = (Math.abs(local.x) * 2) / artworkImg.width;
+      const scaleY = (Math.abs(local.y) * 2) / artworkImg.height;
+      transform.scale = Math.max(0.05, Math.min(1.2, Math.max(scaleX, scaleY)));
+      syncSliders();
+    } else {
+      transform.x = p.x - dragOffset.x;
+      transform.y = p.y - dragOffset.y;
+    }
+    scheduleDraw();
+  };
+
+  const endInteraction = () => {
+    if (!dragging && !resizing) return;
+    dragging = false;
+    resizing = false;
+    resizeHandle = null;
+    canvas.style.cursor = artworkImg ? 'grab' : 'default';
+    saveCurrentDesign();
+    scheduleDraw();
+  };
+
+  canvas.addEventListener('pointerdown', onPointerDown);
+  canvas.addEventListener('pointermove', onPointerMove);
+  canvas.addEventListener('pointerup', endInteraction);
+  canvas.addEventListener('pointercancel', endInteraction);
+  canvas.addEventListener('lostpointercapture', endInteraction);
 
   canvas.addEventListener('wheel', e => {
     if (!artworkImg) return;
     e.preventDefault();
-    transform.scale = Math.max(0.1, Math.min(1.2, transform.scale + (e.deltaY > 0 ? -0.05 : 0.05)));
-    draw();
+    const delta = e.deltaY > 0 ? -0.03 : 0.03;
+    transform.scale = Math.max(0.05, Math.min(1.2, transform.scale + delta));
+    syncSliders();
     saveCurrentDesign();
-  });
+    scheduleDraw();
+  }, { passive: false });
 
   const addHandler = () => {
     if (!document.getElementById('copyrightCheck').checked) {
       alert('Please confirm you own the rights to this artwork.');
       return;
     }
-    if (!artwork && !Object.keys(designs).length) {
-      alert('Upload your artwork first, or use Quick Quote on the homepage.');
+    if (!artworkImg) {
+      alert('Upload your artwork first.');
       return;
     }
     addToCart(buildCartItem());
