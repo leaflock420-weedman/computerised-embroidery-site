@@ -4,8 +4,9 @@ Modern website for **Computerised Embroidery**, Southport QLD. Short-run logo em
 
 ## Live demo
 
-- **GitHub Pages (browse shop):** https://leaflock420-weedman.github.io/computerised-embroidery-site/
-- **Full site (uploads + digitizing API):** run locally or deploy to Render (see below)
+- **Full site (shop + Design Studio + uploads API):** https://computerised-embroidery.onrender.com
+- **GitHub Pages (static browse only):** https://leaflock420-weedman.github.io/computerised-embroidery-site/
+- **Local dev:** `npm start` → http://localhost:8765
 
 ## Features
 
