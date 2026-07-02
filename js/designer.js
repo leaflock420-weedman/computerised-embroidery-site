@@ -2,7 +2,7 @@ import { addToCart, updateCartBadge } from './cart.js';
 import { validateArtworkFile, uploadArtwork } from './artwork.js';
 import { estimateOrderTotal } from './pricing.js';
 import { getProductImage } from './images.js';
-import { resolveBlankMockup, loadTintedMockupImage } from './mockups.js';
+import { loadGarmentMockup, retintGarmentMockup, clearMockupCache } from './mockups.js';
 import { removeBackground } from './remove-background.js';
 import { recolorArtworkToImage } from './recolor-artwork.js';
 import { exportEmbroideryPackage } from './export-design.js';
@@ -48,7 +48,6 @@ let products = [];
 let product = null;
 let mockupImg = null;
 let mockupKind = 'svg';
-let mockupTint = null;
 let currentView = 'Front';
 let designs = {};
 let artwork = null;
@@ -90,22 +89,25 @@ async function init() {
   updateCartBadge();
 }
 
-function getGarmentColourInfo() {
-  const name = document.getElementById('garmentColour').value || 'Black';
-  return { name, hex: getGarmentFill() };
-}
-
-async function loadBlankMockup() {
+async function loadBlankMockup(clearCache = false) {
+  if (clearCache) clearMockupCache();
   mockupImg = null;
   mockupKind = 'svg';
-  mockupTint = null;
   try {
-    const info = await resolveBlankMockup(product, getGarmentColourInfo());
-    const loaded = await loadTintedMockupImage(info);
+    const loaded = await loadGarmentMockup(product, getGarmentFill());
     mockupImg = loaded.img;
     mockupKind = loaded.kind;
-    mockupTint = loaded.tint;
   } catch (_) {}
+}
+
+async function updateGarmentColour() {
+  try {
+    const loaded = await retintGarmentMockup(product, getGarmentFill());
+    mockupImg = loaded.img;
+    scheduleDraw();
+  } catch (_) {
+    scheduleDraw();
+  }
 }
 
 function populateThreadSwatches() {
@@ -185,7 +187,7 @@ function populateColourSwatches() {
       btn.classList.add('active');
       document.getElementById('garmentColour').value = btn.dataset.colour;
       garmentFill = btn.dataset.hex;
-      loadBlankMockup().then(() => scheduleDraw());
+      updateGarmentColour();
     });
   });
 }
@@ -695,12 +697,13 @@ function buildCartItem() {
 
 function bindEvents() {
   document.getElementById('productSelect').addEventListener('change', e => {
+    clearMockupCache();
     location.href = `designer.html?id=${e.target.value}`;
   });
 
   document.getElementById('garmentColour').addEventListener('input', () => {
     syncGarmentSwatchFromInput();
-    loadBlankMockup().then(() => scheduleDraw());
+    updateGarmentColour();
   });
 
   document.querySelectorAll('input[name="recolorMode"]').forEach(r => {
@@ -742,7 +745,7 @@ function bindEvents() {
         artworkImg,
         mockupImg,
         mockupKind,
-        mockupTint: getGarmentFill(),
+        mockupTint: null,
         garmentColour: document.getElementById('garmentColour').value || 'Black',
         threadCount: document.getElementById('threadCount').value,
         qty: parseInt(document.getElementById('qtyInput').value, 10) || 1,
