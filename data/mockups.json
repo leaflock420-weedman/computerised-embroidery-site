@@ -2,7 +2,11 @@
   "defaults": {
     "caps": "assets/mockups/cap-front.svg",
     "beanies": "assets/mockups/beanie-front.svg",
-    "bucket-hats": "assets/mockups/bucket-front.svg"
+    "bucket-hats": "assets/mockups/bucket-front.svg",
+    "t-shirts": "assets/mockups/tee-front.svg",
+    "polos": "assets/mockups/tee-front.svg",
+    "hoodies": "assets/mockups/hoodie-front.svg",
+    "headwear": "assets/mockups/cap-front.svg"
   },
   "products": [
     {
