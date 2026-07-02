@@ -1,0 +1,8 @@
+{
+  "checkout": {
+    "quoteLabel": "Request quote",
+    "paymentLabel": "Pay deposit with card",
+    "paymentNote": "Pay a 50% deposit to start production. Balance due before dispatch.",
+    "stripePaymentLink": ""
+  }
+}

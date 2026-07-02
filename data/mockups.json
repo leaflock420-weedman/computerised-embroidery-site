@@ -1,11 +1,11 @@
 {
   "bases": {
-    "cap": "assets/mockups/photos/cap-black.jpg",
-    "beanie": "assets/mockups/photos/beanie-black.jpg",
-    "bucket": "assets/mockups/photos/bucket-black.jpg",
-    "tee": "assets/mockups/photos/tee-black.jpg",
-    "polo": "assets/mockups/photos/tee-black.jpg",
-    "hoodie": "assets/mockups/photos/hoodie-black.jpg"
+    "cap": "assets/mockups/photos/cap-black.png",
+    "beanie": "assets/mockups/photos/beanie-black.png",
+    "bucket": "assets/mockups/photos/bucket-black.png",
+    "tee": "assets/mockups/photos/tee-black.png",
+    "polo": "assets/mockups/photos/tee-black.png",
+    "hoodie": "assets/mockups/photos/hoodie-black.png"
   },
   "fallbacks": {
     "cap": "assets/mockups/cap-front.svg",
@@ -15,5 +15,5 @@
     "polo": "assets/mockups/tee-front.svg",
     "hoodie": "assets/mockups/hoodie-front.svg"
   },
-  "note": "One real blank photo per garment shape. Designer tints via canvas overlay — no per-colour image fetching."
+  "note": "Transparent PNG blanks per garment shape — pixel tint at draw time, no coloured photo backgrounds."
 }

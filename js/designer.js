@@ -106,6 +106,39 @@ function updateGarmentColour() {
   scheduleDraw();
 }
 
+async function switchProduct(productId) {
+  const next = products.find(p => p.id === productId);
+  if (!next || next.id === product.id) return;
+
+  saveCurrentDesign();
+  product = next;
+  clearMockupCache();
+
+  document.getElementById('productSelect').value = product.id;
+  populateSizes();
+
+  const views = getViews();
+  if (!views.includes(currentView)) currentView = views[0];
+
+  await loadBlankMockup();
+
+  if (artworkImg) {
+    const zone = getZone(currentView, canvas.width, canvas.height);
+    transform = {
+      x: zone.x + zone.w / 2,
+      y: zone.y + zone.h / 2,
+      scale: Math.min(0.55, transform.scale),
+      rotation: transform.rotation,
+    };
+    syncSliders();
+  }
+
+  renderViewTabs();
+  updatePricing();
+  history.replaceState(null, '', `designer.html?id=${product.id}`);
+  scheduleDraw();
+}
+
 function populateThreadSwatches() {
   const el = document.getElementById('threadSwatches');
   el.innerHTML = COLOUR_SWATCHES.map(c =>
@@ -734,8 +767,7 @@ function buildCartItem() {
 
 function bindEvents() {
   document.getElementById('productSelect').addEventListener('change', e => {
-    clearMockupCache();
-    location.href = `designer.html?id=${e.target.value}`;
+    switchProduct(e.target.value);
   });
 
   document.getElementById('garmentColour').addEventListener('input', () => {

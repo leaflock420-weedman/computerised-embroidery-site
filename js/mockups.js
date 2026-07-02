@@ -1,4 +1,4 @@
-/** Real blank garment photos — tinted live via canvas colour overlay. */
+/** Real blank garment photos — tinted per-pixel (transparent backgrounds). */
 
 const FALLBACK_SVG = {
   cap: 'assets/mockups/cap-front.svg',
@@ -10,14 +10,16 @@ const FALLBACK_SVG = {
 };
 
 const photoCache = new Map();
+const tintCache = new Map();
 let basesConfig = null;
 
 export function getMockupType(product) {
   if (!product) return 'tee';
+  const name = (product.name || '').toLowerCase();
   if (product.category === 'headwear') {
     const sub = product.subcategory || '';
-    if (sub === 'beanies' || /beanie/i.test(product.name)) return 'beanie';
-    if (sub === 'bucket-hats' || /bucket/i.test(product.name)) return 'bucket';
+    if (sub === 'beanies' || /beanie|toque|pom[\s-]?pom/i.test(name)) return 'beanie';
+    if (sub === 'bucket-hats' || /bucket|safari/i.test(name)) return 'bucket';
     return 'cap';
   }
   if (product.category === 'hoodies' || product.category === 'jackets') return 'hoodie';
@@ -27,6 +29,7 @@ export function getMockupType(product) {
 
 export function clearMockupCache() {
   photoCache.clear();
+  tintCache.clear();
   basesConfig = null;
 }
 
@@ -77,69 +80,75 @@ async function loadBasePhoto(type) {
   const config = await loadConfig();
   const src = config.bases?.[type] || config.bases?.tee;
   let img;
+  let kind = 'photo';
   try {
     img = await loadImage(src);
-    photoCache.set(type, { img, kind: 'photo' });
   } catch {
     img = await loadSvgFallback(type);
-    photoCache.set(type, { img, kind: 'svg' });
+    kind = 'svg';
   }
+  photoCache.set(type, { img, kind, type });
   return photoCache.get(type);
 }
 
-/**
- * Draw garment mockup with live colour overlay (multiply + screen).
- * Works on black/grey base photos — no per-colour image swap.
- */
+/** Recolour only opaque garment pixels — transparent areas stay clear. */
+export function buildTintedMockupCanvas(img, hex, w, h, kind = 'photo') {
+  const key = `${img.src}|${hex}|${w}|${h}|${kind}`;
+  if (tintCache.has(key)) return tintCache.get(key);
+
+  const canvas = document.createElement('canvas');
+  canvas.width = Math.max(1, Math.ceil(w));
+  canvas.height = Math.max(1, Math.ceil(h));
+  const ctx = canvas.getContext('2d', { willReadFrequently: true });
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+
+  if (kind === 'photo') {
+    const [tr, tg, tb] = parseHex(hex);
+    const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    const d = imageData.data;
+    const lumBoost = (tr * 0.299 + tg * 0.587 + tb * 0.114) / 255;
+
+    for (let i = 0; i < d.length; i += 4) {
+      const a = d[i + 3];
+      if (a < 12) {
+        d[i + 3] = 0;
+        continue;
+      }
+      const r = d[i];
+      const g = d[i + 1];
+      const b = d[i + 2];
+      const lum = (r * 0.299 + g * 0.587 + b * 0.114) / 255;
+      const shade = lumBoost > 0.82
+        ? 0.55 + lum * 0.45
+        : 0.22 + lum * 0.78;
+      d[i] = Math.round(tr * shade);
+      d[i + 1] = Math.round(tg * shade);
+      d[i + 2] = Math.round(tb * shade);
+    }
+    ctx.putImageData(imageData, 0, 0);
+  }
+
+  tintCache.set(key, canvas);
+  return canvas;
+}
+
 export function drawTintedGarment(ctx, img, x, y, w, h, hex, kind = 'photo') {
   ctx.save();
-  ctx.shadowColor = 'rgba(0,0,0,0.06)';
-  ctx.shadowBlur = 16;
+  ctx.shadowColor = 'rgba(0,0,0,0.08)';
+  ctx.shadowBlur = 14;
   ctx.shadowOffsetY = 4;
-  ctx.drawImage(img, x, y, w, h);
-  ctx.shadowBlur = 0;
-  ctx.shadowOffsetY = 0;
-
-  if (kind !== 'photo') {
-    ctx.restore();
-    return;
-  }
-
-  const [r, g, b] = parseHex(hex);
-  const lum = (r * 0.299 + g * 0.587 + b * 0.114) / 255;
-  const color = `rgb(${r},${g},${b})`;
-
-  if (lum > 0.82) {
-    ctx.globalCompositeOperation = 'source-atop';
-    ctx.globalAlpha = 0.5;
-    ctx.fillStyle = color;
-    ctx.fillRect(x, y, w, h);
-    ctx.globalCompositeOperation = 'screen';
-    ctx.globalAlpha = 0.45;
-    ctx.fillRect(x, y, w, h);
-  } else {
-    ctx.globalCompositeOperation = 'multiply';
-    ctx.globalAlpha = lum < 0.2 ? 0.9 : 0.72;
-    ctx.fillStyle = color;
-    ctx.fillRect(x, y, w, h);
-    ctx.globalCompositeOperation = 'screen';
-    ctx.globalAlpha = 0.1;
-    ctx.fillRect(x, y, w, h);
-  }
-
-  ctx.globalCompositeOperation = 'source-over';
-  ctx.globalAlpha = 1;
+  const tinted = buildTintedMockupCanvas(img, hex, w, h, kind);
+  ctx.drawImage(tinted, x, y);
   ctx.restore();
 }
 
-/** Load base photo for product shape (cached). Tint applied at draw time. */
 export async function loadGarmentMockup(product) {
   const type = getMockupType(product);
   const cached = await loadBasePhoto(type);
   return { img: cached.img, kind: cached.kind, type };
 }
 
-/** Colour changed — same cached photo, redraw only. */
 export async function retintGarmentMockup(product) {
   return loadGarmentMockup(product);
 }

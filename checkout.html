@@ -35,7 +35,7 @@
     <div class="container checkout-layout">
       <section class="checkout-cart">
         <h1>Your order</h1>
-        <p class="checkout-lead">Review your items, then submit for a quote. No payment required now — we'll confirm pricing and turnaround by email or phone.</p>
+        <p class="checkout-lead">Review your items, then request a quote or pay a deposit to start production.</p>
 
         <div id="cartEmpty" class="cart-empty" hidden>
           <p>Your order is empty.</p>
@@ -97,8 +97,19 @@
             <span>Order notes</span>
             <textarea name="notes" rows="3" placeholder="Deadline, logo file details, special instructions…"></textarea>
           </label>
-          <p class="checkout-note">By placing this order you request a quote. We'll confirm garment availability, embroidery pricing and delivery timeframe before any work begins.</p>
-          <button type="submit" class="btn btn--primary btn--lg btn--full">Place Order &amp; Request Quote</button>
+          <fieldset class="checkout-mode" id="checkoutMode">
+            <legend>How would you like to proceed?</legend>
+            <label class="checkout-mode__option">
+              <input type="radio" name="checkoutMode" value="quote" checked>
+              <span><strong>Request a quote</strong> — no payment now. We'll confirm pricing by email or phone.</span>
+            </label>
+            <label class="checkout-mode__option">
+              <input type="radio" name="checkoutMode" value="pay">
+              <span><strong>Pay deposit online</strong> — <span id="paymentModeNote">secure card payment to start production.</span></span>
+            </label>
+          </fieldset>
+          <p class="checkout-note" id="checkoutNote">By placing this order you request a quote. We'll confirm garment availability, embroidery pricing and delivery timeframe before any work begins.</p>
+          <button type="submit" class="btn btn--primary btn--lg btn--full" id="checkoutSubmit">Place Order &amp; Request Quote</button>
         </form>
 
         <div id="orderSuccess" class="order-success" hidden>
