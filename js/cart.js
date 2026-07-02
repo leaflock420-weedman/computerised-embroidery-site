@@ -66,7 +66,15 @@ export function updateCartBadge() {
   });
 }
 
+function absUrl(path) {
+  if (!path) return '';
+  if (/^https?:/i.test(path)) return path;
+  const origin = typeof location !== 'undefined' ? location.origin : 'http://localhost:8765';
+  return `${origin}${path.startsWith('/') ? path : `/${path}`}`;
+}
+
 export function formatOrderEmail(cart, customer) {
+  const hub = typeof location !== 'undefined' ? `${location.origin}/admin.html` : '';
   const lines = [
     'NEW ORDER — Computerised Embroidery',
     '',
@@ -90,9 +98,12 @@ export function formatOrderEmail(cart, customer) {
     if (item.designed) lines.push('   Designed in online studio: Yes');
     if (item.artwork) {
       lines.push(`   Artwork: ${item.artwork.fileName}`);
-      if (item.artwork.originalUrl) lines.push(`   Original file: ${item.artwork.originalUrl}`);
-      if (item.artwork.previewUrl) lines.push(`   Preview: ${item.artwork.previewUrl}`);
-      if (item.artwork.digitizePreviewUrl) lines.push(`   Digitize preview: ${item.artwork.digitizePreviewUrl}`);
+      if (item.artwork.id) lines.push(`   Production job ID: ${item.artwork.id}`);
+      if (item.artwork.originalUrl) lines.push(`   Original file: ${absUrl(item.artwork.originalUrl)}`);
+      if (item.artwork.previewUrl) lines.push(`   Preview: ${absUrl(item.artwork.previewUrl)}`);
+      if (item.artwork.digitizePreviewUrl) lines.push(`   Digitize preview: ${absUrl(item.artwork.digitizePreviewUrl)}`);
+      if (item.garmentHex) lines.push(`   Garment HEX: ${item.garmentHex}`);
+      if (item.artwork.recolor?.color) lines.push(`   Thread HEX: ${item.artwork.recolor.color}`);
     }
     if (item.pricing) {
       lines.push(`   Guide decoration: ~$${item.pricing.total} (digitize $${item.pricing.digitize} + embroidery $${item.pricing.stitch})`);
@@ -102,7 +113,11 @@ export function formatOrderEmail(cart, customer) {
   });
 
   if (customer.artworkFile) lines.push('--- UPLOADED ARTWORK ---', customer.artworkFile, '');
+  if (customer.checkoutMode) lines.push('--- CHECKOUT ---', `Mode: ${customer.checkoutMode}`, '');
   lines.push('--- ORDER NOTES ---', customer.notes || 'None');
+  if (hub) {
+    lines.push('', '--- TEAM ---', `Orders & DST/PES/JEF files: ${hub}`, 'Sign in with production key to download machine files.');
+  }
   return lines.filter(s => s !== undefined).join('\n');
 }
 

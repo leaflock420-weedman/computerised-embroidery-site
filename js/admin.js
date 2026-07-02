@@ -173,7 +173,53 @@ document.getElementById('adminKeyInput').addEventListener('keydown', e => {
   if (e.key === 'Enter') document.getElementById('adminLoginBtn').click();
 });
 
+let orders = [];
+
+async function loadOrders() {
+  orders = await api('/api/orders');
+  renderOrders();
+}
+
+function renderOrders() {
+  const el = document.getElementById('ordersList');
+  if (!orders.length) {
+    el.innerHTML = '<p class="job-detail__empty">No customer orders yet. Orders appear here when checkout runs on the local server.</p>';
+    return;
+  }
+  el.innerHTML = orders.map(o => {
+    const items = (o.cart || []).map((item, i) => {
+      const art = item.artwork;
+      const files = [
+        art?.originalUrl && `<a href="${art.originalUrl}" target="_blank">Original</a>`,
+        art?.previewUrl && `<a href="${art.previewUrl}" target="_blank">Preview</a>`,
+        item.productionFiles?.dst && `<a href="${item.productionFiles.dst}" download>DST</a>`,
+        item.productionFiles?.pes && `<a href="${item.productionFiles.pes}" download>PES</a>`,
+        item.productionFiles?.jef && `<a href="${item.productionFiles.jef}" download>JEF</a>`,
+      ].filter(Boolean).join('');
+      return `<li><strong>${item.name}</strong> — ${item.colour} × ${item.qty} (${item.embroidery})
+        ${art ? `<div class="order-card__links">${files}</div>` : ''}</li>`;
+    }).join('');
+    return `<article class="order-card">
+      <h3>${o.customer?.name || 'Customer'} — ${o.id.slice(0, 8)}</h3>
+      <p class="order-card__meta">${o.customer?.email || ''} · ${o.customer?.phone || ''} · ${new Date(o.receivedAt).toLocaleString()}</p>
+      <ul class="order-card__items">${items}</ul>
+    </article>`;
+  }).join('');
+}
+
+document.querySelectorAll('.admin-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.admin-tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    const jobs = tab.dataset.tab === 'jobs';
+    document.getElementById('jobsPanel').hidden = !jobs;
+    document.getElementById('ordersPanel').hidden = jobs;
+    if (!jobs) loadOrders().catch(() => alert('Could not load orders'));
+  });
+});
+
 document.getElementById('refreshJobs').addEventListener('click', refresh);
+document.getElementById('refreshOrders').addEventListener('click', () => loadOrders().catch(() => {}));
 document.getElementById('jobSearch').addEventListener('input', renderJobList);
 document.getElementById('statusFilter').addEventListener('change', renderJobList);
 
@@ -181,5 +227,8 @@ if (adminKey) login(adminKey);
 else showLogin();
 
 setInterval(() => {
-  if (!document.getElementById('adminMain').hidden) refresh().catch(() => {});
+  if (!document.getElementById('adminMain').hidden) {
+    refresh().catch(() => {});
+    if (!document.getElementById('ordersPanel').hidden) loadOrders().catch(() => {});
+  }
 }, 15000);

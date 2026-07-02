@@ -27,6 +27,54 @@
 
 .btn--sm { padding: 0.4rem 0.75rem; font-size: 0.78rem; }
 
+.admin-tabs {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0 1.25rem 1rem;
+}
+
+.admin-tab {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+
+.admin-tab.active {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: #fff;
+}
+
+.orders-list {
+  padding: 0 1.25rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.order-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+}
+
+.order-card h3 { font-size: 1rem; color: var(--navy); margin-bottom: 0.35rem; }
+.order-card__meta { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.75rem; }
+.order-card__items { font-size: 0.85rem; line-height: 1.6; }
+.order-card__links { margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.order-card__links a {
+  font-size: 0.78rem;
+  padding: 0.35rem 0.65rem;
+  background: var(--bg-muted);
+  border-radius: var(--radius-sm);
+}
+
 .admin-login {
   min-height: calc(100vh - 60px);
   display: grid;

@@ -239,14 +239,30 @@ app.post('/api/export-design', (req, res) => {
 });
 
 app.post('/api/submit-order', async (req, res) => {
-  const order = { ...req.body, id: uuidv4(), receivedAt: new Date().toISOString(), status: 'pending' };
-  if (order.artwork?.id) {
-    const job = loadJob(order.artwork.id);
-    order.productionJobId = order.artwork.id;
-    order.productionStatus = job?.status || 'unknown';
-  }
+  const { cart, customer, emailBody } = req.body || {};
+  const order = {
+    id: uuidv4(),
+    cart: Array.isArray(cart) ? cart : [],
+    customer: customer || {},
+    emailBody: emailBody || '',
+    receivedAt: new Date().toISOString(),
+    status: 'pending',
+  };
+
+  order.cart = order.cart.map(item => {
+    if (!item.artwork?.id) return item;
+    const job = loadJob(item.artwork.id);
+    return {
+      ...item,
+      productionJobId: item.artwork.id,
+      productionStatus: job?.status || 'pending_upload',
+      stitchCount: job?.stitchCount,
+      productionFiles: job?.files || null,
+    };
+  });
+
   fs.writeFileSync(path.join(ORDERS, `${order.id}.json`), JSON.stringify(order, null, 2));
-  res.json({ ok: true, orderId: order.id });
+  res.json({ ok: true, orderId: order.id, hub: '/admin.html' });
 });
 
 app.get('/api/orders', requireAdmin, (_req, res) => {

@@ -15,5 +15,2156 @@
     "polo": "assets/mockups/tee-front.svg",
     "hoodie": "assets/mockups/hoodie-front.svg"
   },
-  "note": "Transparent PNG blanks per garment shape — pixel tint at draw time, no coloured photo backgrounds."
+  "note": "Transparent PNG blanks per garment shape \u2014 pixel tint at draw time, no coloured photo backgrounds.",
+  "products": [
+    {
+      "productId": "hw-100-recycled-earth-friendly-fabric-4050",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/539/1328/4050_Black__05037.1760408551.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/539/1325/4050_Mixed__01181.1741322553.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/539/2347/4050__86427.1760408550.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/539/1328/4050_Black__05037.1760408551.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/539/1326/4050_Navy__00349.1760408550.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/539/1325/4050_Mixed__01181.1741322553.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/306/756/2653_Mixed__79690.1741321636.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/314/777/2661_Mixed__86493.1741321670.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/389/969/3984-default__76509.1741321983.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-6-seam-knitted-beanie",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/867/2590/3060-black__22441.1782722055.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/867/2588/3060-hero__97486.1782722050.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/867/2590/3060-black__22441.1782722055.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/867/2591/3060-charcoal__80615.1782722055.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/867/2589/3060-navy__55152.1782722055.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/867/2588/3060-hero__97486.1782722050.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/764/1923/4189_Mixed__11814.1741323606.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/764/1925/4189_Black__08237.1741323612.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/271/674/2623_Mixed__47406.1741321488.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-6-seam-knitted-beanie-w-pom-pom",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/868/2594/3061-black__24631.1782722081.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/868/2592/3061-hero__37500.1782722076.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/868/2594/3061-black__24631.1782722081.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/868/2595/3061-charcoal__45957.1782722081.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/868/2593/3061-navy__27374.1782722081.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/868/2592/3061-hero__37500.1782722076.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/786/2113/4256-mix__25127.1741324057.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/786/2318/4256aus-black-white__19840.1750819351.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/764/1923/4189_Mixed__11814.1741323606.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-acrylic-beanie",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/782/2305/4243aus-black_2__65542.1750819329.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/787/2117/4262%2520Main__77424.1741324069.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/787/2119/4262_Dark_Grey_Marle__62756.1741324075.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/787/2118/4262_Grey_Marle__96931.1741324075.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/787/2117/4262%2520Main__77424.1741324069.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/782/2084/4243aus-default__73032.1741323970.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/782/2305/4243aus-black_2__65542.1750819329.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/786/2113/4256-mix__25127.1741324057.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/786/2318/4256aus-black-white__19840.1750819351.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-acrylic-beanie-toque",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/782/2305/4243aus-black_2__65542.1750819329.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/782/2084/4243aus-default__73032.1741323970.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/782/2305/4243aus-black_2__65542.1750819329.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/782/2314/4243aus-black-red__63893.1750819331.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/782/2306/4243aus-bottle__94333.1750819329.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/782/2311/4243_Charcoal__86604.1750819330.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/782/2308/4243aus-gold__33439.1750819330.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/782/2312/4243aus-maroon__55348.1750819331.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/782/2304/4243aus-navy__76571.1750819329.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-acrylic-beanie-with-pom-pom",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/786/2318/4256aus-black-white__19840.1750819351.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/786/2113/4256-mix__25127.1741324057.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/786/2318/4256aus-black-white__19840.1750819351.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/786/2320/4256aus-charcoal-black__58035.1750819352.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/786/2319/4256aus-navy-white__54955.1750819352.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/786/2113/4256-mix__25127.1741324057.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/787/2117/4262%2520Main__77424.1741324069.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/787/2119/4262_Dark_Grey_Marle__62756.1741324075.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/782/2084/4243aus-default__73032.1741323970.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-american-premium-twill-mesh-deep-fit-tru",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/405/1004/3995-black-white__82411.1777069508.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/405/999/3995-default__95624.1741322038.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/405/2548/3995__46665.1777069507.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/405/1000/3995-hero-photo__71191.1777069507.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/405/1004/3995-black-white__82411.1777069508.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/405/1008/3995-black-white-black__70953.1777069511.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/405/1010/3995-bottle-black-white__50254.1777069512.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/405/1011/3995-charcoal-black-white__62906.1777069512.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/405/1012/3995-light-pink-white-light-pink__39152.1777069513.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-baseballkappe-versetzte-nahte-100-schwer",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/386/961/2723-black__85999.1741321969.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/546/1336/4054_Mixed__33091.1741322573.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/546/1337/4054_Royal__55298.1741322574.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/546/1336/4054_Mixed__33091.1741322573.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/453/1100/2778_Mixed__94918.1741322219.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/236/606/2531_Mixed__26923.1741321362.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/153/429/2442_Mixed__85414.1741321062.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/379/948/2718_Mixed__53035.1741321943.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/386/961/2723-black__85999.1741321969.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-breathable-poly-twill-bucket-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/803/2219/4107_Black__82959.1746083441.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/803/2217/4107_Mixed__97410.1746083424.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/803/2219/4107_Black__82959.1746083441.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/803/2220/4107_Bottle__55909.1746083441.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/803/2218/4107_Navy__44412.1746083440.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/803/2222/4107_Red__69337.1746083441.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/803/2223/4107_Royal__28540.1746083442.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/803/2224/4107_Stone__97472.1746083442.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/803/2221/4107_White__36452.1746083441.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-breathable-poly-twill-cap",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/479/1171/4011_Black__63351.1760408524.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/479/1164/4011_Mixed__55201.1741322324.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/479/2343/4011__56266.1760408522.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/479/1165/4011__78331.1760408522.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/479/1171/4011_Black__63351.1760408524.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/479/1172/4011_Bottle__40469.1760408524.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/479/1182/4011_Charcoal__22030.1760408527.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/479/1186/4011_Cyan__50694.1760408528.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/479/1175/4011_Emerald__51391.1760408525.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-breathable-poly-twill-cap-4012",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/487/1199/4012_Black__44053.1760408532.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/487/1191/4012-main__50424.1741322358.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/487/2344/4012__61502.1760408532.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/487/1193/4012__10711.1760408531.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/487/1199/4012_Black__44053.1760408532.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/487/1200/4012_Bottle__77622.1760408533.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/487/1209/4012_Charcoal__09519.1760408536.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/487/1213/4012_Cyan__68477.1760408537.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/487/1203/4012_Emerald__83144.1760408534.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-breathable-poly-twill-childs-bucket-hat-",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/277/696/3939_Black__54099.1741321535.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/277/691/3939%2520Main__12157.1741321517.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/277/696/3939_Black__54099.1741321535.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/277/697/3939_Bottle__24213.1741321535.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/277/700/3939_Emerald__16615.1741321536.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/277/704/3939_Maroon__78849.1741321537.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/277/695/3939-navy__05125.1741321534.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/277/698/3939_Orange__32635.1741321536.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/277/705/3939_Hot_Pink__21051.1741321538.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-breathable-poly-twill-infants-bucket-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/269/679/3938_Black__51072.1741321505.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/269/673/3938%2520Main__18066.1741321486.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/269/679/3938_Black__51072.1741321505.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/269/680/3938_Bottle__43394.1741321505.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/269/683/3938_Emerald__94816.1741321506.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/269/687/3938_Maroon__76138.1741321508.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/269/678/3938-navy__04886.1741321505.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/269/681/3938_Orange__60346.1741321506.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/269/688/3938_Hot_Pink__55091.1741321508.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-breathable-poly-twill-multicoloured-buck",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/771/2018/4220__41910.1741323781.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/771/2017/4220_side__15966.1741323779.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/771/2018/4220__41910.1741323781.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/771/2017/4220_side__15966.1741323779.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/803/2217/4107_Mixed__97410.1746083424.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/803/2219/4107_Black__82959.1746083441.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/385/962/3983-default__93592.1741321970.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/385/963/3983__00404.1741321971.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/264/663/3935-navy__03707.1741321467.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-breathable-poly-twill-with-circle-perfor",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/821/2467/3975-black__17670.1776750896.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/821/2463/3975-hero__31462.1776750876.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/821/2465/3975__68896.1776750877.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/821/2464/3975-lifestyle-shot__33290.1776750876.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/821/2467/3975-black__17670.1776750896.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/821/2468/3975-bottle__48121.1776750896.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/821/2474/3975-charcoal__67534.1776750898.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/821/2475/3975-cyan__68285.1776750898.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/821/2471/3975-gold__78034.1776750897.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-breathable-poly-twill-with-honeycomb-mes",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/818/2420/3972-black__45806.1776750778.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/818/2416/3972-hero__22354.1776750761.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/818/2418/3972__01169.1776750762.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/818/2417/3972-lifestyle-shot__26954.1776750761.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/818/2420/3972-black__45806.1776750778.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/818/2428/3972-black-charcoal__22014.1776750780.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/818/2422/3972-charcoal__31769.1776750778.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/818/2424/3972-charcoal-black__67899.1776750779.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/818/2427/3972-charcoal-white__80118.1776750780.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-breathable-poly-twill-with-peak-flash-pr",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/464/1140/4007_Black-Cyan__56141.1741322285.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/464/1128/4007_Mixed__98373.1741322270.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/464/1130/4007-11__26667.1741322271.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/464/1140/4007_Black-Cyan__56141.1741322285.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/464/1141/4007_Black-Gold__45108.1741322285.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/464/1142/4007_Black-Hi-Viz-Green__80187.1741322285.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/464/1143/4007_Black-Hi-Viz-Orange__34457.1741322285.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/464/1144/4007_Black-Pink__82086.1741322286.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/464/1138/4007_Black-Red__52787.1741322284.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-breathable-poly-twill-with-sandwich-trim",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/471/2253/4009_Black-Gold__91689.1750818261.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/471/1147/4009_Mixed__84119.1741322294.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/471/2253/4009_Black-Gold__91689.1750818261.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/471/2252/4009_Black-Red__52584.1750818261.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/471/2249/4009_Black-White__16924.1750818260.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/471/2250/4009_Navy-White__70711.1750818261.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/471/2251/4009_Red-White__65049.1750818261.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/471/1147/4009_Mixed__84119.1741322294.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/479/1164/4011_Mixed__55201.1741322324.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-breathable-poly-twill-with-small-check-p",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/475/1161/4010_Black-Gold__48268.1741322314.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/475/1156/4010_Mixed__62242.1741322308.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/475/1161/4010_Black-Gold__48268.1741322314.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/475/1160/4010_Black-Red__36405.1741322314.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/475/1158/4010_Black-White__30864.1741322313.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/475/1159/4010_Navy-White__87781.1741322313.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/475/1156/4010_Mixed__62242.1741322308.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/479/1164/4011_Mixed__55201.1741322324.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/479/2343/4011__56266.1760408522.png?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-breathable-poly-twill-with-tire-print",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/762/1909/4186-black-grey__24159.1741323575.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/762/1907/4186_Mixed__12109.1741323572.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/762/1909/4186-black-grey__24159.1741323575.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/762/1908/4186-grey-black__65167.1741323574.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/762/1907/4186_Mixed__12109.1741323572.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/464/1128/4007_Mixed__98373.1741322270.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/464/1130/4007-11__26667.1741322271.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/141/410/4219__13078.1741321021.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/479/1164/4011_Mixed__55201.1741322324.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-breathable-poly-twill-youth-bucket-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/284/713/3940_Black__94328.1741321565.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/284/708/3940%2520Main__92523.1741321547.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/284/713/3940_Black__94328.1741321565.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/284/714/3940_Bottle__53187.1741321565.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/284/718/3940_Emerald__73853.1741321566.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/284/721/3940_Maroon__27819.1741321569.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/284/712/3940-navy__59568.1741321564.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/284/715/3940_Orange__02431.1741321566.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/284/722/3940_Hot_Pink__91815.1741321569.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-cotton-4142",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/746/2266/4142ca-navy__62143.1750818792.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/746/1803/4142_Mixed__74350.1741323283.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/746/2266/4142ca-navy__62143.1750818792.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/746/1803/4142_Mixed__74350.1741323283.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/211/550/3812_Mixed__57134.1741321276.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/211/551/3812-4__09176.1741321277.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/794/2138/5002__05071.1741324165.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/794/2142/5002_Red__11919.1777613655.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/153/429/2442_Mixed__85414.1741321062.jpg?c=1"
+      ],
+      "matched": "navy"
+    },
+    {
+      "productId": "hw-brushed-cotton-4242",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/781/2303/4242_Black__76894.1760408627.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/781/2081/4242_Mixed__79146.1741323958.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/781/2362/4242__38605.1760408625.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/781/2303/4242_Black__76894.1760408627.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/781/2302/4242_Navy__41964.1760408626.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/781/2081/4242_Mixed__79146.1741323958.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/211/550/3812_Mixed__57134.1741321276.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/211/551/3812-4__09176.1741321277.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/794/2138/5002__05071.1741324165.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-cotton-5002",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/746/2266/4142ca-navy__62143.1750818792.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/794/2138/5002__05071.1741324165.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/794/2142/5002_Red__11919.1777613655.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/794/2143/5002_Royal__34610.1777613655.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/794/2138/5002__05071.1741324165.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/211/550/3812_Mixed__57134.1741321276.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/211/551/3812-4__09176.1741321277.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/153/429/2442_Mixed__85414.1741321062.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/746/1803/4142_Mixed__74350.1741323283.jpg?c=1"
+      ],
+      "matched": "navy"
+    },
+    {
+      "productId": "hw-brushed-cotton-with-mesh-back",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/759/1898/4181_Black__90090.1741323541.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/759/1896/4181_Mixed__15083.1741323537.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/759/1898/4181_Black__90090.1741323541.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/759/1897/4181_Navy__91018.1741323541.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/759/1899/4181_White__72634.1741323542.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/759/1896/4181_Mixed__15083.1741323537.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/432/1058/4002%2520Main__45937.1741322141.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/432/1059/4002-4__17879.1741322142.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/401/992/3987-default__14737.1741322024.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-cotton-with-mesh-back-cap",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/432/2241/4002-charcoal-black__16712.1750818187.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/432/1058/4002%2520Main__45937.1741322141.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/432/1059/4002-4__17879.1741322142.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/432/2241/4002-charcoal-black__16712.1750818187.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/432/2242/4002_Charcoal_Cyan__36181.1750818188.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/432/2244/4002_Charcoal_BrightGreen__85290.1750818188.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/432/2243/4002_Charcoal_Orange__10594.1750818188.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/432/2245/4002_Charcoal_HotPink__97292.1750818189.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/432/2246/4002-charcoal-red__67395.1750818189.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-cotton-with-swoosh-check-embroid",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/760/1901/4183_Black-Red-White__46200.1741323551.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/760/1900/4183_Mixed__81897.1741323549.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/760/1901/4183_Black-Red-White__46200.1741323551.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/760/1900/4183_Mixed__81897.1741323549.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/345/858/2689_Mixed__95372.1741321799.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/470/1145/2793_Mixed__59939.1741322289.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/232/588/2525_Mixed__91567.1741321344.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/402/991/2735_Mixed__38406.1741322024.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/486/1189/2806_Mixed__60296.1741322350.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-4199",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/801/2175/4199_Black__52513.1760408602.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/801/2171/4199-hero-lr__14712.1744163007.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/801/2360/4199__06534.1760408601.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/801/2172/4199__75672.1760408601.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/801/2173/4199b__88619.1760408601.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/801/2175/4199_Black__52513.1760408602.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/801/2194/4199_Black-Red__10746.1760408608.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/801/2202/4199_Black-Royal__29189.1760408611.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/801/2176/4199_Bottle__98782.1760408603.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-4241",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/780/2078/4241_Black__09292.1741323947.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/780/2076/4241_Mixed__26525.1741323942.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/780/2078/4241_Black__09292.1741323947.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/780/2077/4241_Navy__54267.1764127207.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/780/2080/4241_White__68223.1764127208.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/780/2076/4241_Mixed__26525.1741323942.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/153/429/2442_Mixed__85414.1741321062.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/333/831/2678_Mixed__10911.1741321747.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/765/1929/4194_Mixed__29195.1741323620.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-and-spandex-with-dr",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/613/1501/4088_Black__71905.1760408564.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/613/1498/4088_Mixed__49245.1741322831.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/613/2351/4088__22464.1760408563.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/613/1501/4088_Black__71905.1760408564.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/613/1500/4088_Navy__58151.1760408564.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/613/1503/4088_Red__38470.1760408564.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/613/1504/4088_Royal__64945.1760408565.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/613/1502/4088_White__18411.1760408564.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/613/1498/4088_Mixed__49245.1741322831.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-contrast-cap",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/426/1051/4001_Charcoal_Cyan__39482.1741322131.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/426/1046/4001%2520Main__05043.1741322118.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/426/1047/4001-3__76839.1741322119.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/426/1051/4001_Charcoal_Cyan__39482.1741322131.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/426/1053/4001-charcoal-bright-green__74852.1741322131.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/426/1052/4001_Charcoal_Orange2__05469.1741322131.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/426/1054/4001_Grey_Hot_Pink__82299.1741322132.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/426/1055/4001_Charcoal_Purple__00652.1741322132.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/426/1046/4001%2520Main__05043.1741322118.jpg?c=1"
+      ],
+      "matched": "charcoal"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/784/2102/4247_Black__76180.1741324023.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/784/2100/4247_Mixed__81231.1741324004.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/784/2102/4247_Black__76180.1741324023.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/784/2103/4247_Bottle__41248.1741324023.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/784/2106/4247_Maroon__09670.1741324024.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/784/2101/4247_Navy__03897.1741324023.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/784/2105/4247_Natural__25664.1741324023.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/784/2104/4247_Royal__73000.1741324023.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/784/2100/4247_Mixed__81231.1741324004.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-tri-coloured-cap",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/522/1288/4026_Black-White-Orange__22696.1741322498.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/522/1285/4026_Mixed__21030.1741322489.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/522/1286/4026-8__99314.1741322490.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/522/1288/4026_Black-White-Orange__22696.1741322498.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/522/1290/4026_Black-White-Red__39777.1741322498.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/522/1291/4026_Charcoal-White-Black__37603.1741322498.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/522/1292/4026_Navy-White-Orange__73912.1741322498.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/522/1293/4026_Navy-White-Red__76322.1741322499.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/522/1294/4026_Royal-White-Navy__11390.1741322499.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-two-tone-cap-with-c",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/543/1333/4053_Charcoal-Black__95795.1741322565.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/543/1330/4053_Mixed__79255.1741322563.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/543/1331/4053-7__39539.1741322563.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/543/1333/4053_Charcoal-Black__95795.1741322565.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/543/1334/4053_Charcoal-Navy__25021.1741322565.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/543/1330/4053_Mixed__79255.1741322563.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/334/832/2679_Mixed__83283.1741321752.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/641/1561/4097_Mixed__05861.1741322931.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/641/1570/4097-bottle-white__60104.1743480148.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-visor-4230",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/775/2051/4230_Black__66037.1741323879.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/775/2049/4230_Mixed__10096.1741323868.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/775/2051/4230_Black__66037.1741323879.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/775/2052/4230aus-bottle__14731.1741323880.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/775/2059/4230_Bottle-White__89836.1741323881.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/775/2057/4230_Bright-Green-White__83411.1741323881.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/775/2050/4230-322-main__83488.1743749104.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/775/2054/4230_Navy-White__26275.1741323880.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/775/2058/4230aus-hot-pink-white__46696.1741323881.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-checks",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/773/2300/4224-black-white__92704.1750819230.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/773/2045/4224_Mixed__43033.1741323847.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/773/2300/4224-black-white__92704.1750819230.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/773/2301/4224-royal-white__07486.1750819230.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/773/2045/4224_Mixed__43033.1741323847.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/581/1421/4076_Mixed__40543.1741322709.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/581/1422/4076-6__15810.1741322710.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/170/457/2454_Mixed__60392.1741321120.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/232/588/2525_Mixed__91567.1741321344.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-contrasting-st",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/605/1488/4086_Black-Gold__78501.1741322809.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/605/1480/4086_Mixed__97918.1741322801.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/605/1488/4086_Black-Gold__78501.1741322809.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/605/1485/4086_Black-Red__84690.1741322809.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/605/1482/4086_Black-White__20999.1741322808.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/605/1486/4086aus-navy-gold__91022.1741322809.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/605/1483/4086_Navy-White__63416.1741322808.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/605/1484/4086aus-white-navy__76362.1741322808.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/605/1480/4086_Mixed__97918.1741322801.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-crown-inserts-",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/648/1590/4098_Black-Gold__29301.1741322959.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/621/1514/4092_Mixed__02581.1741322861.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/621/1519/4092_Red-White__98133.1742422846.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/621/1514/4092_Mixed__02581.1741322861.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/241/612/2539_Mixed__67516.1741321377.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/629/1534/2918_Mixed__42824.1741322889.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/648/1575/4098_Mixed__24249.1741322946.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/648/1590/4098_Black-Gold__29301.1741322959.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/573/1393/2874_Mixed__73809.1741322675.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-crown-piping-a",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/672/1630/4103_Black-Gold__16870.1741323004.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/672/1617/4103_Mixed__44855.1741322994.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/672/1630/4103_Black-Gold__16870.1741323004.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/672/1626/4103_Black-Red__39289.1741323003.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/672/1622/4103_Black-White__19887.1741323002.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/672/1627/4103_Navy-Gold__88976.1741323004.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/672/1629/4103_Navy-Red__22674.1741323004.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/672/1623/4103_Navy-White__34011.1741323003.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/672/1624/4103_Red-White__23359.1741323003.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-curved-embroid",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/575/1412/4075aus-black-white-charcoal__46829.1741322699.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/575/1405/4075_Mixed__46913.1741322687.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/575/1406/4075-3__83271.1741322688.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/575/1412/4075aus-black-white-charcoal__46829.1741322699.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/575/1409/4075aus-black-white-red__22542.1764127001.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/575/1410/4075aus-charcoal-white-black__28920.1764127001.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/575/1414/4075_Navy-White-Charcoal__61150.1764127002.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/575/1415/4075_Navy-White-Gold__93579.1764127002.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/575/1419/4075_Stone-White-Black__54429.1764127003.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-curved-peak-in",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/570/1399/4073_Black-Red__84298.1741322677.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/570/1389/4073_Mixed__07428.1741322665.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/570/1391/4073blre-1__01340.1741322667.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/570/1399/4073_Black-Red__84298.1741322677.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/570/1394/4073_Black-White__25912.1741322676.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/570/1402/4073_Bottle-White__29895.1741322678.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/570/1398/4073_Charcoal-Black__09483.1741322677.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/570/1400/4073_Navy-Gold__50422.1741322678.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/570/1401/4073_Navy-Red__97865.1741322678.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-double-flame",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/777/2070/4236_Mixed__76167.1741323910.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/777/2070/4236_Mixed__76167.1741323910.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/777/2070/4236_Mixed__76167.1741323910.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/216/557/2510_Mixed__93519.1741321288.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/262/658/2587_Mixed__52339.1741321456.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/194/496/2481_Mixed__72845.1741321204.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/251/634/2556_Mixed__62494.1741321414.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/206/537/2498_Mixed__12476.1741321255.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/75x100/products/777/2070/4236_Mixed__76167.1741323910.jpg?c=1"
+      ],
+      "matched": ""
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-flame-embroide",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/774/2048/4226_Mixed__89915.1741323858.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/774/2048/4226_Mixed__89915.1741323858.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/774/2048/4226_Mixed__89915.1741323858.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/194/496/2481_Mixed__72845.1741321204.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/226/581/2521_Mixed__47530.1741321325.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/203/534/2493_Mixed__17748.1741321246.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/229/584/2523_Mixed__88147.1741321334.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/328/811/2673_Mixed__72328.1741321728.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/75x100/products/774/2048/4226_Mixed__89915.1741323858.jpg?c=1"
+      ],
+      "matched": ""
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-hi-vis-laminat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/514/1268/4019_Black-Green__39378.1741322464.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/514/1265/4019_Mixed__79068.1741322459.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/514/1266/4019-3__98501.1741322459.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/514/1268/4019_Black-Green__39378.1741322464.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/514/1269/4019_Black-Orange__89827.1741322464.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/514/1270/4019_Black-Silver__58602.1741322464.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/514/1265/4019_Mixed__79068.1741322459.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/176/465/2458_Mixed__77129.1741321139.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/190/487/2475_Mixed__97869.1741321190.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-indented-peak",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/756/1876/4167aus-black-white-cyan_1__40459.1760408587.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/756/1866/4167_Mixed__43579.1741323473.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/756/2357/4167__15626.1760408583.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/756/1867/4167__63672.1760408583.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/756/1876/4167aus-black-white-cyan_1__40459.1760408587.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/756/1873/4167_Black-White-Gold__68554.1760408586.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/756/1877/4167_Black-White-Grey__28107.1760408588.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/756/1868/4167_Black-White-Red__04607.1760408584.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/756/1878/4167aus-black-white-teal_1__75427.1760408588.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-inserts-on-the",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/495/1236/4014_Black-Gold__20410.1760408543.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/495/1218/4014_Mixed__39992.1741322391.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/495/2345/4014__39760.1760408539.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/495/1220/4014-8__83493.1760408539.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/495/1236/4014_Black-Gold__20410.1760408543.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/495/1231/4014_Black-Grey__15968.1760408542.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/495/1237/4014_Black-Orange__07049.1760408543.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/495/1232/4014_Black-Red__18990.1760408542.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/495/1239/4014aus-black-teal__16765.1760408544.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-mesh-covered-r",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/779/2075/4238_Mixed__61454.1741323932.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/779/2075/4238_Mixed__61454.1741323932.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/779/2075/4238_Mixed__61454.1741323932.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/800/2168/4214_Mixed__94489.1741676345.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/239/611/2533_Mixed__13009.1741321371.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/188/486/2471_Mixed__53421.1741321186.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/187/479/2470_Mixed__47005.1741321181.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/288/711/2638_Mixed__98585.1741321561.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/75x100/products/779/2075/4238_Mixed__61454.1741323932.jpg?c=1"
+      ],
+      "matched": ""
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-mesh-inserts-o",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/558/1361/4058_Black-White__42812.1741322621.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/558/1359/4058_Mixed__40334.1741322619.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/558/1361/4058_Black-White__42812.1741322621.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/558/1362/4058_Navy-White__26366.1741322621.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/558/1359/4058_Mixed__40334.1741322619.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/416/1024/2747_Mixed__54659.1741322079.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/287/710/2637_Mixed__37902.1741321555.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/149/423/2439_Mixed__62527.1741321047.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/148/420/2438_Mixed__05647.1741321042.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-peak-inserts-p",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/726/1713/4125_Black-Grey-White__08598.1741323110.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/726/1708/4125_Mixed__80939.1741323103.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/726/1713/4125_Black-Grey-White__08598.1741323110.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/726/1714/4125_Black-Red-White__41196.1741323110.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/726/1712/4125_Charcoal-Black-White__94955.1741323109.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/726/1715/4125-navy-red-white__20290.1741323110.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/726/1716/4125_Red-Black-White__88807.1741323110.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/726/1717/4125_Royal-Black-White__81046.1741323111.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/726/1708/4125_Mixed__80939.1741323103.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-reflective-tri",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/800/2168/4214_Mixed__94489.1741676345.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/800/2168/4214_Mixed__94489.1741676345.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/800/2168/4214_Mixed__94489.1741676345.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/245/620/2544_Mixed__06630.1741321391.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/312/769/2659_Mixed__55030.1741321661.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/233/591/2526_Mixed__50437.1741321348.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/252/638/2557_Mixed__23563.1741321419.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/181/473/2462_Mixed__08831.1741321158.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/75x100/products/800/2168/4214_Mixed__94489.1741676345.jpg?c=1"
+      ],
+      "matched": ""
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-sandwich-trim-",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/770/2008/4210_Black-Gold__75557.1760408621.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/770/1990/4210-hero-lr__23544.1741323732.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/770/2361/4210__93988.1760408615.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/770/1991/4210__57691.1760408614.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/770/2008/4210_Black-Gold__75557.1760408621.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/770/2009/4210_Black-Orange__46118.1760408621.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/770/2004/4210_Black-Red__31533.1760408619.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/770/1992/4210_Black-White__39638.1760408615.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/770/2015/4210_Bottle-Gold__25305.1760408623.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-snap-back",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/745/1798/4141-black__96373.1760408579.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/745/1796/4141-mix__82892.1741323269.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/745/2356/4141__93704.1760408578.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/745/1798/4141-black__96373.1760408579.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/745/1802/4141_7__65831.1760408580.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/745/1797/4141_4__49355.1760408579.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/745/1800/4141_5__46718.1760408580.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/745/1801/4141_6__34818.1760408580.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/745/1799/4141_8__13322.1760408579.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-sonic-weld-fla",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/506/1253/4016_Mixed__46739.1741322437.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/506/1250/4016_Mixed__70493.1741322433.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/506/1251/4016-1__99764.1741322434.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/506/1253/4016_Mixed__46739.1741322437.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/506/1250/4016_Mixed__70493.1741322433.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/349/870/2692_Mixed__09934.1741321813.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/216/557/2510_Mixed__93519.1741321288.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/777/2070/4236_Mixed__76167.1741323910.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/194/496/2481_Mixed__72845.1741321204.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-suede-peak",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/768/1984/4200_Black-Tan__11614.1741323712.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/768/1979/4200_Mixed__65516.1741323703.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/768/1984/4200_Black-Tan__11614.1741323712.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/768/1985/4200_Bottle-Tan__06115.1741323712.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/768/1981/4200_Navy-Grey__88037.1741323711.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/768/1980/4200_Navy__98040.1741323710.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/768/1982/4200_Navy-Red__03301.1741323711.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/768/1986/4200_Navy-Tan__46364.1741323712.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/768/1983/4200_Natural-Navy__82943.1741323711.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-swirling-check",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/581/1425/4076_Black-White__31731.1741322716.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/581/1421/4076_Mixed__40543.1741322709.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/581/1422/4076-6__15810.1741322710.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/581/1425/4076_Black-White__31731.1741322716.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/581/1427/4076_Red-White__08008.1743480026.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/581/1428/4076_Royal-White__11989.1743480027.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/581/1429/4076_White-Black__25917.1743480027.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/581/1421/4076_Mixed__40543.1741322709.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/483/1168/2803_Mixed__78424.1741322335.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-tyre-tracks",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/503/1246/4015_Black__37414.1741322425.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/503/1242/4015_Mixed__36750.1741322420.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/503/1243/4015-1__19318.1741322420.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/503/1246/4015_Black__37414.1741322425.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/503/1247/4015_Charcoal__12295.1741322425.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/503/1245/4015_Navy__47067.1741322424.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/503/1242/4015_Mixed__36750.1741322420.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/177/468/2459_Mixed__47819.1741321144.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/153/429/2442_Mixed__85414.1741321062.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-with-waving-stripes",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/658/1607/4099_Black-Gold__96162.1741322977.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/658/1594/4099_Mixed__32570.1741322967.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/658/1607/4099_Black-Gold__96162.1741322977.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/658/1604/4099_Black-Red__28146.1741322976.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/658/1599/4099_Black-White__86843.1741322975.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/658/1605/4099_Navy-Gold__79958.1741322976.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/658/1600/4099_Navy-White__65415.1741322975.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/658/1601/4099_Red-White__05623.1741322976.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/658/1602/4099_Royal-White__83504.1741322976.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-cotton-youth-size",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/531/1310/4040_Black__91829.1760408547.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/531/1307/4040_Mixed__46407.1741322522.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/531/2346/4040__88618.1760408546.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/531/1310/4040_Black__91829.1760408547.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/531/1309/4040na__39602.1778205353.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/531/1315/4040_Pink__10921.1760408548.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/531/1312/4040_Red__44391.1760408548.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/531/1313/4040ro__12419.1778205354.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/531/1314/4040_Sky__56331.1760408548.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-heavy-sports-twill-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/785/2109/4250_Black__88865.1741324049.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/785/2107/4250_Mixed__08593.1741324032.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/785/2109/4250_Black__88865.1741324049.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/785/2110/4250_Bottle__79894.1741324049.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/785/2111/4250_Charcoal__68376.1741324049.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/785/2108/4250aus-navy__93038.1741324048.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/785/2112/4250aus-natural__69752.1741324049.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/785/2107/4250_Mixed__08593.1741324032.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/772/2019/4223_Mixed__94994.1741323792.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-sports-twill-bucket-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/772/2295/4223_Black-Gold__64456.1750819224.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/772/2019/4223_Mixed__94994.1741323792.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/772/2295/4223_Black-Gold__64456.1750819224.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/772/2290/4223_Black-Red__65076.1750819223.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/772/2282/4223_Black-White__33945.1750819221.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/772/2276/4223_Black__47358.1750819219.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/772/2297/4223_Bottle-White__64867.1750819224.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/772/2277/4223aus-bottle__31719.1750819220.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/772/2294/4223_Bright_Green__78011.1750819224.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-sports-twill-childs-bucket-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/733/1725/4131aus-black_1__70131.1741323134.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/733/1722/4131_Mixed__40449.1741323120.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/733/1725/4131aus-black_1__70131.1741323134.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/733/1726/4131aus-bottle__10644.1741323134.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/733/1729/4131aus-emerald__83928.1741323135.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/733/1730/4131_Gold__50089.1741323135.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/733/1735/4131_Green__88612.1741323136.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/733/1733/4131aus-maroon__54809.1741323136.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/733/1724/4131_Navy__81299.1741323134.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-sports-twill-infants-bucket-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/738/1740/4132aus-black__97205.1741323160.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/738/1738/4132_Mixed__67516.1741323146.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/738/1740/4132aus-black__97205.1741323160.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/738/1741/4132aus-bottle__49321.1741323160.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/738/1744/4132aus-emerald__85215.1741323161.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/738/1745/4132_Gold__62920.1741323161.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/738/1750/4132_Green__69887.1741323162.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/738/1748/4132aus-maroon__66597.1741323162.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/738/1739/4132_Navy__15809.1741323160.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-brushed-sports-twill-youth-bucket-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/739/1755/4133aus-black__85227.1741323186.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/739/1753/4133_Mixed__05254.1741323172.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/739/1755/4133aus-black__85227.1741323186.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/739/1756/4133aus-bottle__16100.1741323186.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/739/1759/4133aus-emerald__52272.1741323187.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/739/1760/4133_Gold__41331.1741323187.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/739/1765/4133_Green__19689.1741323188.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/739/1763/4133aus-maroon__83013.1741323188.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/739/1754/4133_Navy__89853.1741323186.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-cable-knit-beanie-toque",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/764/1925/4189_Black__08237.1741323612.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/764/1923/4189_Mixed__11814.1741323606.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/764/1925/4189_Black__08237.1741323612.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/764/1926/4189aus-bottle__55640.1741323612.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/764/1928/4189_Charcoal__27718.1741323612.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/764/1924/4189_Navy__67387.1741323611.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/764/1927/4189aus-royal__82319.1741323612.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/764/1923/4189_Mixed__11814.1741323606.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/271/674/2623_Mixed__47406.1741321488.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-cane-print-with-mesh-back",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/748/1813/4144-black__25608.1741323313.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/418/1032/3999%2520Brown%2520Main__16806.1741322089.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/418/1033/3999-4__48234.1741322091.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/418/1032/3999%2520Brown%2520Main__16806.1741322089.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/747/1806/4143_Mixed__96779.1741323294.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/747/1807/4143-cyan-stone__69612.1741323299.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/748/1811/4144_Mixed__27719.1741323308.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/748/1813/4144-black__25608.1741323313.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/759/1896/4181_Mixed__15083.1741323537.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-canvas-sun-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/548/1343/4055-navy_1__47895.1741322595.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/548/1340/4055_Mixed__26046.1741322582.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/548/1344/4055-fluro-green_1__03485.1741322595.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/548/1345/4055-fluro-orange_1__72763.1741322595.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/548/1343/4055-navy_1__47895.1741322595.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/548/1346/4055-natural_1__54662.1741322596.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/548/1340/4055_Mixed__26046.1741322582.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/174/463/3791_Mixed__18115.1741321134.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/174/466/3791-navy__02088.1741321142.jpg?c=1"
+      ],
+      "matched": "navy"
+    },
+    {
+      "productId": "hw-cationic-sports-jersey",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/412/1026/3998_Black__90944.1760408512.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/412/1020/3998%2520Main__30067.1741322067.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/412/2341/3998__48642.1760408511.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/412/1021/3998__28627.1760408511.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/412/1026/3998_Black__90944.1760408512.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/412/2169/3998-cyan__21061.1760408515.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/412/1028/3998_Green__77068.1760408514.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/412/1025/3998_Navy__94516.1760408512.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/412/1029/3998_Pink__93931.1760408514.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-childs-brushed-sports-twill-bucket-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/755/1861/4166aus-black__75079.1741323462.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/755/1859/4166_Mixed__27267.1741323455.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/755/1861/4166aus-black__75079.1741323462.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/755/1862/4166aus-bottle__53760.1741323462.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/755/1865/4166aus-maroon__71340.1741323463.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/755/1860/4166aus-navy__34575.1741323462.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/755/1863/4166aus-red__95489.1741323462.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/755/1864/4166aus-royal__79574.1741323463.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/755/1859/4166_Mixed__27267.1741323455.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-chino-twill",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/593/2254/4079_Black__35857.1760408553.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/593/1449/4079_Mixed__77614.1741322754.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/593/2348/4079__87905.1760408552.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/593/2254/4079_Black__35857.1760408553.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/593/2255/4079_Bottle__63298.1760408553.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/593/2257/4079_Red__29061.1760408554.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/593/2258/4079_Royal__30542.1760408554.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/593/2256/4079_White__20572.1760408553.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/593/1449/4079_Mixed__77614.1741322754.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-chino-twill-with-hi-tech-mesh-back",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/719/1701/4123_White-Black__76239.1746065907.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/719/1696/4123_Mixed__63757.1741323089.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/719/1701/4123_White-Black__76239.1746065907.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/719/1700/4123_White-Navy__23916.1746065907.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/719/1702/4123_White-Red__56000.1746065908.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/719/1704/4123-white-royal__55953.1746065908.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/719/1696/4123_Mixed__63757.1741323089.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/749/1816/4145_Mixed__71716.1741323322.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/749/1818/4145-black__96954.1741323327.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-chino-twill-with-peak-embroidery",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/799/2167/4118_Mixed__97106.1741675978.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/799/2167/4118_Mixed__97106.1741675978.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/799/2167/4118_Mixed__97106.1741675978.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/447/1085/2773_Mixed__51351.1741322196.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/459/1113/2783_Mixed__89824.1741322242.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/593/1449/4079_Mixed__77614.1741322754.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/593/2348/4079__87905.1760408552.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/540/1324/2848_Mixed__37270.1741322550.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/311/768/2658_Mixed__61320.1741321655.jpg?c=1"
+      ],
+      "matched": ""
+    },
+    {
+      "productId": "hw-chino-twill-with-soft-mesh",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/749/1818/4145-black__96954.1741323327.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/749/1816/4145_Mixed__71716.1741323322.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/749/1818/4145-black__96954.1741323327.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/749/1820/4145-black-khaki__49083.1741323327.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/749/1819/4145-black-white__63995.1741323327.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/749/1816/4145_Mixed__71716.1741323322.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/719/1696/4123_Mixed__63757.1741323089.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/719/1701/4123_White-Black__76239.1746065907.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/593/1449/4079_Mixed__77614.1741322754.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-collapsible-cotton-twill-soft-mesh-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/791/2132/4277_Black__78442.1741324137.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/791/2130/4277_Mixed__74866.1741324126.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/791/2132/4277_Black__78442.1741324137.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/791/2131/4277nz-navy__98066.1741324136.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/791/2133/4277aus-sandstone__93054.1741324137.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/791/2130/4277_Mixed__74866.1741324126.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/790/2126/4276_Mixed__84025.1741324108.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/790/2128/4276_Black__47632.1741324118.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/749/1816/4145_Mixed__71716.1741323322.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-cotton-beanie-toque",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/698/1667/4108_Black__04178.1741323051.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/698/1663/4108_Mixed__89750.1741323048.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/698/1667/4108_Black__04178.1741323051.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/698/1666/4108_Navy__67467.1741323051.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/698/1663/4108_Mixed__89750.1741323048.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/429/1049/2757_Mixed__92474.1741322126.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/782/2084/4243aus-default__73032.1741323970.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/782/2305/4243aus-black_2__65542.1750819329.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/270/672/2622_Mixed__83629.1741321483.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-cotton-twill-cap",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/796/2154/3965-black__40419.1777069521.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/796/2152/3965-hero__14988.1741324196.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/796/2549/3965__33061.1777069521.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/796/2154/3965-black__40419.1777069521.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/796/2158/3965-charcoal__67156.1777069526.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/796/2153/3965-navy__98591.1777069521.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/796/2156/3965-red__08978.1777069523.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/796/2157/3965-royal__06795.1777069525.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/796/2155/3965-white__01101.1777069522.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-cotton-twill-cap-3966",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/797/2161/3966-black__28695.1776983109.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/797/2159/3966-hero__34377.1741324216.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/797/2547/3965__74890.1776983108.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/797/2161/3966-black__28695.1776983109.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/797/2165/3966-charcoal__37885.1776983110.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/797/2160/3966-navy__23998.1776983109.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/797/2163/3966-red__88076.1776983110.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/797/2164/3966-royal__12723.1776983110.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/797/2162/3966-white__97235.1776983110.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-cotton-twill-cap-with-buckle",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/813/2376/3963-black__91474.1773622295.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/813/2372/3963-main__37253.1773622281.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/813/2545/3963__69272.1776896710.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/813/2374/3963-hero__44031.1773622283.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/813/2376/3963-black__91474.1773622295.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/813/2380/3963-charcoal__41795.1773622296.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/813/2375/3963-navy__99147.1773622294.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/813/2378/3963-red__55946.1773622295.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/813/2379/3963-royal-blue__74100.1773622296.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-cotton-twill-cap-with-buckle-iwfx",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/814/2385/3964-black-web__62943.1773622329.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/814/2381/3964-main__89793.1773622319.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/814/2546/3964__91851.1776930784.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/814/2382/3964-hero__02766.1773622320.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/814/2385/3964-black-web__62943.1773622329.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/814/2389/3964-charcoal-web__51404.1773622330.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/814/2384/3964-navy-web__26010.1773622329.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/814/2387/3964-red-web__80319.1773622330.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/814/2388/3964-royal-web__19080.1773622330.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-double-pique-mesh-with-dream-fit-styling",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/617/1510/4090aus-black__86445.1741322852.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/617/1507/4090_Mixed__89444.1741322846.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/617/1510/4090aus-black__86445.1741322852.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/617/1509/4090aus-navy__02500.1741322852.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/617/1511/4090aus-white_1__74415.1741322853.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/617/1507/4090_Mixed__89444.1741322846.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/582/1423/2881_Mixed__15568.1741322710.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/630/1535/4095_Mixed__46752.1741322893.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/630/1539/4095_Black__85999.1741322901.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-double-pique-mesh-with-open-sandwich",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/761/1905/4185_Black-Red__40806.1741323564.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/761/1902/4185_Mixed__58851.1741323559.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/761/1905/4185_Black-Red__40806.1741323564.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/761/1903/4185_Black-White__54378.1741323564.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/761/1906/4185_Navy-Gold__38657.1741323564.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/761/1904/4185_Navy-White__30283.1741323564.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/761/1902/4185_Mixed__58851.1741323559.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/319/787/2665_Mixed__22372.1741321690.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/595/1451/2891_Mixed__67806.1741322760.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-enzyme-washed-pigment-dyed-cotton-twill-",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/816/2400/3968-black__77382.1776750720.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/816/2396/3968-hero__99084.1776750705.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/816/2398/3968__79039.1776750705.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/816/2397/3968-lifestyle-shot__64094.1776750705.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/816/2400/3968-black__77382.1776750720.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/816/2402/3968-charcoal__38524.1776750720.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/816/2403/3968-cyan__60986.1776750720.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/816/2404/3968-khaki__59977.1776750721.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/816/2399/3968-navy__15516.1776750719.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-fedora-cotton-twill-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/789/2322/4275_Black__40815.1750819379.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/792/2134/4279_Mixed__73533.1741324144.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/792/2134/4279_Mixed__73533.1741324144.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/789/2123/4275_Mixed__54880.1741324094.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/789/2322/4275_Black__40815.1750819379.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/790/2126/4276_Mixed__84025.1741324108.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/790/2128/4276_Black__47632.1741324118.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/599/1460/2894_Mixed__90705.1741322774.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/791/2130/4277_Mixed__74866.1741324126.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-fitted-hat-band",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/174/466/3791-navy__02088.1741321142.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/798/2166/4101_Mixed__70055.1741675890.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/798/2166/4101_Mixed__70055.1741675890.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/174/463/3791_Mixed__18115.1741321134.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/174/466/3791-navy__02088.1741321142.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/548/1340/4055_Mixed__26046.1741322582.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/548/1344/4055-fluro-green_1__03485.1741322595.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/178/470/3795_Mixed__93431.1741321149.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/178/472/photoroom-20240701-115944__03915.1743492449.jpg?c=1"
+      ],
+      "matched": "navy"
+    },
+    {
+      "productId": "hw-foam-front-a-frame-cap-with-mesh-back",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/754/1855/4159_Black__17754.1741323446.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/754/1853/4159__43766.1741323433.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/754/1855/4159_Black__17754.1741323446.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/754/1854/4159_Navy__48275.1741323445.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/754/1857/4159_White_Black__31226.1741323446.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/754/1858/4159_White_Charcoal__19321.1741323447.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/754/1856/4159_White_Navy__09020.1741323446.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/754/1853/4159__43766.1741323433.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/128/397/4155__81995.1741320976.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-grey-marle-flannel-with-snap-back-pro-st",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/741/1773/4135-grey-black__98094.1760408574.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/741/1772/4135_Mixed__19694.1741323211.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/741/2354/4135__23617.1760408574.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/741/1774/4135-grey__00720.1760408575.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/741/1773/4135-grey-black__98094.1760408574.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/741/1772/4135_Mixed__19694.1741323211.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/609/1490/4087_Mixed__50740.1741322817.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/609/2350/4087__05094.1760408560.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/227/583/3818_Mixed__21166.1741321332.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-heavy-cotton-with-woven-pinstripe",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/667/1613/4102_Mixed__38361.1741322986.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/667/1611/4102_Mixed__73746.1741322984.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/667/1613/4102_Mixed__38361.1741322986.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/667/1611/4102_Mixed__73746.1741322984.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/153/429/2442_Mixed__85414.1741321062.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/765/1929/4194_Mixed__29195.1741323620.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/765/2359/4194__29481.1760408598.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/379/948/2718_Mixed__53035.1741321943.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/386/961/2723-black__85999.1741321969.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-light-brushed-poly-cotton-marle-with-hon",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/817/2410/3971-grey-black__02749.1776750745.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/817/2407/3971-hero__31830.1776750736.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/817/2409/3971__69732.1776750737.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/817/2408/3971-lifestyle-shot__17431.1776750737.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/817/2410/3971-grey-black__02749.1776750745.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/817/2411/3971-grey-charcoal__51286.1776750745.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/817/2412/3971-grey-navy__76650.1776750745.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/817/2413/3971-grey-red__26909.1776750746.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/817/2414/3971-grey-royal__20416.1776750746.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-luminescent-safety-bucket-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/260/659/3929_Green_Navy__74192.1741321460.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/260/656/3929-default__90177.1741321452.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/260/657/3929-8__94078.1741321453.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/260/659/3929_Green_Navy__74192.1741321460.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/260/660/3929_Orange_Navy__30639.1741321460.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/260/656/3929-default__90177.1741321452.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/150/425/3024_Mixed__48204.1741321055.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/150/427/3024_Fluro-Green__72547.1741321062.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/147/419/3023aus-default_1__27693.1741321041.jpg?c=1"
+      ],
+      "matched": "navy"
+    },
+    {
+      "productId": "hw-mesh-covered-cotton-twill",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/790/2128/4276_Black__47632.1741324118.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/758/1894/4177_Mixed__14366.1741323528.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/758/1895/4177_Pink__59365.1741323529.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/758/1894/4177_Mixed__14366.1741323528.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/790/2126/4276_Mixed__84025.1741324108.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/790/2128/4276_Black__47632.1741324118.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/791/2130/4277_Mixed__74866.1741324126.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/791/2132/4277_Black__78442.1741324137.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/192/495/2480_Mixed__78600.1741321199.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-micro-fleece-beanie-toque",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/776/2062/4235aus-black__17435.1741323901.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/776/2060/4235aus-mix__12628.1741323890.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/776/2062/4235aus-black__17435.1741323901.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/776/2063/4235aus-bottle__07677.1741323901.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/776/2066/4235aus-charcoal__76426.1741323902.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/776/2061/4235aus-navy_1__72058.1741323901.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/776/2067/4235aus-hot-pink__76432.1741323902.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/776/2068/4235aus-purple__96030.1741323902.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/776/2064/4235aus-red__65461.1741323901.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-microfibre-adjustable-bucket-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/803/2219/4107_Black__82959.1746083441.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/740/1768/4134_Mixed__11611.1741323197.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/740/1770/4134_Bottle__35747.1741323203.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/740/1769/4134_Navy__22089.1741323203.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/740/1771/4134_Royal__18591.1741323204.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/740/1768/4134_Mixed__11611.1741323197.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/603/1473/2897_Mixed__12128.1741322789.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/260/656/3929-default__90177.1741321452.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/260/657/3929-8__94078.1741321453.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-microfibre-sports-cap-with-piping-and-sa",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/585/1435/4077_Black-White__75004.1741322730.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/585/1431/4077_Mixed__05518.1741322725.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/585/1433/4077-1__00662.1741322725.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/585/1435/4077_Black-White__75004.1741322730.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/585/1436/4077_Navy-White__04111.1741322730.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/585/1439/4077_Pink-White__39053.1741322731.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/585/1437/4077_Royal-White__05607.1741322731.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/585/1431/4077_Mixed__05518.1741322725.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/751/1835/4149%2520Main__39860.1741323374.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-microfibre-sports-cap-with-trim-on-edge-",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/626/1529/4094_Black-White__93834.1741322884.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/626/1526/4094_Mixed__44072.1741322879.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/626/1529/4094_Black-White__93834.1741322884.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/626/1532/4094_Grey-Black__24003.1741322885.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/626/1530/4094_Navy-White__68920.1741322885.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/626/1533/4094_Pink-White__16126.1741322885.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/626/1531/4094_White-Navy__98809.1741322885.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/626/1526/4094_Mixed__44072.1741322879.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/552/1347/2857_Mixed__74090.1741322596.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-organic-brushed-heavy-cotton-cap",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/397/989/3986-black__64116.1760408508.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/397/985/3986-default__98116.1741322012.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/397/2340/3986__63845.1760408508.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/397/986/3986__60617.1760408507.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/397/989/3986-black__64116.1760408508.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/397/988/3986-navy__20996.1760408508.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/397/985/3986-default__98116.1741322012.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/401/992/3987-default__14737.1741322024.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/401/993/3987__64252.1741322026.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-organic-brushed-heavy-cotton-mesh-back-c",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/401/996/3987-black__76578.1741322030.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/401/992/3987-default__14737.1741322024.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/401/993/3987__64252.1741322026.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/401/996/3987-black__76578.1741322030.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/401/995/3987-navy_1__78762.1741322030.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/401/992/3987-default__14737.1741322024.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/432/1058/4002%2520Main__45937.1741322141.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/432/1059/4002-4__17879.1741322142.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/397/985/3986-default__98116.1741322012.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-ottoman-twill",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/711/1689/4120_Black__87629.1760408572.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/711/1683/4120_Mixed__63809.1741323073.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/711/2353/4120__63166.1760408571.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/711/1685/4120__93008.1760408571.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/711/1689/4120_Black__87629.1760408572.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/711/1692/4120_Grey__04474.1760408572.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/711/1688/4120-Navy__18206.1760408572.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/711/1691/4120_White__97460.1760408572.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/711/1683/4120_Mixed__63809.1741323073.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-poly-cotton-legionnaire",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/208/546/3807_Black__41976.1741321268.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/553/1349/4057_Mixed__31420.1741322604.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/553/1352/4057_Bottle__11574.1741322610.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/553/1357/4057_Maroon__09115.1741322611.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/553/1351/4057_Navy__34590.1741322610.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/553/1354/4057_Red__99448.1741322611.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/553/1356/4057_Royal__47686.1741322611.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/553/1353/4057_White__75300.1741322610.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/553/1349/4057_Mixed__31420.1741322604.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-premium-american-recycled-twill-cap",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/377/950/3981-black__22848.1760408501.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/377/946/3981-default__84433.1741321940.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/377/2338/3981__59039.1760408500.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/377/947/3981__93203.1760408500.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/377/950/3981-black__22848.1760408501.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/377/951/3981-charcoal__85716.1760408501.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/377/949/3981-navy__23051.1760408500.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/377/946/3981-default__84433.1741321940.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/421/1036/4000%2520Main__99251.1741322100.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-premium-american-twill-a-frame-cap",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/753/1850/4156_Black__41791.1741323425.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/753/1848/4156__64851.1741323415.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/753/1850/4156_Black__41791.1741323425.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/753/1852/4156_Charcoal__67687.1741323426.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/753/1849/4156_Navy__66705.1741323425.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/753/1851/4156_White__88530.1741323425.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/753/1848/4156__64851.1741323415.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/128/397/4155__81995.1741320976.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/421/1036/4000%2520Main__99251.1741322100.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-premium-american-twill-a-frame-cap-with-",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/752/1845/4154_Black__22093.1741323407.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/752/1843/4154__83861.1741323398.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/752/1845/4154_Black__22093.1741323407.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/752/1847/4154_Charcoal__13237.1741323408.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/752/1844/4154_Navy__52121.1741323407.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/752/1846/4154_White__54791.1741323407.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/752/1843/4154__83861.1741323398.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/128/397/4155__81995.1741320976.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/753/1848/4156__64851.1741323415.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-premium-american-twill-cap",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/421/1042/4000_Grey_Marle_Black__41852.1760408519.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/421/1036/4000%2520Main__99251.1741322100.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/421/2342/4000__28123.1760408517.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/421/1037/4000__41099.1760408517.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/421/1041/4000_Dark_Grey_Marle__69369.1760408518.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/421/1040/4000_Grey_Marle__33700.1760408518.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/421/1042/4000_Grey_Marle_Black__41852.1760408519.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/421/1043/4000-navy-marle__16504.1760408519.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/421/1036/4000%2520Main__99251.1741322100.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-premium-american-twill-with-contrast-pea",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/253/648/3920_Black_Grey__61366.1760408428.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/253/640/3920__60856.1741321425.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/253/2327/3920__30861.1760408426.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/253/641/3920__68906.1760408426.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/253/648/3920_Black_Grey__61366.1760408428.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/253/650/3920_Bottle_Charcoal__22799.1760408429.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/253/646/3920_Charcoal_Black__70837.1760408427.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/253/651/3920_Grey_Charcoal__69765.1760408430.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/253/649/3920_Maroon_Black__83786.1760408428.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-premium-american-twill-with-mesh-back-sn",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/743/1787/4137-black-green__34503.1743480243.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/744/1788/4138_Mixed__02957.1741323252.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/744/1793/4138-cyan-white__52507.1741323260.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/744/1791/4138-orange-white__09447.1764127174.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/744/1792/4138-pink-white__18334.1764127174.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/744/1794/4138-purple-white__59486.1764127175.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/744/1795/4138-sky-white__31082.1764127175.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/744/1789/4138-white__34611.1764127174.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/744/1788/4138_Mixed__02957.1741323252.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-premium-american-twill-with-snap-59-styl",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/681/1640/4106_Black-Charcoal__02046.1760408568.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/681/1634/4106_Mixed__15630.1741323012.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/681/2352/4106__80187.1760408567.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/681/1640/4106_Black-Charcoal__02046.1760408568.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/681/1641/4106_Black-Emerald__62092.1760408568.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/681/1639/4106_Black-Gold__24977.1760408567.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/681/1638/4106_Black-Red__77724.1760408567.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/681/1642/4106_Black-Royal__96565.1760408568.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/681/1634/4106_Mixed__15630.1741323012.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-premium-american-twill-with-snap-back-pr",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/609/1494/4087_Black__95245.1760408561.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/609/1490/4087_Mixed__50740.1741322817.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/609/2350/4087__05094.1760408560.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/609/1491/4087__07365.1760408560.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/609/1494/4087_Black__95245.1760408561.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/609/1493/4087_Navy__18633.1760408561.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/609/1495/4087_White__14103.1760408561.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/609/1490/4087_Mixed__50740.1741322817.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/742/1775/4136-aus-mix__48281.1741323222.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-premium-american-twill-youth-size-with-s",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/743/1787/4137-black-green__34503.1743480243.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/743/1783/4137_Mixed__46918.1741323238.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/743/1787/4137-black-green__34503.1743480243.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/743/1783/4137_Mixed__46918.1741323238.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/609/1490/4087_Mixed__50740.1741322817.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/609/2350/4087__05094.1760408560.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/227/583/3818_Mixed__21166.1741321332.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/227/585/3818-navy-green__33047.1741321334.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/742/1775/4136-aus-mix__48281.1741323222.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-premium-brushed-heavy-cotton",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/765/1931/4194_Black__49620.1760408599.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/765/1929/4194_Mixed__29195.1741323620.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/765/2359/4194__29481.1760408598.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/765/1931/4194_Black__49620.1760408599.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/765/1930/4194_Navy__28942.1760408599.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/765/1929/4194_Mixed__29195.1741323620.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/153/429/2442_Mixed__85414.1741321062.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/198/502/2488_Mixed__50245.1741321223.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/288/711/2638_Mixed__98585.1741321561.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-premium-pioneer-sports-twill",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/819/2433/3973-black__84622.1776750816.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/819/2429/3973-hero__35173.1776750797.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/819/2431/3973__43559.1776750797.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/819/2430/3973-lifestyle-shot__16850.1776750797.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/819/2444/3973-army__98988.1776750819.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/819/2433/3973-black__84622.1776750816.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/819/2438/3973-charcoal__10807.1776750818.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/819/2439/3973-cyan__44696.1776750818.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/819/2437/3973-bright-green__71430.1776750817.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-premium-pioneer-sports-twill-7xcy",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/820/2450/3974-black__74640.1776750855.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/820/2446/3974-hero__44702.1776750836.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/820/2448/3974__54723.1776750836.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/820/2447/3974-lifestyle-shot__99119.1776750836.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/820/2461/3974-army__21557.1776750859.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/820/2450/3974-black__74640.1776750855.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/820/2455/3974-charcoal__40810.1776750857.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/820/2456/3974-cyan__03745.1776750857.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/820/2454/3974-bright-green__68736.1776750857.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-premium-pioneer-sports-twill-with-tear-d",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/824/2511/3978-black__84191.1776750997.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/824/2507/3978-hero__40116.1776750979.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/824/2509/3978__65698.1776750979.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/824/2508/3978-lifestyle-shot__45273.1776750979.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/824/2522/3978-army__54167.1776751000.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/824/2511/3978-black__84191.1776750997.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/824/2516/3978-charcoal__51281.1776750998.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/824/2517/3978-cyan__19308.1776750999.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/824/2515/3978-bright-green__74026.1776750998.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-recycled-breathable-poly-twill-bucket-ha",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/385/966/3983-black__20521.1741321975.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/385/962/3983-default__93592.1741321970.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/385/963/3983__00404.1741321971.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/385/966/3983-black__20521.1741321975.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/385/965/3983-navy__94600.1741321975.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/385/962/3983-default__93592.1741321970.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/803/2217/4107_Mixed__97410.1746083424.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/803/2219/4107_Black__82959.1746083441.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/264/663/3935-navy__03707.1741321467.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-recycled-breathable-poly-twill-cap",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/373/937/3980-black__68351.1760408495.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/373/932/3980-default__84206.1741321919.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/373/2337/3980__54600.1760408495.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/373/934/3980__87211.1760408494.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/373/937/3980-black__68351.1760408495.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/373/938/3980-bottle__92118.1760408496.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/373/943/3980-charcoal__96663.1760408497.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/373/936/3980-navy__69722.1760408495.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/373/940/3980-red__46579.1760408496.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-recycled-breathable-poly-twill-with-mesh",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/381/958/3982-black__60958.1760408504.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/381/954/3982-default__32404.1741321955.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/381/2339/3982__51708.1760408504.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/381/955/3982__81420.1760408503.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/381/958/3982-black__60958.1760408504.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/381/959/3982-charcoal__33348.1760408505.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/381/957/3982-navy__92212.1760408504.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/381/954/3982-default__32404.1741321955.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/373/932/3980-default__84206.1741321919.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-recycled-roll-down-beanie",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/393/981/3985-black__19673.1741322004.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/393/977/3985-default__57423.1741321997.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/393/978/3985__62630.1741321998.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/393/981/3985-black__19673.1741322004.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/393/982/3985-charcoal__39303.1741322004.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/393/980/3985-navy__73855.1741322004.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/393/977/3985-default__57423.1741321997.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/788/2120/4263%2520Main__47104.1741324083.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/788/2122/4263_Dark_Grey_Marle__82751.1741324086.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-recycled-roll-up-beanie",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/389/973/3984-black__82772.1741321989.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/389/969/3984-default__76509.1741321983.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/389/970/3984__84689.1741321984.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/389/973/3984-black__82772.1741321989.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/389/974/3984-charcoal__17331.1741321990.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/389/972/3984-navy__15482.1741321989.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/389/969/3984-default__76509.1741321983.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/393/977/3985-default__57423.1741321997.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/393/978/3985__62630.1741321998.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-reversible-breathable-poly-twill-bucket-",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/803/2219/4107_Black__82959.1746083441.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/264/663/3935-navy__03707.1741321467.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/264/664/3935__23758.1741321468.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/264/667/3935-navy-emerald__31299.1741321475.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/264/668/3935-navy-gold__22301.1741321476.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/264/669/3935-navy-red__58181.1741321476.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/264/670/3935-navy-royal__16201.1741321476.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/264/663/3935-navy__03707.1741321467.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/803/2217/4107_Mixed__97410.1746083424.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-roll-down-two-tone-acrylic-beanie-toque",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/763/1917/4188_Black-Charcoal__62135.1741323596.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/763/1910/4188_Mixed__72456.1741323583.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/763/1917/4188_Black-Charcoal__62135.1741323596.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/763/1916/4188_Black-Orange__22369.1741323596.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/763/1913/4188_Black-Red__36117.1741323595.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/763/1912/4188_Charcoal-Black__48733.1741323595.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/763/1918/4188aus-navy-charcoal__86145.1741323597.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/763/1914/4188_Navy-Gold__25280.1741323596.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/763/1919/4188_Navy-Orange__04436.1741323597.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-rolled-down-acrylic-beanie",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/783/2317/4244_Black__86717.1750819339.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/788/2120/4263%2520Main__47104.1741324083.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/788/2122/4263_Dark_Grey_Marle__82751.1741324086.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/788/2121/4263-grey-marle__59317.1741324086.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/788/2120/4263%2520Main__47104.1741324083.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/783/2097/4244_Mixed__74934.1741323993.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/783/2317/4244_Black__86717.1750819339.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/265/662/2618_Mixed__52017.1741321465.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/437/1066/2764_Mixed__63085.1741322158.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-rolled-down-acrylic-beanie-toque",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/783/2317/4244_Black__86717.1750819339.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/783/2097/4244_Mixed__74934.1741323993.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/783/2317/4244_Black__86717.1750819339.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/783/2316/4244_Navy__01453.1750819339.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/783/2097/4244_Mixed__74934.1741323993.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/265/662/2618_Mixed__52017.1741321465.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/437/1066/2764_Mixed__63085.1741322158.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/763/1910/4188_Mixed__72456.1741323583.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/763/1917/4188_Black-Charcoal__62135.1741323596.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-safari-cotton-twill-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/789/2322/4275_Black__40815.1750819379.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/789/2123/4275_Mixed__54880.1741324094.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/789/2322/4275_Black__40815.1750819379.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/789/2321/4275_Navy__96929.1750819379.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/789/2323/4275-1231-main__74585.1750819379.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/789/2123/4275_Mixed__54880.1741324094.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/790/2126/4276_Mixed__84025.1741324108.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/790/2128/4276_Black__47632.1741324118.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/792/2134/4279_Mixed__73533.1741324144.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-safari-cotton-twill-mesh-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/790/2128/4276_Black__47632.1741324118.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/790/2126/4276_Mixed__84025.1741324108.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/790/2128/4276_Black__47632.1741324118.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/790/2127/4276aus-navy__13644.1741324118.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/790/2129/4276aus-sandstone__47249.1741324118.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/790/2126/4276_Mixed__84025.1741324108.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/789/2123/4275_Mixed__54880.1741324094.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/789/2322/4275_Black__40815.1750819379.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/791/2130/4277_Mixed__74866.1741324126.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-sandwich-mesh-with-dream-fit-styling",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/630/1539/4095_Black__85999.1741322901.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/630/1535/4095_Mixed__46752.1741322893.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/630/1539/4095_Black__85999.1741322901.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/630/1538/4095_Navy__78854.1741322901.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/630/1541/4095-1278-main__80979.1741322902.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/630/1540/4095_White__45663.1741322902.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/630/1535/4095_Mixed__46752.1741322893.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/617/1507/4090_Mixed__89444.1741322846.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/617/1510/4090aus-black__86445.1741322852.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-sandwich-mesh-with-striping-on-peak",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/704/1674/4109_Black-White__65939.1741323064.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/704/1671/4109_Mixed__12531.1741323059.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/704/1674/4109_Black-White__65939.1741323064.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/704/1676/4109_Navy-White__06034.1741323064.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/704/1677/4109_Red-White__94882.1741323065.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/704/1678/4109_Royal-White__50884.1741323065.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/704/1679/4109_White-Black__02523.1741323065.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/704/1671/4109_Mixed__12531.1741323059.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/353/876/2696_Mixed__36463.1741321832.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-sports-mesh-4078",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/589/1446/4078_Black__02187.1741322746.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/589/1441/4078_Mixed__15606.1741322739.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/589/1443/4078__68399.1741322740.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/589/1446/4078_Black__02187.1741322746.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/589/1445/4078_Navy__00813.1741322745.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/589/1447/4078_White__13880.1741322746.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/589/1441/4078_Mixed__15606.1741322739.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/320/791/2666_Mixed__85233.1741321695.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/165/447/2450_Mixed__67027.1741321101.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-sports-mesh-visor",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/561/1367/4060_Black__27068.1741322632.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/561/1364/4060__89743.1741322629.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/561/1367/4060_Black__27068.1741322632.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/561/1366/4060_Navy__91313.1741322632.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/561/1368/4060_White__08633.1741322633.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/561/1364/4060__89743.1741322629.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/527/1297/4038_Mixed__01032.1741322506.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/527/1304/4038_Pink__63503.1764126914.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/458/1114/4006%2520Main__88045.1741322245.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-sports-ripstop-cap",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/750/1824/4148_Black__44876.1741323363.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/750/1821/4148%2520Main__22367.1741323337.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/750/1822/4148__60462.1741323338.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/750/1824/4148_Black__44876.1741323363.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/750/1830/4148_Charcoal__09096.1741323365.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/750/1833/4148_Cyan__97371.1741323366.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/750/1827/4148_Gold__55250.1741323364.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/750/1832/4148_Bright_Green__23204.1741323365.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/750/1823/4148_Navy__08485.1741323363.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-sports-ripstop-cap-with-sandwich-trim",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/751/1841/4149_Black-Red__99590.1741323389.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/751/1835/4149%2520Main__39860.1741323374.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/751/1836/4149__21509.1741323375.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/751/1841/4149_Black-Red__99590.1741323389.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/751/1837/4149_Black-White__63552.1741323388.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/751/1840/4148_Charcoal__38825.1741323389.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/751/1842/4149_Cyan-White__92119.1741323389.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/751/1838/4149_Navy-White__18366.1741323388.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/751/1839/4149_White-Navy__58260.1741323388.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-sports-ripstop-twill-with-triangle-perfo",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/823/2496/3977-black__86045.1776750960.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/823/2492/3977-hero__42289.1776750946.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/823/2494/3977__21742.1776750946.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/823/2493/3977-lifestlye-shot__43956.1776750946.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/823/2496/3977-black__86045.1776750960.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/823/2503/3977-charcoal__79416.1776750962.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/823/2504/3977-cyan__13063.1776750962.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/823/2499/3977-gold__41839.1776750961.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/823/2502/3977-bright-green__43074.1776750962.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-sports-ripstop-visor",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/458/1120/4006_Black__93401.1741322259.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/458/1114/4006%2520Main__88045.1741322245.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/458/1115/4006cy-1__67567.1741322246.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/458/1120/4006_Black__93401.1741322259.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/458/1122/4006_Charcoal__00130.1741322260.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/458/1125/4006_Cyan__11153.1741322261.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/458/1124/4006_Bright_Green__36314.1741322260.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/458/1119/4006_Navy__72685.1741322259.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/458/1123/4006_Hot_Pink__16390.1741322260.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-sports-ripstop-with-bee-hive-mesh-and-to",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/439/1076/4003_Black_Grey__74741.1741322175.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/439/1074/4003%2520Main__84822.1741322168.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/439/1076/4003_Black_Grey__74741.1741322175.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/439/1077/4003_Navy_Grey__80079.1741322175.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/439/1078/4003_White_Grey__16623.1741322175.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/439/1074/4003%2520Main__84822.1741322168.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/452/1101/4005%2520Main__20995.1741322219.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/452/1106/4005-black__06150.1741322235.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/458/1114/4006%2520Main__88045.1741322245.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-sports-ripstop-with-inserts-and-trim",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/443/1088/4004_Black_White__95441.1741322208.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/443/1081/4004%2520Main__68011.1741322184.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/443/1082/4004blwh-1__19950.1741322185.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/443/1088/4004_Black_White__95441.1741322208.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/443/1093/4004_Charcoal_White__99878.1741322209.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/443/1094/4004_Bright_Green_White__14757.1741322209.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/443/1089/4004_Navy_White__08717.1741322208.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/443/1096/4004_Orange_White__02745.1741322210.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/443/1097/4004_Hot_Pink_White__52972.1741322210.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-sports-ripstop-with-peak-embroidery",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/535/1320/4043_Black_White__79162.1741322544.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/535/1318/4043%2520Main__05916.1741322538.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/535/1320/4043_Black_White__79162.1741322544.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/535/1321/4043_Navy_White__75251.1741322544.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/535/1322/4043_White_Navy__45390.1741322545.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/535/1318/4043%2520Main__05916.1741322538.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/458/1114/4006%2520Main__88045.1741322245.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/458/1115/4006cy-1__67567.1741322246.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/750/1821/4148%2520Main__22367.1741323337.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-sports-ripstop-with-towelling-sweatband",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/452/1106/4005-black__06150.1741322235.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/452/1101/4005%2520Main__20995.1741322219.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/452/1106/4005-black__06150.1741322235.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/452/1108/4005-charcoal__76089.1741322236.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/452/1111/4005-cyan__09495.1741322237.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/452/1110/4005-bright-green__23687.1741322237.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/452/1105/4005_Navy__53317.1741322235.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/452/1109/4005_Hot_Pink__47351.1741322236.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/452/1107/4005-white__34105.1741322235.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-sports-twill-military-cap",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/517/1273/4025-black__83685.1741322472.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/517/1273/4025-black__83685.1741322472.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/517/1274/4025-11__00546.1741322473.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/517/1278/4025_Black__39280.1741322480.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/517/1280/4025-charcoal__00446.1741322480.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/517/1281/4025_Khaki__16079.1741322480.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/517/1277/4025_Navy__54625.1741322479.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/517/1282/4025-pink__50602.1741322481.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/517/1279/4025-white__46676.1741322480.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-sports-twill-sports-visor",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/561/1367/4060_Black__27068.1741322632.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/527/1297/4038_Mixed__01032.1741322506.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/527/1304/4038_Pink__63503.1764126914.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/527/1303/4038_Sky__23139.1764126914.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/527/1297/4038_Mixed__01032.1741322506.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/458/1114/4006%2520Main__88045.1741322245.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/458/1115/4006cy-1__67567.1741322246.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/561/1364/4060__89743.1741322629.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/561/1367/4060_Black__27068.1741322632.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-terry-towelling-bucket-hat",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/828/2540/3970-black-web__45429.1776820408.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/828/2537/3970-hero-web__97677.1776820394.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/828/2538/3970__40489.1776820394.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/828/2540/3970-black-web__45429.1776820408.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/828/2542/3970-yellow-web__84084.1776820409.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/828/2539/3970-navy-web__74745.1776820408.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/828/2544/3970-pink-web__55109.1776820409.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/828/2543/3970-sky-web__21248.1776820409.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/828/2541/3970-white-web__49605.1776820408.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-trucker-mesh-cap",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/795/2146/5003_Black__08496.1741324186.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/795/2144/5003_Mixed__42017.1741324179.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/795/2146/5003_Black__08496.1741324186.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/795/2145/5003_Navy__15207.1741324186.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/795/2147/5003_Red__38318.1741324187.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/795/2149/5003_White-Black__60710.1741324187.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/795/2148/5003_White-Navy__45355.1741324187.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/795/2150/5003_White-Red__29702.1741324187.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/795/2151/5003_White-Royal__03406.1741324188.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-two-tone-cable-knit-beanie-toque",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/766/2273/4195-black-charcoal__36786.1750818997.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/766/1932/4195_Mixed__99640.1741323631.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/766/2273/4195-black-charcoal__36786.1750818997.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/766/2272/4195-black-orange__83539.1750818996.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/766/2269/4195-black-red__44217.1750818996.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/766/2268/4195-charcoal-black__28387.1750818995.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/766/2270/4195-navy-gold__59643.1750818996.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/766/2271/4195-navy-red__90094.1750818996.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/766/2274/4195-navy-sky__00505.1750818997.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-washed-chino-twill-4168",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/757/1890/4168_Black__37974.1760408595.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/757/1887/4168_Mixed__40325.1741323514.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/757/2358/4168__77617.1760408594.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/757/1888/4168__04986.1760408594.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/757/1890/4168_Black__37974.1760408595.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/757/1891/4168_Clay__61587.1760408595.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/757/1889/4168_Navy__28249.1760408595.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/757/1892/4168__Ocean__06867.1760408596.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/757/1893/4168__Rust__32830.1760408596.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-washed-chino-twill-5001",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/793/2137/5001_Black__17632.1741324157.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/793/2135/5001__50527.1741324155.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/793/2137/5001_Black__17632.1741324157.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/793/2136/5001_Navy__75731.1741324157.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/793/2135/5001__50527.1741324155.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/311/768/2658_Mixed__61320.1741321655.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/757/1887/4168_Mixed__40325.1741323514.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/757/2358/4168__77617.1760408594.png?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/447/1085/2773_Mixed__51351.1741322196.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-water-resistant-polynosic",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/778/2073/4237_Black__78761.1741323924.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/778/2071/4237_Mixed__74156.1741323920.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/778/2073/4237_Black__78761.1741323924.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/778/2074/4237_Dark-Grey__82603.1741323924.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/778/2072/4237_Navy__19290.1741323924.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/778/2071/4237_Mixed__74156.1741323920.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/501/1235/2819_Mixed__36523.1741322411.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/75x100/products/778/2071/4237_Mixed__74156.1741323920.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/75x100/products/778/2073/4237_Black__78761.1741323924.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-wood-printed-with-mesh-back",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/748/1813/4144-black__25608.1741323313.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/747/1806/4143_Mixed__96779.1741323294.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/747/1807/4143-cyan-stone__69612.1741323299.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/747/1808/4143-green-stone__37244.1741323299.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/747/1809/4143-orange-stone__19384.1741323299.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/747/1810/4143-pink-stone__42252.1741323299.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/747/1806/4143_Mixed__96779.1741323294.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/748/1811/4144_Mixed__27719.1741323308.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/748/1813/4144-black__25608.1741323313.jpg?c=1"
+      ],
+      "matched": "black"
+    },
+    {
+      "productId": "hw-wood-printed-with-mesh-back-4144",
+      "blankImage": "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/748/1813/4144-black__25608.1741323313.jpg?c=1",
+      "allVariants": [
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/748/1811/4144_Mixed__27719.1741323308.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/748/1813/4144-black__25608.1741323313.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/748/1812/4144-navy__30785.1741323313.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/748/1814/4144-red__16689.1741323313.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/1280x1280/products/748/1815/4144-royal__42914.1741323314.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/748/1811/4144_Mixed__27719.1741323308.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/747/1806/4143_Mixed__96779.1741323294.jpg?c=1",
+        "https://cdn11.bigcommerce.com/s-lhhisfsmfi/images/stencil/357x476/products/747/1807/4143-cyan-stone__69612.1741323299.jpg?c=1"
+      ],
+      "matched": "black"
+    }
+  ],
+  "meta": {
+    "scraped": 143,
+    "note": "Transparent PNG blanks per garment shape \u2014 pixel tint at draw time, no coloured photo backgrounds."
+  }
 }

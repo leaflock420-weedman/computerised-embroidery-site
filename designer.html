@@ -36,7 +36,14 @@
       <section class="panel-block">
         <h2>Garment colour</h2>
         <div class="colour-swatches" id="colourSwatches"></div>
-        <input type="text" id="garmentColour" class="designer-input" placeholder="Or type a colour…">
+        <label class="panel-label">Colour name</label>
+        <input type="text" id="garmentColour" class="designer-input" placeholder="e.g. Navy, Royal Blue">
+        <label class="panel-label">HEX code</label>
+        <div class="hex-row">
+          <span class="hex-prefix">#</span>
+          <input type="text" id="garmentHex" class="designer-input hex-input" maxlength="6" placeholder="1E3A5F" autocomplete="off">
+          <span class="hex-preview" id="garmentHexPreview" title="Preview"></span>
+        </div>
       </section>
 
       <section class="panel-block">
@@ -96,8 +103,14 @@
           <input type="range" id="hueShift" min="0" max="360" value="0">
         </label>
         <div id="threadColourWrap" hidden>
-          <p class="panel-desc">Pick embroidery thread colour</p>
+          <p class="panel-desc">Pick thread colour or enter a HEX code</p>
           <div class="colour-swatches colour-swatches--thread" id="threadSwatches"></div>
+          <label class="panel-label">Thread HEX</label>
+          <div class="hex-row">
+            <span class="hex-prefix">#</span>
+            <input type="text" id="threadHex" class="designer-input hex-input" maxlength="6" placeholder="1E293B" autocomplete="off">
+            <span class="hex-preview" id="threadHexPreview" title="Preview"></span>
+          </div>
         </div>
         <label class="slider-label" id="recolorIntensityWrap" hidden>
           <span>Strength <strong id="recolorIntensityVal">100%</strong></span>

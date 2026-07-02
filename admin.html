@@ -32,23 +32,37 @@
   <main class="admin-main" id="adminMain" hidden>
     <section class="stats-row" id="statsRow"></section>
 
-    <div class="admin-toolbar">
-      <input type="search" id="jobSearch" class="admin-input" placeholder="Search artwork or job ID…">
-      <select id="statusFilter" class="admin-select">
-        <option value="">All statuses</option>
-        <option value="processing">Processing</option>
-        <option value="ready">Ready for review</option>
-        <option value="approved">Approved</option>
-        <option value="failed">Failed</option>
-      </select>
-      <button type="button" class="btn btn--outline btn--sm" id="refreshJobs">Refresh</button>
+    <nav class="admin-tabs">
+      <button type="button" class="admin-tab active" data-tab="jobs">Digitize jobs</button>
+      <button type="button" class="admin-tab" data-tab="orders">Customer orders</button>
+    </nav>
+
+    <div id="jobsPanel">
+      <div class="admin-toolbar">
+        <input type="search" id="jobSearch" class="admin-input" placeholder="Search artwork or job ID…">
+        <select id="statusFilter" class="admin-select">
+          <option value="">All statuses</option>
+          <option value="processing">Processing</option>
+          <option value="ready">Ready for review</option>
+          <option value="approved">Approved</option>
+          <option value="failed">Failed</option>
+        </select>
+        <button type="button" class="btn btn--outline btn--sm" id="refreshJobs">Refresh</button>
+      </div>
+
+      <div class="admin-layout">
+        <div class="job-list" id="jobList"></div>
+        <div class="job-detail" id="jobDetail">
+          <p class="job-detail__empty">Select a digitize job to review stitches and download DST/PES/JEF machine files.</p>
+        </div>
+      </div>
     </div>
 
-    <div class="admin-layout">
-      <div class="job-list" id="jobList"></div>
-      <div class="job-detail" id="jobDetail">
-        <p class="job-detail__empty">Select a digitize job to review stitches and download machine files.</p>
+    <div id="ordersPanel" hidden>
+      <div class="admin-toolbar">
+        <button type="button" class="btn btn--outline btn--sm" id="refreshOrders">Refresh orders</button>
       </div>
+      <div class="orders-list" id="ordersList"></div>
     </div>
   </main>
 

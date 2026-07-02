@@ -1,4 +1,10 @@
 {
+  "team": {
+    "email": "compemb@onthenet.com.au",
+    "phone": "07 5591 3383",
+    "productionHub": "/admin.html",
+    "productionKey": "ce-production-2026"
+  },
   "checkout": {
     "quoteLabel": "Request quote",
     "paymentLabel": "Pay deposit with card",

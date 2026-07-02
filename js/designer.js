@@ -2,6 +2,7 @@ import { addToCart, updateCartBadge } from './cart.js';
 import { validateArtworkFile, uploadArtwork } from './artwork.js';
 import { estimateOrderTotal } from './pricing.js';
 import { getProductImage } from './images.js';
+import { parseHexInput, colourNameFromHex } from './colour-utils.js';
 import { loadGarmentMockup, clearMockupCache, drawTintedGarment } from './mockups.js';
 import { detectInkColor } from './recolor-artwork.js';
 import { removeBackground } from './remove-background.js';
@@ -149,6 +150,7 @@ function populateThreadSwatches() {
       el.querySelectorAll('.swatch').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       artworkRecolor.color = btn.dataset.hex;
+      setThreadHexField(btn.dataset.hex);
       applyArtworkRecolor();
     });
   });
@@ -188,7 +190,82 @@ function setDefaultGarmentColour() {
     black.classList.add('active');
     document.getElementById('garmentColour').value = 'Black';
     garmentFill = '#1e293b';
+    setGarmentHexField('#1e293b');
   }
+}
+
+function setGarmentHexField(hex) {
+  const h = parseHexInput(hex);
+  const el = document.getElementById('garmentHex');
+  const preview = document.getElementById('garmentHexPreview');
+  if (!el) return;
+  el.value = h ? h.slice(1) : '';
+  if (preview) preview.style.background = h || 'transparent';
+}
+
+function setThreadHexField(hex) {
+  const h = parseHexInput(hex);
+  const el = document.getElementById('threadHex');
+  const preview = document.getElementById('threadHexPreview');
+  if (!el) return;
+  el.value = h ? h.slice(1) : '';
+  if (preview) preview.style.background = h || 'transparent';
+}
+
+function applyGarmentColourFromInputs() {
+  const hexRaw = document.getElementById('garmentHex')?.value;
+  const hexFromField = parseHexInput(hexRaw);
+  const nameVal = document.getElementById('garmentColour').value.trim();
+  const hexFromName = parseHexInput(nameVal);
+
+  if (hexFromField) {
+    garmentFill = hexFromField;
+    const named = colourNameFromHex(hexFromField, COLOUR_SWATCHES);
+    if (named && !named.startsWith('#')) {
+      document.getElementById('garmentColour').value = named;
+    }
+    syncGarmentSwatchActive(hexFromField);
+    setGarmentHexField(hexFromField);
+    updateGarmentColour();
+    return;
+  }
+
+  if (hexFromName) {
+    garmentFill = hexFromName;
+    setGarmentHexField(hexFromName);
+    syncGarmentSwatchActive(hexFromName);
+    updateGarmentColour();
+    return;
+  }
+
+  syncGarmentSwatchFromInput();
+  updateGarmentColour();
+}
+
+function syncGarmentSwatchActive(hex) {
+  const el = document.getElementById('colourSwatches');
+  el.querySelectorAll('.swatch').forEach(b => b.classList.remove('active'));
+  const match = COLOUR_SWATCHES.find(c => c.hex.toUpperCase() === hex.toUpperCase());
+  if (match) {
+    const btn = el.querySelector(`[data-colour="${match.name}"]`);
+    if (btn) btn.classList.add('active');
+  }
+}
+
+function applyThreadColourFromHex() {
+  const hex = parseHexInput(document.getElementById('threadHex')?.value);
+  if (!hex) return;
+  artworkRecolor.color = hex;
+  document.querySelectorAll('#threadSwatches .swatch').forEach(b => {
+    b.classList.toggle('active', b.dataset.hex?.toUpperCase() === hex);
+  });
+  setThreadHexField(hex);
+  const solid = document.querySelector('input[name="recolorMode"][value="solid"]');
+  if (solid && !solid.checked) {
+    solid.checked = true;
+    syncRecolorUI();
+  }
+  applyArtworkRecolor();
 }
 
 function populateProductSelect() {
@@ -218,6 +295,7 @@ function populateColourSwatches() {
       btn.classList.add('active');
       document.getElementById('garmentColour').value = btn.dataset.colour;
       garmentFill = btn.dataset.hex;
+      setGarmentHexField(btn.dataset.hex);
       updateGarmentColour();
     });
   });
@@ -371,12 +449,16 @@ function scheduleDraw() {
 }
 
 function getGarmentFill() {
+  const hexField = parseHexInput(document.getElementById('garmentHex')?.value);
+  if (hexField) return hexField;
   if (garmentFill) return garmentFill;
-  const name = document.getElementById('garmentColour').value;
+  const name = document.getElementById('garmentColour').value.trim();
+  const hexName = parseHexInput(name);
+  if (hexName) return hexName;
   if (!name) return (MOCKUP[product.category] || MOCKUP['t-shirts']).fill;
   const sw = COLOUR_SWATCHES.find(c => c.name.toLowerCase() === name.toLowerCase());
   if (sw) return sw.hex;
-  const map = { black: '#1e293b', navy: '#1e3a5f', white: '#f8fafc', red: '#dc2626', blue: '#2563eb', green: '#16a34a', grey: '#94a3b8', gray: '#94a3b8', yellow: '#facc15', orange: '#ea580c' };
+  const map = { black: '#1e293b', navy: '#1e3a5f', white: '#f8fafc', red: '#dc2626', blue: '#2563eb', green: '#16a34a', grey: '#94a3b8', gray: '#94a3b8', yellow: '#facc15', orange: '#ea580c', maroon: '#7f1d1d' };
   const key = Object.keys(map).find(k => name.toLowerCase().includes(k));
   return key ? map[key] : '#e2e8f0';
 }
@@ -668,6 +750,7 @@ function resetArtworkRecolorUI() {
   document.querySelectorAll('#threadSwatches .swatch').forEach(b => {
     b.classList.toggle('active', b.title === 'Black');
   });
+  setThreadHexField('#1e293b');
   syncRecolorUI();
 }
 
@@ -722,6 +805,13 @@ async function restoreOriginalArtwork() {
 
 function syncGarmentSwatchFromInput() {
   const name = document.getElementById('garmentColour').value.trim();
+  const hexInline = parseHexInput(name);
+  if (hexInline) {
+    garmentFill = hexInline;
+    setGarmentHexField(hexInline);
+    syncGarmentSwatchActive(hexInline);
+    return;
+  }
   const el = document.getElementById('colourSwatches');
   el.querySelectorAll('.swatch').forEach(b => b.classList.remove('active'));
   const match = COLOUR_SWATCHES.find(c => c.name.toLowerCase() === name.toLowerCase());
@@ -729,6 +819,7 @@ function syncGarmentSwatchFromInput() {
     const btn = el.querySelector(`[data-colour="${match.name}"]`);
     if (btn) btn.classList.add('active');
     garmentFill = match.hex;
+    setGarmentHexField(match.hex);
   } else {
     garmentFill = null;
   }
@@ -738,7 +829,10 @@ function buildCartItem() {
   saveCurrentDesign();
   const qty = parseInt(document.getElementById('qtyInput').value, 10);
   const size = document.getElementById('sizeSelect').value;
-  const colour = document.getElementById('garmentColour').value || 'TBC';
+  const colour = document.getElementById('garmentColour').value
+    || parseHexInput(document.getElementById('garmentHex')?.value)
+    || 'TBC';
+  const garmentHex = parseHexInput(document.getElementById('garmentHex')?.value) || getGarmentFill();
   const positions = Object.keys(designs);
   const embroidery = positions.length ? positions.join(', ') : 'Left chest';
 
@@ -748,8 +842,8 @@ function buildCartItem() {
     name: product.name,
     brand: product.brand,
     image: getProductImage(product),
-    size, colour, qty, embroidery,
-    notes: `Threads: ${document.getElementById('threadCount').value}. Designed in studio.`,
+    size, colour, garmentHex, qty, embroidery,
+    notes: `Threads: ${document.getElementById('threadCount').value}. Garment HEX: ${garmentHex}. Thread HEX: ${artworkRecolor.color || 'original'}. Designed in studio.`,
     designed: true,
     designs: { ...designs },
     artwork: artwork ? {
@@ -770,10 +864,11 @@ function bindEvents() {
     switchProduct(e.target.value);
   });
 
-  document.getElementById('garmentColour').addEventListener('input', () => {
-    syncGarmentSwatchFromInput();
-    updateGarmentColour();
-  });
+  document.getElementById('garmentColour').addEventListener('input', applyGarmentColourFromInputs);
+  document.getElementById('garmentHex').addEventListener('input', applyGarmentColourFromInputs);
+  document.getElementById('garmentHex').addEventListener('change', applyGarmentColourFromInputs);
+  document.getElementById('threadHex').addEventListener('input', applyThreadColourFromHex);
+  document.getElementById('threadHex').addEventListener('change', applyThreadColourFromHex);
 
   document.querySelectorAll('input[name="recolorMode"]').forEach(r => {
     r.addEventListener('change', () => { syncRecolorUI(); applyArtworkRecolor(); });
